@@ -1,15 +1,13 @@
-# Smartsupp Docs
+# Smartsupp API docs
 
-API docs for Smartsupp.
+One place for developers to find everything about [Smartsupp](https://www.smartsupp.com/) live chat customization.
 
-* HTML API
-* CHAT API
 
-## Admins
+## HTML API
 
-Dusan
-Daniel
+Basic API based on HTML attributes without need for coding knowledge.
 
-### Contributors
+## CHAT API
 
-Lukas
+Allows chat box manipulation, design setup, event tracking, dynamic modifications and more.
+
