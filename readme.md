@@ -5,6 +5,11 @@ API docs for Smartsupp.
 * HTML API
 * CHAT API
 
-## Contributors
+## Admins
 
+Dusan
 Daniel
+
+### Contributors
+
+Lukas
