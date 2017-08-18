@@ -1,14 +1,7 @@
-# API 
+# API DOCS
 
-API documentation.
-
-## Smartsupp
-
-https://developers.smartsupp.com/
-
-## Smartlook
-
-https://www.smartlook.com/docs/api
+* https://developers.smartsupp.com/
+* https://www.smartlook.com/docs/api
 
 ## Copyright
 
