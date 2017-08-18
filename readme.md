@@ -1,13 +1,11 @@
 # Smartsupp API docs
 
-One place for developers to find everything about [Smartsupp](https://www.smartsupp.com/) live chat customization.
+https://developers.smartsupp.com/
 
+# Smartlook API docs
 
-## HTML API
+https://www.smartlook.com/docs/api
 
-Basic API based on HTML attributes without need for coding knowledge.
+## Copyright
 
-## CHAT API
-
-Allows chat box manipulation, design setup, event tracking, dynamic modifications and more.
-
+Copyright (c) 2017 [Smartsupp.com](https://www.smartsupp.com/)
