@@ -1,8 +1,12 @@
-# Smartsupp API docs
+# API 
+
+API documentation.
+
+## Smartsupp
 
 https://developers.smartsupp.com/
 
-# Smartlook API docs
+## Smartlook
 
 https://www.smartlook.com/docs/api
 
