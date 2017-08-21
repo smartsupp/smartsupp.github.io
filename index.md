@@ -1,24 +1,3 @@
----
-layout: default
-title: ABC
----
-
-# {{ site.title }}
-
-x
-
-# {{ site.subtitle }}
-
-y
-
-# {{ page.title }}
-
-z
-
----
-
-One place for developers to find everything about Smartsupp live chat customization.
-
 ## HTML API
 
 Basic API based on HTML attributes without need for coding knowledge.
