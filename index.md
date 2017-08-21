@@ -1,11 +1,8 @@
 ---
 layout: default
-title:  Smartsupp API docs
 ---
 
 # {{ page.title }}
-
-# API docs
 
 One place for developers to find everything about Smartsupp live chat customization.
 

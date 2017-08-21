@@ -1,1 +1,8 @@
+# general
+
 theme: jekyll-theme-cayman
+
+# page
+
+title: 'Smartsupp API docs'
+subtitle: 'One place for developers to learn about our API.'
