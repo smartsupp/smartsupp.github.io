@@ -1,3 +1,3 @@
-# Hellow world 
+# Hello world 
 
-Site runs on markdown.
+This site is written in Markdown.
