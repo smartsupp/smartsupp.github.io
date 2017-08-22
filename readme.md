@@ -1,7 +1,6 @@
 # API DOCS
 
 * https://developers.smartsupp.com/
-* https://www.smartlook.com/docs/api
 
 ## Copyright
 
