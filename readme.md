@@ -1,7 +1,8 @@
 # API DOCS
 
-* https://developers.smartsupp.com/
+* This site is still WIP. We are gradually moving content to Github pages. 
+* To see our current documentation visit: https://developers.smartsupp.com/
 
 ## Copyright
 
-Copyright (c) 2017 [Smartsupp.com](https://www.smartsupp.com/)
+Copyright (c) 2018 [Smartsupp.com](https://www.smartsupp.com/)
