@@ -1,43 +1,8 @@
-## HTML API
+## Work in progress
 
-Basic API using HTML attributes. Easy to use without any advanced coding knowledge.
+* This site is still WIP.
+* To see our current documentation visit: https://developers.smartsupp.com/
 
-## Chat API
+### Copyright
 
-Allows chat box manipulation, design setup, event tracking, dynamic modifications and more.
-
----
-
-### MOST USED API FEATURES
-
-#### Multi-language chat box
-
-Set up different chat box localization for every language mutation of your website.
-
-####  Inline chat box
-
-Embed chat box directly in your site and choose where you want to display it instead of using classic chat box position in the bottom right corner of the screen.
-
-####  Chat box design customization
-
-Advanced customization of chat box texts, colors, bubble or logo. Create different chat box set up on every domain.
-
-####  Customer info
-
-Do you have a webshop or web application? Show info about customers who are signed in on your website in Smartsupp (name, email, spend and more), where your agents can see it while chatting. Customer info is linked automatically if you are using our plugins for Wordpress, Prestashop, Shopify or other know e-commerce platforms. In other case use this API.
-
-####  Advanced styles
-
-Customize your chat design with CSS.
-
-####  Widget position
-
-Set widget position on side or bottom.
-
-####  Chat export to a 3rd party system
-
-Export all chat communication to a 3rd party system of your choice.
-
-####  Pre-chat form customization
-
-If you are using the pre-chat form, you can customize the form fields.
+Copyright (c) 2018 [Smartsupp.com](https://www.smartsupp.com/)
