@@ -1,7 +1,7 @@
 # Smartsupp API docs
 
 * This site is still WIP.
-* To see our current documentation visit: https://developers.smartsupp.com/
+* Our current documentation visit: https://developers.smartsupp.com/
 
 ## Copyright
 
