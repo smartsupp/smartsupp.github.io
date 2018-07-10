@@ -1,0 +1,15 @@
+# Sidebar menu
+
+## CHAT BOX
+docs_list_title: Chat box
+chat:
+
+- title: Chat 01
+  url: /docs/chat-box/identify-visitor/
+
+## EXAMPLES
+docs_list_title: Examples
+examples:
+
+- title: Example 01
+  url: /docs/examples/android/

@@ -1,0 +1,29 @@
+<header class="navbar">
+  <section class="navbar-section">
+
+    <div id="logo">
+      <a href="{% if page.class == 'home-github' %}{{ site.pr_url }}{% else %}{{ site.url_docs_root }}{% endif %}">
+        <span class="nav-logo">{{ site.pr_name }}</span>
+      </a>
+    </div>
+
+    <div id="nav-menu">
+      <ul>
+      <li class="navbar-item{% if page.url contains 'web' %} navbar-item-active{% endif %}">
+<a href="{{ site.url_docs_root }}{{ site.ca_chat}}/">{{ site.ca_chat | replace: "-", " " }}</a>
+      </li>
+        <li class="navbar-item{% if page.url contains 'sdk' %} navbar-item-active{% endif %}">
+          <a href="{{ site.url_docs_root }}{{ site.ca_examples }}/">{{ site.ca_examples }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="search" class="input-group input-inline">
+      <form action="/search.html" method="get">
+        <input type="text" name="query" id="search-box" class="form-input" placeholder="Search ...">
+      </form>
+    </div>
+
+  </section>
+</header>
+<!-- site-nav -->

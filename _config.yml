@@ -1,2 +1,119 @@
-theme: jekyll-theme-cayman
-title: 'Smartsupp API'
+#
+# >>> IF YOU CHANGE CONFIG RESTART SERVER: "⌃C + bundle exec jekyll serve" <<<
+#
+
+# VARIABLES ==================================================
+
+## Site variables
+title: "Smartsupp API"
+google_analytics: "UA-XXXXX-Y"
+github_username: smartsupp
+git_repo: smartsupp.github.io
+
+## Custom variables
+javascript_api: "JavaScript API"
+
+## Product
+pr_author: "Smartsupp"
+pr_name: "Smartsupp"
+pr_url: "https://www.smartsupp.com/"
+pr_url_name: "smartsupp.com"
+pr_email: "info@smartsupp.com"
+pr_description: "Smartsupp API. Developer DOCS."
+
+## Url
+url_canonical: "http://www.smartsupp.com/docs/api"
+url_alternate_en: "http://www.smartsupp.com/docs/api"
+url_alternate_cs: "http://www.smartsupp.com/cs/docs/api"
+url_docs_root: "/docs/"
+
+## Categories
+ca_chat: "chat-box"
+ca_d_chat: "Text for chat box ..."
+ca_examples: "examples"
+ca_d_examples: "Text for examples ..."
+
+## Pages
+pa_github: "Smartsupp GitHub"
+pa_docs: "Docs"
+
+## Pages (docs: web)
+pa_identify_visitor: "Identify visitor"
+pa_custom_events: "Custom events"
+pa_sensitive_data_protection: "Sensitive data protection"
+pa_recording_information: "Recording information"
+pa_gdpr: "GDPR"
+
+## Pages (docs: web - description)
+pa_d_identify_visitor: "Display detailed visitor information in dashboard."
+pa_d_custom_events: "Create your own specific events for tracking."
+pa_d_sensitive_data_protection: "Do not record sensitive data. Mask forms and inputs."
+pa_d_recording_information: "Get recording information such as URL."
+pa_d_gdpr: "Record user information of EU visitors."
+
+## Pages (docs: sdk)
+pa_android: "Android"
+pa_ios: "iOS"
+
+# PLUGINS ==================================================
+
+## Github --safe
+plugins:
+  - jemoji
+
+# BUILD ==================================================
+
+## Server (localhost)
+# livereload: true
+port: 4002
+
+## Warnings
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
+## Final _site
+exclude:
+  - README.md
+  - config.codekit3
+  - Gemfile.lock
+  - Gemfile
+  - /vendor
+  - /docker-compose.yml
+  - /docker-start
+
+# COLLECTIONS ==================================================
+
+## Docs
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true # render .MD files to HTML on build
+
+# FRONT MATTER ==================================================
+
+## Settings
+defaults:
+  -
+    scope:
+      path: "" # empty string means all files in the project
+      type: "pages" # select pages only
+    values:
+      layout: "page"
+      lang: "en"
+  -
+    scope:
+      path: "_docs"
+      type: "docs" # created in collections
+    values:
+      layout: "default"
+      lang: "en"
+      custom_title: null # add custom title variable in docs article if needed
+
+## Conversion
+permalink: pretty
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true # disable Rouge highliter
+  parse_block_html: true # in .MD files render MD inside HTML blocks

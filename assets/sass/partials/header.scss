@@ -1,0 +1,141 @@
+// header.scss
+
+/**
+  * Index
+  * - Header
+  * - Search
+  *
+  */
+
+// HEADER
+
+header {
+  z-index: 5;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: $o_white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  height: 72px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(117, 117, 117, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(117, 117, 117, 0.5);
+}
+
+#logo {
+  position: relative;
+  left: 25px;
+  margin-right: 133px;
+}
+
+#logo a::after {
+  content: "| Docs";
+  color: $o_grey_300;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 157px;
+  width: 60px;
+  text-align: center;
+}
+
+.nav-logo {
+  text-indent: -9999px;
+  background: url("../img/logo@1x.png");
+  display: block;
+  width: 157px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-menu {
+  margin: 0;
+}
+
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+header ul li {
+  display: inline;
+  font-weight: 700;
+}
+
+header ul li.navbar-item a {
+  background: $o_grey_50;
+  border: 1px dotted $o_grey_300;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  margin-right: 5px;
+  border-radius: $radius_2;
+}
+
+header ul li a:hover {
+  background: $o_grey_100;
+  border: 1px dotted $o_grey_500;
+  text-decoration: none;
+}
+
+header ul li.navbar-item-active a {
+  border: 1px dotted $c_primary;
+}
+
+// SEARCH
+
+#search {
+  margin-right: 30px;
+  position: absolute;
+  right: 0;
+  width: 400px;
+}
+
+#search form {
+  width: 100%;
+}
+
+#search .form-input {
+  background: $o_grey_50;
+  border-radius: $radius_2;
+}
+
+.form-input:hover,
+.form-input:focus {
+  border-color: $c_primary;
+}
+
+.form-input:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(70, 147, 224, .2);
+          box-shadow: 0 0 0 3px rgba(70, 147, 224, .2);
+}
+
+body.search ul {
+  list-style-type: none;
+}
+
+#search-results a[href*="index"],
+#search-results a[href*="index"] ~ p {
+  display: none;
+}
+
+#search-results  {
+  margin: 30px 0;
+}
+
+#search-results h2, 
+#search-results h3, 
+#search-results h4, 
+#search-results ul li a {
+  color: $c_primary;
+}
+
+span.no-results {
+  color: $o_red_500;
+}

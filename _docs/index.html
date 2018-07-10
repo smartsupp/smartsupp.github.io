@@ -1,0 +1,39 @@
+--- 
+layout: "custom" 
+class: "home-docs" 
+permalink: /docs/index.html 
+---
+
+<div class="container grid-lg">
+  <div class="columns">
+    <div class="column col-12">
+      <h1>Developer API</h1>
+      <p>Welcome to {{ site.pr_name }} developer Docs. Feel free to look around.</p>
+    </div>
+  </div>
+</div>
+<!-- container -->
+
+<div class="container grid-lg">
+  <div class="columns">
+    <div class="column col-12">
+      <h2 class="category-headline">{{ site.ca_chat | replace: "-", " " }}</h2>
+      <p>{{ site.ca_d_chat }}</p>
+    </div>
+  </div>
+</div>
+<!-- container -->
+
+{% include docs/category/chat-box.html %}
+
+<div class="container grid-lg">
+  <div class="columns">
+    <div class="column col-12">
+      <h2 class="category-headline">{{ site.ca_examples }}</h2>
+      <p>{{ site.ca_d_examples }}</p>
+    </div>
+  </div>
+</div>
+<!-- container -->
+
+{% include docs/category/examples.html %}

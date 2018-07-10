@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+.vscode
+.htaccess
+config.codekit3
+/vendor
