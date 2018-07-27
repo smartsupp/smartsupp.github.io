@@ -4,8 +4,10 @@
 docs_list_title: Chat box
 chat:
 
-- title: Chat 01
-  url: /docs/chat-box/identify-visitor/
+- title: Configuration
+  url: /docs/chat-box/configuration/
+- title: Theme
+  url: /docs/chat-box/theme/
 
 ## EXAMPLES
 docs_list_title: Examples
