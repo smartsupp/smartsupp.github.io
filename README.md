@@ -2,6 +2,12 @@
 
 This site is WIP. See current [API Docs](https://developers.smartsupp.com/).
 
+## Development
+
+```sh
+docker-compose up
+```
+
 ## Copyright
 
-Copyright (c) 2018 [Smartsupp.com](https://www.smartsupp.com/)
+Copyright (c) 2018 [smartsupp.com](https://www.smartsupp.com/)
