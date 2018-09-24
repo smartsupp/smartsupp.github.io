@@ -1,5 +1,5 @@
-# Sidebar menu
 
+# Sidebar menu
 ## CHAT BOX
 docs_list_title: Chat box
 chat:
@@ -13,5 +13,17 @@ chat:
 docs_list_title: Examples
 examples:
 
-- title: Example 01
-  url: /docs/examples/android/
+- title: Multilanguage chat box
+  url: /docs/examples/multilanguage-chat-box/
+
+- title: Customer info
+  url: /docs/examples/customer-info/
+
+- title: Chat box design
+  url: /docs/examples/chat-box-design/
+
+- title: Pre-chat form customization
+  url: /docs/examples/pre-chat-form-customization/
+
+- title: Export chat to 3rd party system
+  url: /docs/examples/export-chat-to-3rd-party-system/

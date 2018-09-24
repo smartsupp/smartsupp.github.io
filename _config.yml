@@ -29,9 +29,9 @@ url_docs_root: "/docs/"
 
 ## Categories
 ca_chat: "chat-box"
-ca_d_chat: "Text for chat box ..."
+ca_d_chat: "Customize chat box so it fits your needs."
 ca_examples: "examples"
-ca_d_examples: "Text for examples ..."
+ca_d_examples: "Have a look at code examples on how to use chat box API."
 
 ## Pages
 pa_github: "Smartsupp GitHub"
