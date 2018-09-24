@@ -6,8 +6,18 @@ chat:
 
 - title: Configuration
   url: /docs/chat-box/configuration/
+- title: Visitor
+  url: /docs/chat-box/visitor/
+- title: Chat
+  url: /docs/chat-box/chat/
 - title: Theme
   url: /docs/chat-box/theme/
+- title: Banner
+  url: /docs/chat-box/banner/
+- title: Recording
+  url: /docs/chat-box/recording/
+- title: Events
+  url: /docs/chat-box/events/
 
 ## EXAMPLES
 docs_list_title: Examples
@@ -15,15 +25,11 @@ examples:
 
 - title: Multilanguage chat box
   url: /docs/examples/multilanguage-chat-box/
-
 - title: Customer info
   url: /docs/examples/customer-info/
-
 - title: Chat box design
   url: /docs/examples/chat-box-design/
-
 - title: Pre-chat form customization
   url: /docs/examples/pre-chat-form-customization/
-
 - title: Export chat to 3rd party system
   url: /docs/examples/export-chat-to-3rd-party-system/
