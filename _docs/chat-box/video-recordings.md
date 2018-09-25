@@ -1,6 +1,6 @@
 ---
 title: "Video Recordings"
-subtitle: "lorem"
+subtitle: "You can see what visitors do on your website."
 ---
 
 **Protection of sensitive customer data** If visitors enter sensitive data (e.g. credit card numbers, visible passwords) on your website, you should exclude this data from the recording by masking forms and inputs.

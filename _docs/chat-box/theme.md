@@ -1,6 +1,6 @@
 ---
 title: "Theme"
-subtitle: "Set chat box colors and design"
+subtitle: "Set chat box colors and design."
 ---
 
 **Color syntax:** Format must be RGB `#ff0000` (red color). Short version `#f00` is not supported.
