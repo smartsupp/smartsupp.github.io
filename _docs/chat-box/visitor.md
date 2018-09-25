@@ -9,7 +9,7 @@ You can set visitor's name.
 
 ```js
 <script>
-  smartsupp('name', 'Username');
+  smartsupp('name', 'username');
 </script>
 ```
 
@@ -19,7 +19,7 @@ You can set visitor's email.
 
 ```js
 <script>
-  smartsupp('email', 'useremail@example.com');
+  smartsupp('email', 'user.email@example.com');
 </script>
 ```
 
@@ -59,7 +59,3 @@ You can set additional info about your visitor if needed.
   });
 </script>
 ```
-
-## language
-
-Currently we support 40 languages. See full list and settings at page [Multilanguage chat box](/docs/examples/multilanguage-chat-box/).
