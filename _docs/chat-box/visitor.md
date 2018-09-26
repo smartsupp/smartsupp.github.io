@@ -1,6 +1,6 @@
 ---
 title: "Visitor"
-subtitle: "Set basic visitor info"
+subtitle: "Set basic visitor info."
 ---
 
 ## name

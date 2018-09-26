@@ -1,6 +1,6 @@
 ---
 title: "Chat"
-subtitle: "lorem"
+subtitle: "Adjust chat behaviour."
 ---
 
 ## chat:translate
