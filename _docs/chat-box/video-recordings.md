@@ -1,5 +1,5 @@
 ---
-title: "Video Recordings"
+title: "Video recordings"
 subtitle: "You can see what visitors do on your website."
 ---
 
