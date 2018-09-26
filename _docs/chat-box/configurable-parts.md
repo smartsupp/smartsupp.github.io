@@ -1,7 +1,10 @@
 ---
-title: "Configuration"
+title: "Configurable parts"
 subtitle: "Change behavior and modify parts of chat box as forms, prompts or rating window."
 ---
+
+If you did not install [Smartsupp Chat Code](https://www.smartsupp.com/help/smartsupp-chat-code/){:target='_blank'} read our tutorial first.
+{: .callout .callout-info }
 
 Here you can see the default chat code. Enter your configuration after the line with `_smartsupp.key`
 
@@ -13,16 +16,13 @@ _smartsupp.key = "YOUR_ACCOUNT_KEY";
 // your configuration
 // ...
 window.smartsupp||(function(d) {
-	var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-	s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-	c.type='text/javascript';c.charset='utf-8';c.async=true;
-	c.src='//www.smartsuppchat.com/loader.js';s.parentNode.insertBefore(c,s);
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='//www.smartsuppchat.com/loader.js';s.parentNode.insertBefore(c,s);
 })(document);
 </script>
 ```
-
-If you don`t have Smartsupp chat code installed on your website, you should read [Get started ](#) tutorial.
-{: .callout .callout-info }
 
 ## Sub-domains integration
 
@@ -37,7 +37,7 @@ _smartsupp.cookieDomain = '.your-domain.com';
 When the visitor ends the conversation a confirmation window is displayed. In this window there is by default a button to send a transcript of the chat conversation to email. You can choose not to show this button
 
 ```js
-_smartsupp.sendEmailTanscript = false;  // default value : true
+_smartsupp.sendEmailTanscript = false;  // default value = true
 ```
 
 ### transcript button enabled
@@ -53,8 +53,8 @@ _smartsupp.sendEmailTanscript = false;  // default value : true
 After visitor ends a chat conversation, he is shown a rating window. You can add a text box where the visitor can also write a comment.
 
 ```js
-_smartsupp.ratingEnabled = true;  // default value : false
-_smartsupp.ratingComment = true;  // default value : false
+_smartsupp.ratingEnabled = true;  // default value = false
+_smartsupp.ratingComment = true;  // default value = false
 ```
 
 ### simple rating (3 icons)
@@ -72,8 +72,8 @@ By default the chat box is displayed in bottom right corner of the website. You 
 ```js
 _smartsupp.alignX = "right"; // or "left"
 _smartsupp.alignY = "side"; // default value : bottom
-_smartsupp.offsetX = 20; // offset from left or right, default value : 10
-_smartsupp.offsetY = 120; // offset from top by, default value :  100
+_smartsupp.offsetX = 20; // offset from left or right, default value = 10
+_smartsupp.offsetY = 120; // offset from top by, default value = 100
 ```
 
 `!img`
@@ -119,16 +119,16 @@ _smartsupp.requireLogin = true;
 _smartsupp.loginNameControl = false;
 // append custom controls
 _smartsupp.loginControls = [{
-	xtype: 'select',
-	name: 'problem',
-	label: 'Reason',
-	required: true,
-	value: 'error', // pre-selected value
-	items: {
-		normal: 'Normal question',
-		error: 'Error report',
-		other: 'Something else'
-	}
+  xtype: 'select',
+  name: 'problem',
+  label: 'Reason',
+  required: true,
+  value: 'error', // pre-selected value
+  items: {
+    normal: 'Normal question',
+    error: 'Error report',
+    other: 'Something else'
+  }
 }];
 ```
 
@@ -140,10 +140,10 @@ _smartsupp.requireLogin = true;
 _smartsupp.loginEmailControl = false;
 // append checkbox control to confirm something
 _smartsupp.loginControls = [{
-	xtype: 'checkbox',
-	name: 'conditions',
-	label: 'I have read and accept the Terms and conditions.',
-	required: true
+  xtype: 'checkbox',
+  name: 'conditions',
+  label: 'I have read and accept the Terms and conditions.',
+  required: true
 }];
 ```
 
@@ -174,16 +174,16 @@ You can customize the form fields in offline form. Default fields are `name` and
 _smartsupp.offlineNameControl = false;
 // append select control
 _smartsupp.offlineControls = [{
-	xtype: 'select',
-	name: 'question',
-	label: 'Question',
-	required: true,
-	value: 'error', // pre-selected value
-	items: {
-		normal: 'Normal question',
-		error: 'Error report',
-		other: 'Something else'
-	}
+  xtype: 'select',
+  name: 'question',
+  label: 'Question',
+  required: true,
+  value: 'error', // pre-selected value
+    items: {
+    normal: 'Normal question',
+    error: 'Error report',
+    other: 'Something else'
+  }
 }];
 ```
 
@@ -204,7 +204,7 @@ _smartsupp.gaKey = 'UA-XXXX-Y'; // Use this code if you want to link only to one
 _smartsupp.gaName = 'your_tracker_name'; // Use this code if you want to linkt to specific GA Tracker Name
 
 _smartsupp.gaOptions = {
-	'cookieDomain': 'foo.example.com',
+  'cookieDomain': 'foo.example.com',
 };
 ```
 

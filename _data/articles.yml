@@ -4,8 +4,8 @@
 docs_list_title: Chat box
 chat:
 
-- title: Configuration
-  url: /docs/chat-box/configuration/
+- title: Configurable parts
+  url: /docs/chat-box/configurable-parts/
 - title: Visitor
   url: /docs/chat-box/visitor/
 - title: Chat
