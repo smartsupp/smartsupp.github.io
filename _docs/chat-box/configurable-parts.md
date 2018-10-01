@@ -3,7 +3,7 @@ title: "Configurable parts"
 subtitle: "Change behavior and modify parts of chat box as forms, prompts or rating window."
 ---
 
-If you did not install [Smartsupp Chat Code](https://www.smartsupp.com/help/smartsupp-chat-code/){:target='_blank'} read our tutorial first.
+If you did not install [Smartsupp Chat Code](https://www.smartsupp.com/help/smartsupp-chat-code/){:target='\_blank'} read our tutorial first.
 {: .callout .callout-info }
 
 Here you can see the default chat code. Enter your configuration after the line with `_smartsupp.key`
@@ -29,169 +29,200 @@ window.smartsupp||(function(d) {
 Smartsupp visitor is identified by unique key stored in cookies. By default chat conversation is terminated when visitor opens a sub-domain on your website. You should set main domain as cookie domain if you want chat conversations uninterrupted accross your sub-domains. Insert the cookieDomain parameter in your chat code on main domain and all subdomains where you want the chat conversation uninterrupted.
 
 ```js
-_smartsupp.cookieDomain = '.your-domain.com';
+_smartsupp.cookieDomain = ".your-domain.com";
 ```
 
-##  Optional email transcript
+## Optional email transcript
 
-When the visitor ends the conversation a confirmation window is displayed. In this window there is by default a button to send a transcript of the chat conversation to email. You can choose not to show this button
-
-```js
-_smartsupp.sendEmailTanscript = false;  // default value = true
-```
+When the visitor wants to end conversation a confirmation window is displayed. It can display transcript button.
 
 ### transcript button enabled
 
-`!img`
+This is option is displayed by default. It shows a button which sends transcript to email.
+
+![transcript enabled](/assets/img/docs/configurable-parts/transcript-enabled.png)
 
 ### transcript button disabled
 
-`!img`
+If you do not need this feature in your chat box you can disable it.
+
+```js
+_smartsupp.sendEmailTanscript = false; // default value = true
+```
+
+![transcript disabled](/assets/img/docs/configurable-parts/transcript-disabled.png)
 
 ## Rating window
 
-After visitor ends a chat conversation, he is shown a rating window. You can add a text box where the visitor can also write a comment.
-
-```js
-_smartsupp.ratingEnabled = true;  // default value = false
-_smartsupp.ratingComment = true;  // default value = false
-```
+After visitor ends conversation a rating window is displayed. You can add a text box for visitor to write a comment.
 
 ### simple rating (3 icons)
 
-`!img`
+You can display feedback icons.
+
+```js
+_smartsupp.ratingEnabled = true; // default value = false
+```
+
+![rating simple](/assets/img/docs/configurable-parts/rating-simple.png)
 
 ### rating with a comment
 
-`!img`
-
-## Chat box position
-
-By default the chat box is displayed in bottom right corner of the website. You can change the default position along the bottom line or place the chat on right or left side of the website.
+You can display feedback icons including text area for a comment.
 
 ```js
-_smartsupp.alignX = "right"; // or "left"
-_smartsupp.alignY = "side"; // default value : bottom
-_smartsupp.offsetX = 20; // offset from left or right, default value = 10
-_smartsupp.offsetY = 120; // offset from top by, default value = 100
+_smartsupp.ratingComment = true; // default value = false
 ```
 
-`!img`
+![rating with comment](/assets/img/docs/configurable-parts/rating-with-comment.png)
 
 ## Chat box design type
 
-We supports 2 chat box layouts: `widget` and `button`.
-
-```js
-_smartsupp.widget = 'widget'; // shown on desktop by default
-_smartsupp.widget = 'button'; // shown on mobile devices by default
-```
+We supports 2 chat box layouts: `widget` and `button`. You can override default behaviour.
 
 ### layout: widget
 
-`!img`
+This layout shown on _desktop_ by default.
+
+```js
+_smartsupp.widget = "widget";
+```
+
+![chat box layout widget](/assets/img/docs/configurable-parts/chat-box-layout-widget.png)
 
 ### layout: button
 
-`!img`
+This layout shown on _mobile_ by default.
+
+```js
+_smartsupp.widget = "button";
+```
+
+![chat box layout button](/assets/img/docs/configurable-parts/chat-box-layout-button.png)
 
 ## Pre-chat form
 
-When chat is online, visitor will see open chat and can write message. Pre-chat form will show right after visitor sends first message.
+When chat is online visitor sees open chat and can write message. Pre-chat form will show right after visitor sends first message.
 
 If you are using pre-chat form, you can customize the form fields. Default fields are `name` and `email`. If you want to disable name or email set property `loginNameControl` or `loginEmailControl` to `false`. You can add custom fields by setting property `loginControls`. All filled values are sent to dashboard and shown in **Visitor info** and **Customer info** in the right panel of the conversation window.
 
-* We support 4 field types: `textinput`, `textarea`, `select` and `checkbox`.
-* Attribute `name` has to be defined in every field and it can contain only lowercase and uppercase letters, no spaces allowed.
-* Use attribute `required: true` to make the field mandatory for visitors.
+- We support 3 field types: `textinput`, `select` and `checkbox`.
+- Attribute `name` must be defined in every field and it can contain only lowercase and uppercase letters, no spaces allowed.
+- Use attribute `required: true` to make the field mandatory for visitors.
 
-### Default form
+### Pre-chat form default
+
+`no code example, some text only`
 
 ```js
-xyz
+xyz;
 ```
 
-### Form with select
+`!img`
+
+### Pre-chat form with textinput
+
+This field can be used for example for entering phone number.
+
+```js
+xyz;
+```
+
+`!img`
+
+### Pre-chat form with select
+
+x
+
+`!img`
 
 ```js
 _smartsupp.requireLogin = true;
 // hide default name input
 _smartsupp.loginNameControl = false;
 // append custom controls
-_smartsupp.loginControls = [{
-  xtype: 'select',
-  name: 'problem',
-  label: 'Reason',
-  required: true,
-  value: 'error', // pre-selected value
-  items: {
-    normal: 'Normal question',
-    error: 'Error report',
-    other: 'Something else'
+_smartsupp.loginControls = [
+  {
+    xtype: "select",
+    name: "problem",
+    label: "Reason",
+    required: true,
+    value: "error", // pre-selected value
+    items: {
+      normal: "Normal question",
+      error: "Error report",
+      other: "Something else"
+    }
   }
-}];
+];
 ```
 
-### Form with checkbox
+### Pre-chat form with checkbox
+
+x
+
+`!img`
 
 ```js
 _smartsupp.requireLogin = true;
 // disable email
 _smartsupp.loginEmailControl = false;
 // append checkbox control to confirm something
-_smartsupp.loginControls = [{
-  xtype: 'checkbox',
-  name: 'conditions',
-  label: 'I have read and accept the Terms and conditions.',
-  required: true
-}];
+_smartsupp.loginControls = [
+  {
+    xtype: "checkbox",
+    name: "conditions",
+    label: "I have read and accept the Terms and conditions.",
+    required: true
+  }
+];
 ```
-
-### Default pre-chat form
-
-`!img`
-
-### Pre-chat form with select
-
-`!img`
-
-### Pre-chat form with checkbox
-
-`!img`
 
 ## Offline form
 
 You can customize the form fields in offline form. Default fields are `name` and `email`. Email is always required, name can be disabled, message is not modifiable through API. You can add custom fields by setting property `offlineControls`. All values are sent visible in email to address(es) specified in dashboard. It's not possible to specify emails through API. If your form has more fields, scrollbar automatically appears in chat box, but you can always set offline chat box **height** to show all fields without scrollbar.
 
-* We support 4 field types: `textinput`, `textarea`, `select` and `checkbox`.
-* Attribute `name` has to be defined in every field and it can contain only lowercase and uppercase letters, no spaces allowed.
-* Use attribute `required: true` to make the field mandatory for visitors.
+- We support 4 field types: `textinput`, `select` and `checkbox`.
+- Attribute `name` has to be defined in every field and it can contain only lowercase and uppercase letters, no spaces allowed.
+- Use attribute `required: true` to make the field mandatory for visitors.
 
-### Form with select
+### Offline form default
+
+`no code example, some text only`
+
+`img`
+
+### Offline form with textinput
+
+This field can be used for example for entering phone number.
+
+```js
+xyz;
+```
+
+`!img`
+
+### Offline form with select
 
 ```js
 // name is disabled
 _smartsupp.offlineNameControl = false;
 // append select control
-_smartsupp.offlineControls = [{
-  xtype: 'select',
-  name: 'question',
-  label: 'Question',
-  required: true,
-  value: 'error', // pre-selected value
+_smartsupp.offlineControls = [
+  {
+    xtype: "select",
+    name: "question",
+    label: "Question",
+    required: true,
+    value: "error", // pre-selected value
     items: {
-    normal: 'Normal question',
-    error: 'Error report',
-    other: 'Something else'
+      normal: "Normal question",
+      error: "Error report",
+      other: "Something else"
+    }
   }
-}];
+];
 ```
-
-### Default form
-
-`!img`
-
-### Form with select
 
 `!img`
 
@@ -200,11 +231,11 @@ _smartsupp.offlineControls = [{
 Smartsupp is linked with your Google Analytics (GA) automatically. Smartsupp checks your site's source code for GA property ID and sends data to all GA accounts it found. If you want to send Smartsupp events only to one specific account you do so by selecting it via GA KEY or GA Tracker name. If you have subdomains on your website and you are tracking all of them in one GA account use the `gaOptions` parameter described in [Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/#customizeTracker) documentation.
 
 ```js
-_smartsupp.gaKey = 'UA-XXXX-Y'; // Use this code if you want to link only to one specific account
-_smartsupp.gaName = 'your_tracker_name'; // Use this code if you want to linkt to specific GA Tracker Name
+_smartsupp.gaKey = "UA-XXXX-Y"; // Use this code if you want to link only to one specific account
+_smartsupp.gaName = "your_tracker_name"; // Use this code if you want to linkt to specific GA Tracker Name
 
 _smartsupp.gaOptions = {
-  'cookieDomain': 'foo.example.com',
+  cookieDomain: "foo.example.com"
 };
 ```
 
