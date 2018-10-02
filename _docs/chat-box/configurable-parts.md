@@ -40,6 +40,10 @@ When the visitor wants to end conversation a confirmation window is displayed. I
 
 This is option is displayed by default. It shows a button which sends transcript to email.
 
+```js
+_smartsupp.sendEmailTanscript = true;
+```
+
 ![transcript enabled](/assets/img/docs/configurable-parts/transcript-enabled.png)
 
 ### transcript button disabled
@@ -47,34 +51,34 @@ This is option is displayed by default. It shows a button which sends transcript
 If you do not need this feature in your chat box you can disable it.
 
 ```js
-_smartsupp.sendEmailTanscript = false; // default value = true
+_smartsupp.sendEmailTanscript = false;
 ```
 
 ![transcript disabled](/assets/img/docs/configurable-parts/transcript-disabled.png)
 
 ## Rating window
 
-After visitor ends conversation a rating window is displayed. You can add a text box for visitor to write a comment.
+After visitor ends conversation a rating is displayed. You can add a text box for visitor to write a comment.
 
 ### simple rating (3 icons)
 
 You can display feedback icons.
 
 ```js
-_smartsupp.ratingEnabled = true; // default value = false
+_smartsupp.ratingEnabled = true;
 ```
 
-![rating simple](/assets/img/docs/configurable-parts/rating-simple.png)
+![rating simple](/assets/img/docs/configurable-parts/rating-simple.gif)
 
 ### rating with a comment
 
 You can display feedback icons including text area for a comment.
 
 ```js
-_smartsupp.ratingComment = true; // default value = false
+_smartsupp.ratingComment = true;
 ```
 
-![rating with comment](/assets/img/docs/configurable-parts/rating-with-comment.png)
+![rating with comment](/assets/img/docs/configurable-parts/rating-with-comment.gif)
 
 ## Chat box design type
 
@@ -112,13 +116,9 @@ If you are using pre-chat form, you can customize the form fields. Default field
 
 ### Pre-chat form default
 
-`no code example, some text only`
+You can turn this option on in **Smarstupp Dashboard > Chat box > [Options](https://www.smartsupp.com/app/settings/chatbox/options){:target='\_blank'} > Show pre-chat form**
 
-```js
-xyz;
-```
-
-`!img`
+![pre-chat form default](/assets/img/docs/configurable-parts/pre-chat-form-default.png)
 
 ### Pre-chat form with textinput
 
@@ -128,7 +128,7 @@ This field can be used for example for entering phone number.
 xyz;
 ```
 
-`!img`
+![pre-chat form default](/assets/img/docs/configurable-parts/pre-chat-form-with-text-input.png)
 
 ### Pre-chat form with select
 
@@ -137,21 +137,19 @@ x
 `!img`
 
 ```js
-_smartsupp.requireLogin = true;
-// hide default name input
-_smartsupp.loginNameControl = false;
-// append custom controls
 _smartsupp.loginControls = [
   {
     xtype: "select",
-    name: "problem",
-    label: "Reason",
+    name: "group",
+    label: "Department",
     required: true,
-    value: "error", // pre-selected value
+
+    // use group IDs from Smartsupp dashboard
+    value: "PJxWeH8LZNi", // set default group
     items: {
-      normal: "Normal question",
-      error: "Error report",
-      other: "Something else"
+      PJxWeH8LZNi: "Support",
+      tuZOw6k9Oto: "Marketing",
+      "9OtIZKLaVep": "Sales"
     }
   }
 ];
