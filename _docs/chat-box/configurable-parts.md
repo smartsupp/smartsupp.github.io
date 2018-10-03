@@ -10,17 +10,17 @@ Here you can see default chat code. You can modify your own chat code. Enter _yo
 
 ```js
 <script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = "YOUR_SMARTSUPP_CODE";
-// ...
-// your configuration
-// ...
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='//www.smartsuppchat.com/loader.js';s.parentNode.insertBefore(c,s);
-})(document);
+  var _smartsupp = _smartsupp || {};
+  _smartsupp.key = "YOUR_SMARTSUPP_CODE";
+  // ...
+  // your configuration
+  // ...
+  window.smartsupp||(function(d) {
+    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+    c.type='text/javascript';c.charset='utf-8';c.async=true;
+    c.src='//www.smartsuppchat.com/loader.js';s.parentNode.insertBefore(c,s);
+  })(document);
 </script>
 ```
 
@@ -201,55 +201,120 @@ _smartsupp.loginControls = [
 
 ## Offline form
 
-You can customize the form fields in offline form. Default fields are `name` and `email`. Email is always required, name can be disabled, message is not modifiable through API. You can add custom fields by setting property `offlineControls`. All values are sent visible in email to address(es) specified in dashboard. It's not possible to specify emails through API. If your form has more fields, scrollbar automatically appears in chat box, but you can always set offline chat box **height** to show all fields without scrollbar.
+You can customize offline form fields to fit your needs. Useful outside regular office or business hours.
 
-- We support 4 field types: `textinput`, `select` and `checkbox`.
-- Attribute `name` has to be defined in every field and it can contain only lowercase and uppercase letters, no spaces allowed.
+### Default inputs
+
+Default fields are `name` and `email`. **Email is always required** but the field `name` can be disabled. Message is not modifiable through API. You can add custom fields by setting property `offlineControls`. All values are sent visible in email to address specified in Dashboard. It's not possible to specify emails through API.
+
+Hide default input: `name`
+
+```js
+_smartsupp.offlineNameControl = false;
+```
+
+If your form has more fields, scrollbar automatically appears in chat box, but you can always set offline chat box `offlineHeight` to show all fields without scrollbar. Put this as 2nd script below your main Smartsupp chat code. Adjust size as you need (default height is `420`).
+
+```js
+<script type="text/javascript">
+  var _smartsupp = _smartsupp || {};
+  _smartsupp.key = "YOUR_SMARTSUPP_CODE";
+  // ... rest of the usual code (just example)
+</script>
+
+<script>
+smartsupp('theme:options', {
+  offlineHeight: 420
+});
+</script>
+```
+
+### Custom fields
+
+- We support 3 field types: `textinput`, `select` and `checkbox`.
 - Use attribute `required: true` to make the field mandatory for visitors.
+- Attribute `name` has to be defined in every field and it can contain only lowercase and uppercase letters, no spaces allowed.
 
 ### Offline form default
 
-`no code example, some text only`
+Offline form will show each time you change your status in Dashboard from Online => Offline.
 
-`img`
+![offline form](/assets/img/docs/configurable-parts/offline-form.png)
 
 ### Offline form with textinput
 
-This field can be used for example for entering phone number.
+This field can be used for example for entering phone number. This would be in offline form too many fields and scrollbar would appear. We can make the offline form height bigger (by 55px from 420 to 475) by using `offlineheight`. You can adjust the number as you need or to fit even more fields if needed.
 
 ```js
-xyz;
+<script>
+  smartsupp('theme:options', {
+    offlineHeight: 475
+  });
+</script>
 ```
 
-`!img`
+```js
+_smartsupp.offlineControls = [
+  {
+    xtype: "textinput",
+    name: "phone",
+    label: "Phone number",
+    required: true
+  }
+];
+```
+
+![offline form default](/assets/img/docs/configurable-parts/offline-form-with-text-input.png)
 
 ### Offline form with select
 
+Useful if you have more groups (departments). In this example we disable **Name** field.
+
 ```js
-// name is disabled
+// hide name field
 _smartsupp.offlineNameControl = false;
+
 // append select control
 _smartsupp.offlineControls = [
   {
     xtype: "select",
     name: "question",
-    label: "Question",
+    label: "Question for ...",
     required: true,
-    value: "error", // pre-selected value
+    value: "support", // select default from your defined values
     items: {
-      normal: "Normal question",
-      error: "Error report",
-      other: "Something else"
+      support: "Support",
+      marketing: "Marketing",
+      sales: "Sales"
     }
   }
 ];
 ```
 
-`!img`
+![offline form with select](/assets/img/docs/configurable-parts/offline-form-with-select.png)
+
+### Offline form with checkbox
+
+This can be useful in case you need your visitors to confirm something before they start chat. As this is offline form however we need to adjust the height just a bit. In this case we used `offlineHeight: 450` (30px bigger from default).
+
+![offline form with checkbox](/assets/img/docs/configurable-parts/offline-form-with-checkbox.png)
+
+```js
+_smartsupp.offlineControls = [
+  {
+    xtype: "checkbox",
+    name: "conditions",
+    label: "I have read the Terms and conditions.",
+    required: true
+  }
+];
+```
 
 ## Google Analytics integration
 
-Smartsupp is linked with your Google Analytics (GA) automatically. Smartsupp checks your site's source code for GA property ID and sends data to all GA accounts it found. If you want to send Smartsupp events only to one specific account you do so by selecting it via GA KEY or GA Tracker name. If you have subdomains on your website and you are tracking all of them in one GA account use the `gaOptions` parameter described in [Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/#customizeTracker) documentation.
+Smartsupp is linked with your Google Analytics (GA) automatically. Smartsupp checks your site's source code for GA property ID and sends data to all GA accounts it found. If you want to send Smartsupp events only to one specific account you do so by selecting it via GA KEY or GA Tracker name. If you have subdomains on your website and you are tracking all of them in one GA account use the `gaOptions` parameter described in [Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/#customizeTracker){:target='\_blank'} documentation.
+
+Have a look at our tutorial in HELP section [Google Analytics Connection](https://www.smartsupp.com/help/google-analytics/){:target='\_blank'} first if not sure how to set this up.
 
 ```js
 _smartsupp.gaKey = "UA-XXXX-Y"; // Use this code if you want to link only to one specific account
@@ -260,14 +325,14 @@ _smartsupp.gaOptions = {
 };
 ```
 
-With previous configuration is GA initialized like this: `ga('create', KEY, OPTIONS);`
+With this configuration GA is initialized like this: `ga('create', KEY, OPTIONS);`
 
 ## Hide chat box on certain pages
 
-You can hide chat box on certain pages by setting the variable `hideWidget`
+You can hide chat box on certain pages by setting the variable `hideWidget` in your code.
 
 ```js
-_smartsupp.hideWidget = true; // use on pages where you want to hide chat box
+_smartsupp.hideWidget = true; // use on specific pages
 _smartsupp.hideMobileWidget = true; // hide chat box on mobile devices
 ```
 
@@ -290,11 +355,11 @@ _smartsupp.privacyNoticeUrl = "https://"; // URL of your privacy page
 
 ## Advanced settings
 
-Use this API if you want to disable text area, sounds, chat bubble or auto messages.
+Use any of these API settings if you want to disable text area and send button, auto messages, sounds for visitors or hide chat bubble.
 
 ```js
-_smartsupp.writable = false; // disable text area and send button
-_smartsupp.soundMuted = true; // disable sounds for visitors
-_smartsupp.hideBanner = true; // don’t show chat bubble
-_smartsupp.triggerable = false; // disables auto-messages
+_smartsupp.writable = false; // text area and send button
+_smartsupp.triggerable = false; // auto-messages
+_smartsupp.soundMuted = true; // sounds for visitors
+_smartsupp.hideBanner = true; // chat bubble
 ```
