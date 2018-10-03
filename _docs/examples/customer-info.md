@@ -10,7 +10,7 @@ Customer info is linked automatically if you are using our plugins for Wordpress
 If you are not using our plugins you can simply use our API.
 
 You need a connection to _your site or app user database_ to pull data from in order for API to work.
-{: .callout .callout-info }
+{: .callout .callout-warning }
 
 ## Customer name and email
 

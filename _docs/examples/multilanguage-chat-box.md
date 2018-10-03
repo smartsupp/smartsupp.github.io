@@ -35,7 +35,7 @@ If you want to modify existing texts you can write your own texts in any languag
 ```
 
 Have a look at [All customizable texts](#all-customizable-texts) at the end of this page.
-{: .callout .callout-alert }
+{: .callout .callout-warning }
 
 ## Modify multiple languages
 
