@@ -159,7 +159,7 @@ smartsupp(function() {
   smartsupp('banner:set', 'image', {
     src:'IMAGE_URL'
   })
-})
+});
 </script>
 ```
 
