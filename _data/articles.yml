@@ -1,11 +1,28 @@
 # Sidebar menu
 
+## CUSTOMIZATION
+docs_list_title: Customization
+customization:
+
+- title: Chat code
+  url: /docs/customization/chat-code/
+- title: Pre-chat form
+  url: /docs/customization/pre-chat-form/
+- title: Offline form
+  url: /docs/customization/offline-form/
+- title: Email transcript
+  url: /docs/customization/email-transcript/
+- title: Rating window
+  url: /docs/customization/rating-window/
+- title: Chat box type
+  url: /docs/customization/chat-box-type/
+- title: Google Analytics
+  url: /docs/customization/google-analytics/
+
 ## CHAT BOX
 docs_list_title: Chat box
 chat:
 
-- title: Configurable parts
-  url: /docs/chat-box/configurable-parts/
 - title: Visitor
   url: /docs/chat-box/visitor/
 - title: Chat
@@ -29,7 +46,5 @@ examples:
   url: /docs/examples/customer-info/
 - title: Chat box design
   url: /docs/examples/chat-box-design/
-- title: Pre-chat form customization
-  url: /docs/examples/pre-chat-form-customization/
 - title: Export chat to 3rd party system
   url: /docs/examples/export-chat-to-3rd-party-system/

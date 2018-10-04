@@ -9,8 +9,14 @@
   <div class="docs-nav">
 
     <ul class="menu">
+      <li class="divider" data-content="{{ site.ca_customization }}"></li>
+      {% for item in site.data.articles.customization %}
+      <li class="menu-item {% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+
       <li class="divider" data-content="{{ site.ca_chat | replace: "-", " " }}"></li>
-      
       {% for item in site.data.articles.chat %}
         <li class="menu-item {% if item.url == page.url %}active{% endif %}">
           <a href="{{ item.url }}">{{ item.title }}</a>

@@ -9,10 +9,13 @@
 
     <div id="nav-menu">
       <ul>
-      <li class="navbar-item{% if page.url contains 'web' %} navbar-item-active{% endif %}">
-<a href="{{ site.url_docs_root }}{{ site.ca_chat}}/">{{ site.ca_chat | replace: "-", " " }}</a>
-      </li>
-        <li class="navbar-item{% if page.url contains 'sdk' %} navbar-item-active{% endif %}">
+        <li class="navbar-item{% if page.url contains 'customization' %} navbar-item-active{% endif %}">
+          <a href="{{ site.url_docs_root }}{{ site.ca_customization }}/">{{ site.ca_customization }}</a>
+        </li>
+        <li class="navbar-item{% if page.url contains 'chat' %} navbar-item-active{% endif %}">
+          <a href="{{ site.url_docs_root }}{{ site.ca_chat}}/">{{ site.ca_chat | replace: "-", " " }}</a>
+        </li>
+        <li class="navbar-item{% if page.url contains 'examples' %} navbar-item-active{% endif %}">
           <a href="{{ site.url_docs_root }}{{ site.ca_examples }}/">{{ site.ca_examples }}</a>
         </li>
       </ul>

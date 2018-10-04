@@ -32,4 +32,4 @@ smartsupp('theme:colors', {
 
 Colors are generated automatically to match Smartsupp default theme. Change them when you need to customize chat box to match your company brand colors for example.
 
-{% include component/tables/docs/{{ page.title | slugify }}/colors-variables-names.html %}
+{% include component/tables/docs/chat-box/{{ page.title | slugify }}/colors-variables-names.html %}

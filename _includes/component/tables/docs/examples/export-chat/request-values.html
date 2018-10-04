@@ -1,0 +1,117 @@
+<table>
+  <thead>
+    <tr>
+      <th scope="col">name</th>
+      <th scope="col">type</th>
+      <th scope="col">description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td data-label="name"><code>accountId</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Account id</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>beginAt</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Timestamp of conversation start</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>endAt</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Timestamp of conversation end</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel</code></td>
+      <td data-label="type">object</td>
+      <td data-label="description">Channel info</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.id</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Id of channel</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.isChat</code></td>
+      <td data-label="type">boolean</td>
+      <td data-label="description">True if visitor and agent send message</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.isMissed</code></td>
+      <td data-label="type">boolean</td>
+      <td data-label="description">True if agent don't respond to last visitor message</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.isTriggered</code></td>
+      <td data-label="type">boolean</td>
+      <td data-label="description">True if chat has at least one trigger message</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.isOffline</code></td>
+      <td data-label="type">boolean</td>
+      <td data-label="description">True chat was offline chat (visitor send offline message)</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.isCompleted</code></td>
+      <td data-label="type">boolean</td>
+      <td data-label="description">True chat was closed and visitor has response by agent on every message.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.isDropped</code></td>
+      <td data-label="type">boolean</td>
+      <td data-label="description">True chat was dropped.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.duration</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Num of seconds.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.avgResponse</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Num of seconds.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.firstResponse</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Num of seconds.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.messagesCount</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Num of messages in chat.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.wordsCount</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Num of words in chat.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.rating</code></td>
+      <td data-label="type">int</td>
+      <td data-label="description">Chat rating (null if visitor don't send rating or rating is disabled).</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>channel.ratingDesc</code></td>
+      <td data-label="type">string</td>
+      <td data-label="description">Chat rating comment.</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>visitor</code></td>
+      <td data-label="type">object</td>
+      <td data-label="description">Visitor info</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>paths</code></td>
+      <td data-label="type">object[]</td>
+      <td data-label="description">List of paths</td>
+    </tr>
+    <tr>
+      <td data-label="name"><code>messages</code></td>
+      <td data-label="type">object[]</td>
+      <td data-label="description">List of messages</td>
+    </tr>
+  </tbody>
+</table>

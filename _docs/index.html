@@ -17,6 +17,18 @@ permalink: /docs/index.html
 <div class="container grid-lg">
   <div class="columns">
     <div class="column col-12">
+      <h2 class="category-headline">{{ site.ca_customization | replace: "-", " " }}</h2>
+      <p>{{ site.ca_d_customization }}</p>
+    </div>
+  </div>
+</div>
+<!-- container -->
+
+{% include docs/category/customization.html %}
+
+<div class="container grid-lg">
+  <div class="columns">
+    <div class="column col-12">
       <h2 class="category-headline">{{ site.ca_chat | replace: "-", " " }}</h2>
       <p>{{ site.ca_d_chat }}</p>
     </div>
