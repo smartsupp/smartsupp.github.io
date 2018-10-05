@@ -88,12 +88,12 @@ pr_url_name: "Smartsupp.com"
 pr_email: "info@smartsupp.com"
 pr_description: "Smartsupp API. Developer DOCS."
 
+## Url
+url_docs_root: "/docs/"
+
 ## Pages
 pa_github: "Smartsupp GitHub"
 pa_docs: "Docs"
-
-## Url
-url_docs_root: "/docs/"
 
 ## Categories
 ca_customization: "customization"
