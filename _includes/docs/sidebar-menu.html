@@ -16,7 +16,7 @@
       </li>
       {% endfor %}
 
-      <li class="divider" data-content="{{ site.ca_chat | replace: "-", " " }}"></li>
+      <li class="divider" data-content="{{ site.ca_chat_box | replace: "-", " " }}"></li>
       {% for item in site.data.articles.chat %}
         <li class="menu-item {% if item.url == page.url %}active{% endif %}">
           <a href="{{ item.url }}">{{ item.title }}</a>

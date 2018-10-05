@@ -25,10 +25,10 @@ pr_description: "Smartsupp API. Developer DOCS."
 url_docs_root: "/docs/"
 
 ## Categories
-ca_customization: "Customization"
+ca_customization: "customization"
 ca_d_customization: "Customize chat box features and behaviour."
-ca_chat: "chat-box"
-ca_d_chat: "Adjust chat box so it fits your needs."
+ca_chat_box: "chat-box"
+ca_d_chat_box: "Adjust chat box so it fits your needs."
 ca_examples: "examples"
 ca_d_examples: "Have a look at code examples on how to use chat box API."
 
