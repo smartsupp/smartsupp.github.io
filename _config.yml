@@ -1,51 +1,14 @@
-#
 # >>> IF YOU CHANGE CONFIG RESTART SERVER: "⌃C + bundle exec jekyll serve" <<<
-#
 
-# VARIABLES ==================================================
-
-## Site variables
-title: "Smartsupp API"
-google_analytics: "UA-XXXXX-Y"
-github_username: smartsupp
-git_repo: smartsupp.github.io
-
-## Custom variables
-javascript_api: "JavaScript API"
-
-## Product
-pr_author: "Smartsupp"
-pr_name: "Smartsupp"
-pr_url: "https://www.smartsupp.com/"
-pr_url_name: "Smartsupp.com"
-pr_email: "info@smartsupp.com"
-pr_description: "Smartsupp API. Developer DOCS."
-
-## Url
-url_docs_root: "/docs/"
-
-## Categories
-ca_customization: "customization"
-ca_d_customization: "Customize chat box features and behaviour."
-ca_chat_box: "chat-box"
-ca_d_chat_box: "Adjust chat box so it fits your needs."
-ca_examples: "examples"
-ca_d_examples: "Have a look at code examples on how to use chat box API."
-
-## Pages
-pa_github: "Smartsupp GitHub"
-pa_docs: "Docs"
-
-# PLUGINS ==================================================
-
-## Github --safe
-plugins:
-  - jemoji
+# 1. Build
+# 2. Collections
+# 3. Front Matter
+# 4. Plugins
+# 5. Variables
 
 # BUILD ==================================================
 
 ## Server (localhost)
-# livereload: true
 port: 4002
 
 ## Warnings
@@ -62,6 +25,7 @@ exclude:
   - /vendor
   - /docker-compose.yml
   - /docker-start
+  - node_modules
 
 # COLLECTIONS ==================================================
 
@@ -98,3 +62,45 @@ kramdown:
   syntax_highlighter_opts:
     disable: true # disable Rouge highliter
   parse_block_html: true # in .MD files render MD inside HTML blocks
+
+# PLUGINS ==================================================
+
+## Github --safe
+plugins:
+  - jemoji
+
+# VARIABLES ==================================================
+
+## Site variables
+title: "Smartsupp API"
+google_analytics: "UA-XXXXX-Y"
+github_username: smartsupp
+git_repo: smartsupp.github.io
+
+## Custom variables
+javascript_api: "JavaScript API"
+
+## Product
+pr_author: "Smartsupp"
+pr_name: "Smartsupp"
+pr_url: "https://www.smartsupp.com/"
+pr_url_name: "Smartsupp.com"
+pr_email: "info@smartsupp.com"
+pr_description: "Smartsupp API. Developer DOCS."
+
+## Pages
+pa_github: "Smartsupp GitHub"
+pa_docs: "Docs"
+
+## Url
+url_docs_root: "/docs/"
+
+## Categories
+ca_customization: "customization"
+ca_chat_box: "chat-box"
+ca_examples: "examples"
+
+## Categories (description)
+ca_d_customization: "Customize chat box features and behaviour."
+ca_d_chat_box: "Adjust chat box so it fits your needs."
+ca_d_examples: "Have a look at code examples on how to use chat box API."
