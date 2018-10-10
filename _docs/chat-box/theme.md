@@ -14,7 +14,9 @@ subtitle: "Set chat box colors and design."
 You can set a specific color to your chat box.
 
 ```js
+<script>
   smartsupp('theme:color', '#ff0000');
+</script>
 ```
 
 ## theme:colors
@@ -22,10 +24,12 @@ You can set a specific color to your chat box.
 You can also set colors to multiple elements of the chat box.
 
 ```js
+<script>
 smartsupp('theme:colors', { 
   primary:'#ff0000',
   banner:'#333333'
 });
+</script>
 ```
 
 ## Colors variables names

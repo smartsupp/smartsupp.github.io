@@ -106,5 +106,5 @@ ca_examples: "examples"
 
 ## Categories (description)
 ca_d_customization: "Customize chat box features and behaviour."
-ca_d_chat_box: "Adjust chat box so it fits your needs."
+ca_d_chat_box: "Adjust chat box to fit your needs."
 ca_d_examples: "Have a look at code examples on how to use chat box API."

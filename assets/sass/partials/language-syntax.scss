@@ -94,6 +94,14 @@ pre[class*="language-objc"]::before {
   content: "OBJC";
 }
 
+pre[class*="language-json"]::before {
+  background: $o_purple_500;
+}
+
+pre[class*="language-json"]::before {
+  content: "JSON";
+}
+
 // CODE
 code {
   font-family: monospace;

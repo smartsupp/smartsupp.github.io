@@ -1,6 +1,6 @@
 ---
 title: "Google Analytics"
-subtitle: "Integration."
+subtitle: "Integrate and send data to your account."
 ---
 
 Smartsupp is linked with your Google Analytics (GA) automatically.

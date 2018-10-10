@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    {% include head/meta-data.html %}
+{% include head/meta-data.html %}
 
-  <body{% if page.layout=='default' %} class="docs {% if page.url contains 'sdk' %}sdk{% endif %}{% if page.url contains 'web' %}web{% endif %} {{ page.title | slugify }}"{% endif %}>
+<body {% if page.layout == 'default' %} class="docs {% if page.url contains 'sdk' %}sdk{% endif %}{% if page.url contains 'web' %}web{% endif %} {{ page.title | slugify }}"{% endif %}>
 
-    {% include header/site-nav.html %} 
-    {% include docs/breadcrumb.html %} 
+  {% include header/site-nav.html %}
+  {% include docs/breadcrumb.html %}
 
-    <div class="docs-container off-canvas off-canvas-sidebar-show">
-      
-      {% include docs/sidebar-menu.html %}
+  <div class="docs-container off-canvas off-canvas-sidebar-show">
 
-      <div id="content" class="docs-content off-canvas-content">
+    {% include docs/sidebar-menu.html %}
 
-        <div class="columns">
-          <div class="column col-9 col-xl-12 col-lg-12 col-xs-12">
+    <div id="content" class="docs-content off-canvas-content">
 
-            <article>
+      <div class="columns">
+        <div class="column col-9 col-xl-12 col-lg-12 col-xs-12">
 
-              <div id="toc-article" class="toc">
-                <h5>Contents</h5>
-                {% assign my_min = page.toc_min | default: site.toc_min | default: 2 %} 
-                {% assign my_max = page.toc_max | default: site.toc_max | default: 3 %} 
-                {% include docs/toc.html html=content h_min=my_min h_max=my_max %}
-              </div>
+          <article>
 
-              <div class="title-block">
-                <h1 id="{{ page.title | slugify }}">{% if page.custom_title != null %}{{ page.custom_title }}{% else %}{{ page.title }}{% endif %}</h1>
-                <p class="page-subtitle">{{ page.subtitle }}</p>
-                
-              </div>
-              <!-- title-block -->
+            <div id="toc-article" class="toc">
+              <h5>Contents</h5>
+              {% assign my_min = page.toc_min | default: site.toc_min | default: 2 %}
+              {% assign my_max = page.toc_max | default: site.toc_max | default: 3 %}
+              {% include docs/toc.html html=content h_min=my_min h_max=my_max %}
+            </div>
 
-              {{ content }}
+            <div class="title-block">
+              <h1 id="{{ page.title | slugify }}">{% if page.custom_title != null %}{{ page.custom_title }}{% else %}{{
+                page.title }}{% endif %}</h1>
+              <p class="page-subtitle">{{ page.subtitle }}</p>
 
-            </article>
+            </div>
+            <!-- title-block -->
 
-          </div>
-          <!-- column -->
+            {{ content }}
 
-          {% include docs/aside.html %}
-          
+          </article>
+
         </div>
-        <!-- columns -->
+        <!-- column -->
 
-        {% include footer/footer.html %}
+        {% include docs/aside.html %}
 
       </div>
-      <!-- docs-content -->
-    </div>
-    <!-- docs-container -->
+      <!-- columns -->
 
-    <p id="btt">
-      <button onclick="topFunction()">Back to top &uarr;</button>
-    </p>
-    
-    {% include footer/scripts.html %}
-    
-  </body>
+      {% include footer/footer.html %}
+
+    </div>
+    <!-- docs-content -->
+  </div>
+  <!-- docs-container -->
+
+  <p id="btt">
+    <button onclick="topFunction()">Back to top &uarr;</button>
+  </p>
+
+  {% include footer/scripts.html %}
+
+</body>
 
 </html>
