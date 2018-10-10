@@ -3,23 +3,9 @@
     <div class="column col-12">
 
       <ul class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="{{ site.url_docs_root }}">{{ site.pa_docs }}</a>
-        </li>
-
-        {% if page.url contains 'chat-box' %}
-        <li class="breadcrumb-item">
-          <a href="{{ site.url_docs_root }}{{ site.ca_chat_box }}/">{{ site.ca_chat_box }}</a>
-        </li>
-        {% endif %}
-        
-        {% if page.url contains 'examples' %}
-        <li class="breadcrumb-item">
-          <a href="{{ site.url_docs_root }}{{ site.ca_examples }}/">{{ site.ca_examples }}</a>
-        </li>
-        {% endif %}
-
-        <li class="breadcrumb-item">{{ page.title }}</li>
+        <li class="breadcrumb-item"><a href="/docs/customization/">Customization</a></li>
+        <li class="breadcrumb-item"><a href="/docs/chat-box/">Chat box</a></li>
+        <li class="breadcrumb-item"><a href="/docs/examples/">Examples</a></li>
       </ul>
       <!-- breadcrumb -->
 
