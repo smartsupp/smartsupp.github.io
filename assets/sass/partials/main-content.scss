@@ -74,10 +74,6 @@ article h4 {
   display: none;
 }
 
-.card-subtitle {
-  color: $o_grey_500;
-}
-
 .home-docs,
 .docs {
   padding-top: 135px;
@@ -130,12 +126,18 @@ article h4 {
   margin: 0;
 }
 
+.docs .section-cards a:hover {
+  text-decoration: none;
+}
+
+.section-cards,
 .card {
-  border-radius: $radius_2;
-  border: 1px solid $o_grey_300;
-  -webkit-transition: $transition_03;
-  transition: $transition_03;
-  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card {
+  border: none;
+  margin: 0;
 }
 
 .card:hover {
@@ -145,6 +147,14 @@ article h4 {
 .card:active {
   position: relative;
   top: 1px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card-subtitle {
+  color: $o_grey_500;
 }
 
 .section-footer .container {

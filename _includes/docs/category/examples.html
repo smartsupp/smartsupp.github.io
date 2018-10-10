@@ -1,27 +1,16 @@
-<div class="container grid-lg">
-  <div class="section section-cards">
-    <div class="columns">
-
-      {% for item in site.data.articles.examples %}
-      <div class="column col-6 col-lg-12 col-xs-12">
-        <a href="{{ item.url }}">
-          <div class="card">
-            <div class="card-header">
-              <div class="card-title h3">
-                <p>{{ item.title }}</p>
-              </div>
-              <p class="card-subtitle">{{ item.subtitle }}</p>
-            </div>
-          </div>
-          <!-- card -->
-        </a>
+<div class="section section-cards">
+  {% for item in site.data.articles.examples %}
+  <a href="{{ item.url }}">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title h3">
+          <p>{{ item.title }}</p>
+        </div>
+        <p class="card-subtitle">{{ item.subtitle }}</p>
       </div>
-      <!-- column -->
-      {% endfor %}
-
     </div>
-    <!-- columns -->
-  </div>
-  <!-- section -->
+    <!-- card -->
+  </a>
+  {% endfor %}
 </div>
-<!-- container -->
+<!-- section -->
