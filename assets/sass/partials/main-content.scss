@@ -153,6 +153,11 @@ article h4 {
   top: 1px;
 }
 
+.category .card {
+  border: dashed 1px $o_grey_100;
+  margin: 0 0 5px 0;
+}
+
 .card p {
   margin: 0;
 }
