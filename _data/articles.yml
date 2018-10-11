@@ -1,28 +1,5 @@
 # Sidebar menu
 
-## CHAT BOX
-docs_list_title: Chat box
-chat:
-
-- title: Visitor
-  subtitle: Set basic visitor info.
-  url: /docs/chat-box/visitor/
-- title: Chat
-  subtitle: Adjust chat behaviour.
-  url: /docs/chat-box/chat/
-- title: Theme
-  subtitle: Set chat box colors and design.
-  url: /docs/chat-box/theme/
-- title: Banner
-  subtitle: Customize chat bubble.
-  url: /docs/chat-box/banner/
-- title: Video recordings
-  subtitle: You can see what visitors do on your website.
-  url: /docs/chat-box/video-recordings/
-- title: Events
-  subtitle: Use to further customize your chat.
-  url: /docs/chat-box/events/
-
 ## CUSTOMIZATION
 docs_list_title: Customization
 customization:
@@ -48,6 +25,29 @@ customization:
 - title: Google Analytics
   subtitle: Integrate and send data to your account.
   url: /docs/customization/google-analytics/
+
+## CHAT BOX
+docs_list_title: Chat box
+chat:
+
+- title: Visitor
+  subtitle: Set basic visitor info.
+  url: /docs/chat-box/visitor/
+- title: Chat
+  subtitle: Adjust chat behaviour.
+  url: /docs/chat-box/chat/
+- title: Theme
+  subtitle: Set chat box colors and design.
+  url: /docs/chat-box/theme/
+- title: Banner
+  subtitle: Customize chat bubble.
+  url: /docs/chat-box/banner/
+- title: Video recordings
+  subtitle: You can see what visitors do on your website.
+  url: /docs/chat-box/video-recordings/
+- title: Events
+  subtitle: Use to further customize your chat.
+  url: /docs/chat-box/events/
 
 ## EXAMPLES
 docs_list_title: Examples
