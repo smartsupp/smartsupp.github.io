@@ -7,39 +7,64 @@ permalink: /docs/index.html
 <div class="container grid-lg">
   <div class="columns">
     <div class="column col-12">
-      <h1>Developer API</h1>
-      <p>Smartsupp chat API allows you to modify chat box features, behavior, design, choose multiple languages, display customer info, configure pre-chat form to fit your needs and more. API is asynchronous so you can call it anywhere in the page.</p>
+      <h1>Developer API 💬</h1>
+      <p>Adjust Smartsupp chat box to fit your needs and provide better service to your customers.</p>
     </div>
   </div>
 </div>
 <!-- container -->
 
 <div class="container grid-lg">
-  <div class="columns">
-    <div class="column col-12">
-      <h2 class="category-headline">{{ site.ca_customization | replace: "-", " " }}</h2>
-      <p>We offer <a href="/docs/customization/">customization</a> of chat box features and behaviour.</p>
-    </div>
-  </div>
-</div>
-<!-- container -->
+  <div class="section section-cards docs-index">
+    <div class="columns">
+      <div class="column col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="{{ site.ca_url_customization }}">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title h2">
+                <p>{{ site.ca_customization}}</p>
+              </div>
+              <p class="card-subtitle">Customize parts of chat box, chat code, pre-chat form, set up support rating, connect to Google Analytics, ...</p>
+            </div>
+          </div>
+        </a>
+        <!-- card -->
+      </div>
+      <!-- column -->
 
-<div class="container grid-lg">
-  <div class="columns">
-    <div class="column col-12">
-      <h2 class="category-headline">{{ site.ca_chat_box | replace: "-", " " }}</h2>
-      <p>Adjust <a href="/docs/chat-box/">chat box</a> to fit your needs.</p>
-    </div>
-  </div>
-</div>
-<!-- container -->
+      <div class="column col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="{{ site.ca_url_chat_box }}">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title h2">
+                <p>{{ site.ca_chat_box | replace: "-", " " }}</p>
+              </div>
+              <p class="card-subtitle">Adjust chat box to fit your needs. Display visitor info, change theme, adjust banner, ...</p>
+            </div>
+          </div>
+        </a>
+        <!-- card -->
+      </div>
+      <!-- column -->
 
-<div class="container grid-lg">
-  <div class="columns">
-    <div class="column col-12">
-      <h2 class="category-headline">{{ site.ca_examples }}</h2>
-      <p>Have a look at code<a href="/docs/examples/"> examples </a> on how to use chat box API.</p>
+      <div class="column col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="{{ site.ca_url_examples }}">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title h2">
+                <p>{{ site.ca_examples }}</p>
+              </div>
+              <p class="card-subtitle">Have a look at code examples on how to use chat box API. Use multiple languages, display visitor info, ...</p>
+            </div>
+          </div>
+        </a>
+        <!-- card -->
+      </div>
+      <!-- column -->
+
     </div>
+    <!-- columns -->
   </div>
+  <!-- section -->
 </div>
 <!-- container -->

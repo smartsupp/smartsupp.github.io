@@ -104,7 +104,12 @@ ca_customization: "customization"
 ca_chat_box: "chat-box"
 ca_examples: "examples"
 
-## Categories (description)
+### Categories (description)
 ca_d_customization: "Customize chat box features and behaviour."
 ca_d_chat_box: "Adjust chat box to fit your needs."
 ca_d_examples: "Have a look at code examples on how to use chat box API."
+
+### Categories (URL)
+ca_url_customization: "/docs/customization/"
+ca_url_chat_box: "/docs/chat-box/"
+ca_url_examples: "/docs/examples/"
