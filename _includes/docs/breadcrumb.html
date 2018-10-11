@@ -3,9 +3,9 @@
     <div class="column col-12">
 
       <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/docs/customization/" class="active">Customization</a></li>
-        <li class="breadcrumb-item"><a href="/docs/chat-box/">Chat box</a></li>
-        <li class="breadcrumb-item"><a href="/docs/examples/">Examples</a></li>
+        <li class="breadcrumb-item"><a href="/docs/customization/" {% if page.url contains '/docs/customization/' %}class="active"{% endif %}>Customization</a></li>
+        <li class="breadcrumb-item"><a href="/docs/chat-box/" {% if page.url contains '/docs/chat-box/' %}class="active"{% endif %}>Chat box</a></li>
+        <li class="breadcrumb-item"><a href="/docs/examples/" {% if page.url contains '/docs/examples/' %}class="active"{% endif %}>Examples</a></li>
       </ul>
       <!-- breadcrumb -->
 

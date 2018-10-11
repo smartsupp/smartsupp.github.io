@@ -3,7 +3,7 @@
 
 {% include head/meta-data.html %}
 
-<body {% if page.layout == 'page' %} class="{{ page.layout }} {{ page.title | slugify }}{% if page.class != null %} {{ page.class }}{% endif %}"{% endif %}>
+<body {% if page.layout == 'page' %}class="{{ page.layout }} {{ page.title | slugify }}{% if page.class != null %} {{ page.class }}{% endif %}"{% endif %}>
 
   {% include header/site-nav.html %}
 

@@ -3,7 +3,7 @@
 
 {% include head/meta-data.html %}
 
-<body {% if page.class != null %} class="{% if page.class == 'home-github' %}{{ page.class }}{% elsif page.class == 'home-docs' %}{{ page.class }}{% endif %}" {% endif %}{% if page.class == null %} class="{{ page.title | slugify }}" {% endif %}>
+<body {% if page.class != null %}class="{% if page.class == 'home-github' %}{{ page.class }}{% elsif page.class == 'home-docs' %}{{ page.class }}{% endif %}"{% endif %}{% if page.class == null %} class="{{ page.title | slugify }}"{% endif %}>
 
   {% include header/site-nav.html %}
 

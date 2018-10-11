@@ -10,7 +10,6 @@
 
     <ul class="menu">
     {% if page.url contains '/docs/customization/' %}
-      <li class="divider" data-content="{{ site.ca_customization }}"></li>
       {% for item in site.data.articles.customization %}
       <li class="menu-item {% if item.url == page.url %}active{% endif %}">
         <a href="{{ item.url }}">{{ item.title }}</a>
@@ -19,7 +18,6 @@
     {% endif %}
     
     {% if page.url contains '/docs/chat-box/' %}
-      <li class="divider" data-content="{{ site.ca_chat_box | replace: "-", " " }}"></li>
       {% for item in site.data.articles.chat %}
         <li class="menu-item {% if item.url == page.url %}active{% endif %}">
           <a href="{{ item.url }}">{{ item.title }}</a>
@@ -28,7 +26,6 @@
     {% endif %}
 
     {% if page.url contains '/docs/examples/' %}
-      <li class="divider" data-content="{{ site.ca_examples }}"></li>
       {% for item in site.data.articles.examples %}
       <li class="menu-item {% if item.url == page.url %}active{% endif %}">
         <a href="{{ item.url }}">{{ item.title }}</a>
@@ -40,7 +37,7 @@
 
     <div class="edit-on-github">
       <a href="https://www.github.com/{{ site.github_username }}/{{ site.git_repo }}/blob/master/{{ page.path }}" target="_blank">
-        {% include component/svg/github-logo.html %} Edit on GitHub
+        {% include component/svg/github-logo.html %} Edit this page
       </a>
     </div>
     <!-- edit-on-github -->
