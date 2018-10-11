@@ -79,6 +79,10 @@ article h4 {
   padding-top: 135px;
 }
 
+.category {
+  padding-top: 170px;
+}
+
 // GitHub homepage
 .bg-primary {
   background-image: linear-gradient(254deg, $c_aqua, $c_sea)
@@ -114,8 +118,8 @@ article h4 {
   padding: 4rem 2rem;
 }
 
-.home-docs .section-cards {
-  margin-bottom: 0;
+.category .section-cards {
+  margin-bottom: 30px;
 }
 
 .home-docs .section-cards a:hover {
@@ -151,6 +155,10 @@ article h4 {
 
 .card p {
   margin: 0;
+}
+
+.category .card .card-header:last-child {
+  padding: .2rem .6rem .6rem .6rem;
 }
 
 .card-subtitle {

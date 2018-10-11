@@ -1,9 +1,24 @@
 --- 
-layout: "default"
+layout: "category"
 title: "EXAMPLES"
 subtitle: "Have a look at code examples on how to use chat box API."
 class: "home-docs"
 permalink: /docs/examples/index.html
 ---
 
-{% include docs/category/examples.html %}
+<div class="section section-cards">
+  {% for item in site.data.articles.examples %}
+  <a href="{{ item.url }}">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title h3">
+          <p>{{ item.title }}</p>
+        </div>
+        <p class="card-subtitle">{{ item.subtitle }}</p>
+      </div>
+    </div>
+    <!-- card -->
+  </a>
+  {% endfor %}
+</div>
+<!-- section -->

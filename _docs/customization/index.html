@@ -1,9 +1,24 @@
 --- 
-layout: "default"
+layout: "category"
 title: "CUSTOMIZATION"
 subtitle: "Customize chat box features and behaviour."
 class: "home-docs"
 permalink: /docs/customization/index.html
 ---
 
-{% include docs/category/customization.html %}
+<div class="section section-cards">
+  {% for item in site.data.articles.customization %}
+  <a href="{{ item.url }}">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title h3">
+          <p>{{ item.title }}</p>
+        </div>
+        <p class="card-subtitle">{{ item.subtitle }}</p>
+      </div>
+    </div>
+    <!-- card -->
+  </a>
+  {% endfor %}
+</div>
+<!-- section -->
