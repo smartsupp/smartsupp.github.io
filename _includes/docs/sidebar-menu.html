@@ -17,7 +17,7 @@
       {% endfor %}
     {% endif %}
     
-    {% if page.url contains '/docs/chat-box/' %}
+    {% if page.url contains '/docs/javascript-api/' %}
       {% for item in site.data.articles.chat %}
         <li class="menu-item {% if item.url == page.url %}active{% endif %}">
           <a href="{{ item.url }}">{{ item.title }}</a>

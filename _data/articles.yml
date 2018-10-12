@@ -26,28 +26,28 @@ customization:
   subtitle: Integrate and send data to your account.
   url: /docs/customization/google-analytics/
 
-## CHAT BOX
-docs_list_title: Chat box
+## JAVASCRIPT API
+docs_list_title: JavaScript API
 chat:
 
 - title: Visitor
   subtitle: Set basic visitor info.
-  url: /docs/chat-box/visitor/
+  url: /docs/javascript-api/visitor/
 - title: Chat
   subtitle: Adjust chat behaviour.
-  url: /docs/chat-box/chat/
+  url: /docs/javascript-api/chat/
 - title: Theme
   subtitle: Set chat box colors and design.
-  url: /docs/chat-box/theme/
+  url: /docs/javascript-api/theme/
 - title: Banner
   subtitle: Customize chat bubble.
-  url: /docs/chat-box/banner/
+  url: /docs/javascript-api/banner/
 - title: Video recordings
   subtitle: You can see what visitors do on your website.
-  url: /docs/chat-box/video-recordings/
+  url: /docs/javascript-api/video-recordings/
 - title: Events
   subtitle: Use to further customize your chat.
-  url: /docs/chat-box/events/
+  url: /docs/javascript-api/events/
 
 ## EXAMPLES
 docs_list_title: Examples

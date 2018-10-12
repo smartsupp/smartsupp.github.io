@@ -56,13 +56,3 @@ Close chat box.
 	smartsupp('chat:close');
 </script>
 ```
-
-## chat:end
-
-End chat conversation.
-
-```js
-<script>
-	smartsupp('chat:end');
-</script>
-```

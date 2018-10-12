@@ -11,11 +11,11 @@ Copy of all finished chat conversations, missed conversations and offline messag
 
 ## Activate POST hook
 
-Send an email to lukas@smartsupp.com where you specify your custom URL. On our end we will set sending all chat conversations to that URL.
+Send an email to [support@smartsupp.com](mailto:support@smartsupp.com) where you specify your custom URL. On our end we will set sending all chat conversations to that URL.
 
 ## Handle requests
 
-See below how to handle requests using PHP and JSON.
+See below how to handle JSON request using PHP script.
 
 ### PHP script
 

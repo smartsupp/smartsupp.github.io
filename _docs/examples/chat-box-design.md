@@ -5,7 +5,7 @@ subtitle: "Advanced chat box customization."
 
 You can adjust texts, colors and banner (logo) as you need. This is useful when you want to create different chat box designs accross several domains. This can also be used for different departments or sections on your website.
 
-Learn more about our [Theme](/docs/chat-box/theme/) options so you know what chat box parts can be changed and how. While at it you can browse [Multilanguage chat box](/docs/examples/multilanguage-chat-box/) page which describes all customizable texts.
+Learn more about our [Theme](/docs/javascript-api/theme/) options so you know what chat box parts can be changed and how. While at it you can browse [Multilanguage chat box](/docs/examples/multilanguage-chat-box/) page which describes all customizable texts.
 
 ## Chat banner, texts and colors
 

@@ -31,7 +31,4 @@ Use this code if you want to linkt to a specific GA Tracker Name.
 
 ```js
 _smartsupp.gaName = "your_tracker_name";
-_smartsupp.gaOptions = {
-  cookieDomain: "foo.example.com"
-};
 ```
