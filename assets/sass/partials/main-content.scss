@@ -184,7 +184,7 @@ article h4 {
   border: dashed 1px $o_grey_100;
   background-color: $o_white;
   border-radius: 2px;
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
   min-height: 185px;
   -webkit-transition: background-color .5s ease;
   transition: background-color .5s ease;
@@ -221,7 +221,7 @@ article h4 {
   border: dashed 1px $o_grey_100;
   background-color: $o_white;
   border-radius: 2px;
-  margin: 0 0 5px 0;
+  margin: 0 10px 0;
   min-height: 85px;
   -webkit-transition: background-color .5s ease;
   transition: background-color .5s ease;
@@ -243,6 +243,35 @@ article h4 {
 
 .faq h3 {
   text-align: center;
+}
+
+.faq ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
+  background-color: $o_grey_50;
+}
+
+.faq li a {
+  display: inline-block;
+  padding: 3px 3px 3px 5px;
+  width: 100%;
+  border: 1px dashed $o_grey_50;
+}
+
+.faq li a:hover {
+  text-decoration: none;
+  border-color: $o_grey_300;
+}
+
+.faq li a::before {
+  content: "•";
+  color: $o_grey_500;
+  margin-right: 5px;
+}
+
+.faq li a:hover::before {
+  color: $o_blue_grey_900;
 }
 
 // ANCHORS 
