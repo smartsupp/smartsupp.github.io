@@ -35,7 +35,7 @@ Attribute `name` _is not_ the visible **Name** input but a description of custom
 
 You can turn this option on in **Smarstupp Dashboard > Chat box > [Options](https://www.smartsupp.com/app/settings/chatbox/options){:target='\_blank'} > Show pre-chat form**
 
-![pre-chat form default](/assets/img/docs/configurable-parts/pre-chat-form-default.png)
+![pre-chat form default](/assets/img/docs/customization/pre-chat-form/pre-chat-form-default.png)
 
 ## Pre-chat form with textinput
 
@@ -52,13 +52,13 @@ _smartsupp.loginControls = [
 ];
 ```
 
-![pre-chat form default](/assets/img/docs/configurable-parts/pre-chat-form-with-text-input.png)
+![pre-chat form default](/assets/img/docs/customization/pre-chat-form/pre-chat-form-with-text-input.png)
 
 ## Pre-chat form with select
 
 You can use this customization if you have more groups (departments) like: _Support, Marketing, Sales_, etc.
 
-![pre-chat form with select](/assets/img/docs/configurable-parts/pre-chat-form-with-select.png)
+![pre-chat form with select](/assets/img/docs/customization/pre-chat-form/pre-chat-form-with-select.png)
 
 ```js
 _smartsupp.loginControls = [
@@ -83,7 +83,7 @@ _smartsupp.loginControls = [
 
 This can be useful in case you need your visitors to confirm something before they start chat.
 
-![pre-chat form with checkbox](/assets/img/docs/configurable-parts/pre-chat-form-with-checkbox.png)
+![pre-chat form with checkbox](/assets/img/docs/customization/pre-chat-form/pre-chat-form-with-checkbox.png)
 
 ```js
 _smartsupp.loginControls = [

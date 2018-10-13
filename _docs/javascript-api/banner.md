@@ -3,44 +3,94 @@ title: "Banner"
 subtitle: "Customize chat bubble."
 ---
 
-You can set different chat bubble to several domains.
+You can set different designs to multiple domains across your site.
+
+Before you continue read about **Chat box design:** [Bubble types](/docs/examples/chat-box-design/#bubble-types).
+{: .callout .callout-info }
+
 
 ## banner:set
 
-Set new chat bubble: *arrow*, *bubble*, *image*
+Set new chat bubble type:
+
+1. `Bubble`
+2. `Arrow`
+3. `Image` (My Picture)
+
+
+### Bubble
+
+Set **Bubble type** to `Bubble`.
+
+```js
+<script>
+  function setBubbleBanner() {
+    smartsupp('banner:set', 'bubble');
+  }
+</script>
+```
+
+This is only *very basic and bare* example to give you idea how to implement it.
+
+```html
+<a href="javascript:setBubbleBanner()">bubble</a>
+```
+
+### Arrow
+
+Set **Bubble type** to `Arrow`.
 
 ```js
 <script>
   function setArrowBanner() {
     smartsupp('banner:set', 'arrow');
   }
-  function setBubbleBanner() {
-    smartsupp('banner:set', 'bubble');
-  }
+</script>
+```
+
+This is only *very basic and bare* example to give you idea how to implement it.
+
+```html
+<a href="javascript:setArrowBanner()">arrow</a>
+```
+
+### Image
+
+Set **Bubble type** to `Image` (My picture).
+
+```js
+<script>
   function setImageBanner() {
     smartsupp('banner:set', 'image', {
-    src: 'url_to_your_image/image.png'
+    src:'IMAGE_URL'
   });
   }
 </script>
+```
 
-<a href="javascript:setArrowBanner()">arrow</a>
-<a href="javascript:setBubbleBanner()">bubble</a>
+This is only *very basic and bare* example to give you idea how to implement it.
+
+```html
 <a href="javascript:setImageBanner()">image</a>
 ```
 
 ## banner:update
 
-Change setup of current chat bubble.
+Change setup of current chat bubble and its text.
 
 ```js
 <script>
   function updateBannerText(text) {
     smartsupp('banner:set', 'bubble');
-    smartsupp('banner:update', { text: text });
+    smartsupp('banner:update', {
+      text: Welcome!
+    });
   });
 </script>
+```
 
-<a href="javascript:updateBannerText('Welcome')">Welcome</a>
-<a href="javascript:updateBannerText('This chat is awesome')">This chat is awesome</a>
+This is only *very basic and bare* example to give you idea how to implement it.
+
+```html
+<a href="javascript:updateBannerText('welcome')">welcome</a>
 ```

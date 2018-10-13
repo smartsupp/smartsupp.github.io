@@ -13,7 +13,7 @@ This is option is displayed by default. It shows a button which sends transcript
 _smartsupp.sendEmailTanscript = true;
 ```
 
-![transcript enabled](/assets/img/docs/configurable-parts/transcript-enabled.png)
+![transcript enabled](/assets/img/docs/customization/email-transcript/transcript-enabled.png)
 
 ## Transcript disabled
 
@@ -23,4 +23,4 @@ If you do not need this feature in your chat box you can disable it.
 _smartsupp.sendEmailTanscript = false;
 ```
 
-![transcript disabled](/assets/img/docs/configurable-parts/transcript-disabled.png)
+![transcript disabled](/assets/img/docs/customization/email-transcript/transcript-disabled.png)

@@ -13,7 +13,7 @@ You can display feedback icons.
 _smartsupp.ratingEnabled = true;
 ```
 
-![rating simple](/assets/img/docs/configurable-parts/rating-simple.gif)
+![rating simple](/assets/img/docs/customization/rating-window/rating-simple.gif)
 
 ## Rating with a comment
 
@@ -23,4 +23,4 @@ You can display feedback icons including text area for a comment.
 _smartsupp.ratingComment = true;
 ```
 
-![rating with comment](/assets/img/docs/configurable-parts/rating-with-comment.gif)
+![rating with comment](/assets/img/docs/customization/rating-window/rating-with-comment.gif)

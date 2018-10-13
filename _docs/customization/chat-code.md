@@ -38,7 +38,7 @@ _smartsupp.cookieDomain = ".your-domain.com";
 
 ## Hide chat box on certain pages
 
-You can hide chat box on certain pages by setting the variable `hideWidget` in your code.
+You can hide chat box on certain pages by setting the variable `hideWidget` or `hideMobileWidget` in your code.
 
 ```js
 _smartsupp.hideWidget = true; // use on specific pages
@@ -54,7 +54,7 @@ _smartsupp.privacyNoticeEnabled = false; // privacy notice visibility in chat wi
 _smartsupp.privacyNoticeUrl = "https://"; // URL of your privacy page
 ```
 
-## Advanced settings
+## Custom settings
 
 Use any of these API settings if you want to disable text area and send button, auto messages, sounds for visitors or hide chat bubble.
 
@@ -71,4 +71,13 @@ This API code allows you to set when to show mobile chat box.
 
 ```js
 _smartsupp.smallDeviceMinWidth = 641; // screen width in pixels when mobile chat box is shown
+```
+
+
+## Chat box position
+
+By default chat box is displayed in the screen bottom `right` corner. You can change its position.
+
+```js
+_smartsupp.alignX = "left";
 ```

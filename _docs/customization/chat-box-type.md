@@ -3,24 +3,27 @@ title: "Chat box type"
 subtitle: "Choose what type of chat box you want."
 ---
 
-We supports 2 chat box layouts: `widget` and `button`. You can choose default behaviour for your chat.
+Choose default look of your chat box. We supports 2 types: `widget` and `button`.
 
-## Layout: Widget
+Need more options and flexibility? Read our [Theme](/docs/javascript-api/theme/#themeoptions) section.
+{: .callout .callout-info }
 
-This layout is shown on _desktop_ by default.
+## Type: Widget
+
+This type is shown on _desktop_ by default.
 
 ```js
 _smartsupp.widget = "widget";
 ```
 
-![chat box layout widget](/assets/img/docs/configurable-parts/chat-box-layout-widget.png)
+![chat box type widget](/assets/img/docs/customization/chat-box-type/chat-box-type-widget.png)
 
-## Layout: Button
+## Type: Button
 
-This layout is shown on _mobile_ by default.
+This type is shown on _mobile_ by default.
 
 ```js
 _smartsupp.widget = "button";
 ```
 
-![chat box layout button](/assets/img/docs/configurable-parts/chat-box-layout-button.png)
+![chat box type button](/assets/img/docs/customization/chat-box-type/chat-box-type-button.png)

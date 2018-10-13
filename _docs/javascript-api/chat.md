@@ -3,6 +3,8 @@ title: "Chat"
 subtitle: "Adjust chat behaviour."
 ---
 
+Change how chat box behaves, define messages to be send or set your language.
+
 ## chat:translate
 
 Currently we support 40 languages. You can set caht box language or translate and adjust specific texts to fit your needs. See full list and settings at page [Multilanguage chat box](/docs/examples/multilanguage-chat-box/).

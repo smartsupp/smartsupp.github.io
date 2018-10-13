@@ -65,3 +65,6 @@ examples:
 - title: Export chat to 3rd party system
   subtitle: Send a copy of all chat conversations to your server.
   url: /docs/examples/export-chat-to-3rd-party-system/
+- title: HTML API
+  subtitle: No complicated coding needed.
+  url: /docs/examples/html-api/

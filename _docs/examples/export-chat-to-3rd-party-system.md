@@ -127,7 +127,7 @@ $json = json_decode($data);
 }
 ```
 
-## Request values
+### Request values
 
 Browse available request values.
 

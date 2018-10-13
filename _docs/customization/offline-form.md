@@ -15,6 +15,9 @@ Hide default input: `name`
 _smartsupp.offlineNameControl = false;
 ```
 
+Offline form can use **theme:options**. Learn more in [Theme](/docs/javascript-api/theme/#themeoptions) section.
+{: .callout .callout-info }
+
 If your form has more fields, scrollbar automatically appears in chat box, but you can always set offline chat box `offlineHeight` to show all fields without scrollbar. Put this as 2nd script below your main Smartsupp chat code. Adjust size as you need (default height is `420`).
 
 ```js
@@ -25,9 +28,9 @@ If your form has more fields, scrollbar automatically appears in chat box, but y
 </script>
 
 <script>
-smartsupp('theme:options', {
-  offlineHeight: 420
-});
+  smartsupp('theme:options', {
+    offlineHeight: 420
+  });
 </script>
 ```
 
@@ -41,7 +44,7 @@ smartsupp('theme:options', {
 
 Offline form will show each time you change your status in Dashboard from Online => Offline.
 
-![offline form](/assets/img/docs/configurable-parts/offline-form.png)
+![offline form](/assets/img/docs/customization/offline-form/offline-form.png)
 
 ## Offline form with textinput
 
@@ -66,7 +69,7 @@ _smartsupp.offlineControls = [
 ];
 ```
 
-![offline form default](/assets/img/docs/configurable-parts/offline-form-with-text-input.png)
+![offline form default](/assets/img/docs/customization/offline-form/offline-form-with-text-input.png)
 
 ## Offline form with select
 
@@ -93,13 +96,13 @@ _smartsupp.offlineControls = [
 ];
 ```
 
-![offline form with select](/assets/img/docs/configurable-parts/offline-form-with-select.png)
+![offline form with select](/assets/img/docs/customization/offline-form/offline-form-with-select.png)
 
 ## Offline form with checkbox
 
 This can be useful in case you need your visitors to confirm something before they start chat. As this is offline form however we need to adjust the height just a bit. In this case we used `offlineHeight: 450` (30px bigger from default).
 
-![offline form with checkbox](/assets/img/docs/configurable-parts/offline-form-with-checkbox.png)
+![offline form with checkbox](/assets/img/docs/customization/offline-form/offline-form-with-checkbox.png)
 
 ```js
 _smartsupp.offlineControls = [
