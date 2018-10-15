@@ -7,7 +7,7 @@ When visitor ends conversation he can send transcript to email.
 
 ## Transcript enabled
 
-This is option is displayed by default. It shows a button which sends transcript to email.
+This option is displayed by default. It shows a button which sends transcript to email.
 
 ```js
 _smartsupp.sendEmailTanscript = true;

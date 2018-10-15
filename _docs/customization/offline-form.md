@@ -7,7 +7,7 @@ Offline form is useful outside regular office or business hours.
 
 ## Default inputs
 
-Default fields are `name` and `email`. **Email is always required** but the field `name` can be disabled. Message is not modifiable through API. You can add custom fields by setting property `offlineControls`. All values are sent visible in email to address specified in Dashboard. It's not possible to specify emails through API.
+Default fields are `name` and `email`. **Email is always required** but the field `name` can be disabled. Message is not modifiable through API. You can add custom fields by setting property `offlineControls`. All email messages from offline form are sent to email you set in **Dashboard > General > [Offline messages](https://www.smartsupp.com/app/settings/general/offline-emails)**.
 
 Hide default input: `name`
 

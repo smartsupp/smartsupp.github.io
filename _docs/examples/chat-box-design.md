@@ -20,7 +20,7 @@ We provide 3 types:
 
 ### Bubble
 
-Dashboard settings is **Bubble type:** `Bubble`. You can set your own text. 
+Dashboard settings is **Bubble type:** `Bubble`. You can set your own text.
 
 ![chat type bubble](/assets/img/docs/examples/chat-box-design/chat-type-bubble.png)
 
@@ -114,8 +114,8 @@ We change banner, texts and colors in **Online** state and only one text, title 
 </script>
 ```
 
-![design 01 online](/assets/img/docs/examples/box-design-design/design-01-online.gif)
-![design 01 offline](/assets/img/docs/examples/box-design-design/design-01-offline.png)
+![design 01 online](/assets/img/docs/examples/chat-box-design/design-01-online.gif)
+![design 01 offline](/assets/img/docs/examples/chat-box-design/design-01-offline.png)
 
 ### Website 2
 
@@ -142,7 +142,7 @@ No custom banner, same texts but different colors.
 </script>
 ```
 
-![design 02 different colors](/assets/img/docs/examples/box-design-design/design-02-diffrent-colors.gif)
+![design 02 different colors](/assets/img/docs/examples/chat-box-design/design-02-diffrent-colors.gif)
 
 ## Chat box colors based on status
 
@@ -166,4 +166,4 @@ Chat box colors can change based on chat status if set to **Online** or **Offlin
 </script>
 ```
 
-![colors status online offline](/assets/img/docs/examples/box-design-design/colors-status-online-offline.gif)
+![colors status online offline](/assets/img/docs/examples/chat-box-design/colors-status-online-offline.gif)
