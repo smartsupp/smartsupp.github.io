@@ -79,6 +79,10 @@ article h4 {
   display: none;
 }
 
+.home-docs {
+  background: $o_grey_50;
+}
+
 .home-docs,
 .docs {
   padding-top: 135px;
@@ -168,6 +172,25 @@ article h4 {
 
 .card-subtitle {
   color: $o_grey_500;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+.card:hover .card-subtitle {
+  color: $o_grey_600;
+}
+
+img.center {
+  display: block;
+  margin: 20px auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.card:hover img.center {
+    -webkit-filter: none;
+    filter: none;
 }
 
 .section-footer .container {
@@ -181,17 +204,17 @@ article h4 {
 }
 
 .docs-index .card {
-  border: dashed 1px $o_grey_100;
+  border: dashed 1px $o_grey_300;
   background-color: $o_white;
   border-radius: 2px;
   margin: 0 0 10px 0;
   min-height: 185px;
-  -webkit-transition: background-color .5s ease;
-  transition: background-color .5s ease;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 .docs-index .card:hover {
-  background-color: $o_grey_100;
+  border-color: $o_grey_600;
 }
 
 .docs-index .h2 {
@@ -218,22 +241,23 @@ article h4 {
 }
 
 .category .card {
-  border: dashed 1px $o_grey_100;
+  border: dashed 1px $o_grey_300;
   background-color: $o_white;
   border-radius: 2px;
   margin: 0 0 10px 0;
   min-height: 85px;
-  -webkit-transition: background-color .5s ease;
-  transition: background-color .5s ease;
-}
-
-.category .card .card-header:last-child {
-  padding: .2rem .6rem .6rem .6rem;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 .category .card:hover {
-  background-color: $o_grey_100;
+  border-color: $o_grey_600;
 }
+
+.category .card .card-header:last-child {
+  padding: .2rem 1rem .6rem 1rem;
+}
+
 
 // Docs (FAQ)
 
@@ -248,30 +272,39 @@ article h4 {
 .faq ul {
   list-style: none;
   margin: 0;
-  padding: 10px 15px;
-  background-color: $o_grey_50;
+  padding: 3px 0;
+  background-color: $o_white;
+  border: 1px dashed $o_grey_300;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.faq ul:hover {
+  border-color: $o_grey_600;
 }
 
 .faq li a {
   display: inline-block;
-  padding: 3px 3px 3px 5px;
+  padding: 2px 15px;
   width: 100%;
-  border: 1px dashed $o_grey_50;
+  border: 1px dashed $o_white;
 }
 
 .faq li a:hover {
   text-decoration: none;
-  border-color: $o_grey_300;
+  background: $o_white_2;
 }
 
 .faq li a::before {
   content: "•";
-  color: $o_grey_500;
+  color: $o_grey_300;
   margin-right: 5px;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 .faq li a:hover::before {
-  color: $o_blue_grey_900;
+  color: $o_grey_600;
 }
 
 // ANCHORS 
@@ -325,7 +358,6 @@ tr {
 }
 
 td {
-  // word-break: break-all;
   overflow: hidden;
   text-overflow: ellipsis;
 }

@@ -34,4 +34,5 @@
 
 .breadcrumb .breadcrumb-item:not(:first-child)::before {
   color: $o_grey_300;
+  content: "";
 }
