@@ -81,3 +81,9 @@ By default chat box is displayed in the screen bottom `right` corner. You can ch
 ```js
 _smartsupp.alignX = "left";
 ```
+
+You can also offset chat box if you need using `offsetX` and number sets distance in pixels on the X axis from default position.
+
+```js
+_smartsupp.offsetX = 100;
+```

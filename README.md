@@ -1,4 +1,4 @@
-# Smartsupp Developer Docs
+# Developer Docs
 
 Read our [Docs](https://smartsupp.github.io/docs/) for [Smartsupp.com](https://www.smartsupp.com/) or have a look at landing page for [smartsupp.github.io](https://smartsupp.github.io/).
 
