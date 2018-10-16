@@ -47,7 +47,7 @@ _smartsupp.hideMobileWidget = true; // hide chat box on mobile devices
 
 ## Privacy notice
 
-You can manually enable or disable privacy notice in chat box. Also you can specify custom url for your own privacy page. This could be useful when you are using Smartsupp chat across several sites.
+You can manually enable or disable privacy notice in your chat box. Also you can specify custom url for your own privacy page. This could be useful when you are using Smartsupp chat across several sites.
 
 ```js
 _smartsupp.privacyNoticeEnabled = false; // privacy notice visibility in chat widget
