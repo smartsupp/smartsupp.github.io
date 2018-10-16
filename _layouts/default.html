@@ -19,20 +19,21 @@
 
           <article>
 
-            <div id="toc-article" class="toc">
-              <h5>Contents</h5>
-              {% assign my_min = page.toc_min | default: site.toc_min | default: 2 %}
-              {% assign my_max = page.toc_max | default: site.toc_max | default: 3 %}
-              {% include docs/toc.html html=content h_min=my_min h_max=my_max %}
-            </div>
-
             <div class="title-block">
               <h1 id="{{ page.title | slugify }}">{% if page.custom_title != null %}{{ page.custom_title }}{% else %}{{
                 page.title }}{% endif %}</h1>
               <p class="page-subtitle">{{ page.subtitle }}</p>
-
             </div>
             <!-- title-block -->
+            
+            <p>{{ page.description }}</p>
+
+            <div id="toc-article" class="toc">
+              <h5>Navigation</h5>
+              {% assign my_min = page.toc_min | default: site.toc_min | default: 2 %}
+              {% assign my_max = page.toc_max | default: site.toc_max | default: 3 %}
+              {% include docs/toc.html html=content h_min=my_min h_max=my_max %}
+            </div>
 
             {{ content }}
 

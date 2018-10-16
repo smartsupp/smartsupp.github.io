@@ -62,9 +62,9 @@ examples:
 - title: Chat box design
   subtitle: Advanced chat box customization.
   url: /docs/examples/chat-box-design/
-- title: Export chat to 3rd party system
+- title: Export to 3rd party system
   subtitle: Send a copy of all chat conversations to your server.
-  url: /docs/examples/export-chat-to-3rd-party-system/
+  url: /docs/examples/export-to-3rd-party-system/
 - title: HTML API
   subtitle: No complicated coding needed.
   url: /docs/examples/html-api/

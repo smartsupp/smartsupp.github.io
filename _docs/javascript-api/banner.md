@@ -17,80 +17,95 @@ Set new chat bubble type:
 2. `Arrow`
 3. `Image` (My Picture)
 
-
 ### Bubble
 
-Set **Bubble type** to `Bubble`.
+Set **Bubble type:** `Bubble`.
 
 ```js
 <script>
-  function setBubbleBanner() {
-    smartsupp('banner:set', 'bubble');
-  }
+  smartsupp('banner:set', 'bubble');
 </script>
-```
-
-This is only *very basic and bare* example to give you idea how to implement it.
-
-```html
-<a href="javascript:setBubbleBanner()">bubble</a>
 ```
 
 ### Arrow
 
-Set **Bubble type** to `Arrow`.
+Set **Bubble type:** `Arrow`.
 
 ```js
 <script>
-  function setArrowBanner() {
-    smartsupp('banner:set', 'arrow');
-  }
+  smartsupp('banner:set', 'arrow');
 </script>
-```
-
-This is only *very basic and bare* example to give you idea how to implement it.
-
-```html
-<a href="javascript:setArrowBanner()">arrow</a>
 ```
 
 ### Image
 
-Set **Bubble type** to `Image` (My picture).
+Set **Bubble type:** `Image` (My picture).
 
 ```js
 <script>
-  function setImageBanner() {
-    smartsupp('banner:set', 'image', {
-    src:'IMAGE_URL'
+  smartsupp('banner:set', 'image', {
+    src: 'IMAGE_URL'
   });
-  }
 </script>
-```
-
-This is only *very basic and bare* example to give you idea how to implement it.
-
-```html
-<a href="javascript:setImageBanner()">image</a>
 ```
 
 ## banner:update
 
-Change setup of current chat bubble and its text.
+You can update texts based on events that fit your needs.
+
+### Bubble
+
+Update texts for **Bubble type:** `Bubble`.
 
 ```js
 <script>
-  function updateBannerText(text) {
-    smartsupp('banner:set', 'bubble');
-    smartsupp('banner:update', {
-      text: Welcome!
-    });
+  smartsupp('banner:set', 'bubble');
+  smartsupp('banner:update', {
+    text: 'Welcome!'
   });
 </script>
 ```
 
-This is only *very basic and bare* example to give you idea how to implement it.
+### Arrow
 
-```html
-<a href="javascript:updateBannerText('welcome')">welcome</a>
+Update texts for **Bubble type:** `Arrow`.
+
+```js
+<script>
+  smartsupp('banner:set', 'arrow');
+  smartsupp('banner:update', {
+    title: 'Welcome!',
+    desc: 'We are here to help.'
+  });
+</script>
+```
+
+### Image
+
+Information and example how to *update* banner **Bubble type:** `Image` (My picture) is in section below.
+
+## Banner based on status
+
+Different banner can be used based on chat status if set to **Online** or **Offline**. By default banner is shown in **Online** status only. Using API below you can show banner in **Offline** status as well.
+
+```js
+_smartsupp.hideOfflineBanner = false;
+```
+
+Once you show banner you can use code below to change it based on status. This example is best used in case you display 2 different images. One for **Online** and other image for **Offline** status.
+
+```js
+<script>
+  smartsupp('on', 'status', function (status) {
+    if (status == 'online' || status == 'away') {
+      smartsupp('banner:set', 'image', {
+        src: 'IMAGE_1_URL' // online
+      });
+    } else {
+      smartsupp('banner:set', 'image', {
+        src: 'IMAGE_2_URL' // offline
+      });
+    }
+  });
+</script>
 ```

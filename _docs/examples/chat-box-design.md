@@ -75,7 +75,7 @@ Our example end result will look like this.
 ```js
 <script>
 smartsupp('banner:set', 'image', {
-  src:'IMAGE_URL'
+  src: 'IMAGE_URL'
 })
 </script>
 ```

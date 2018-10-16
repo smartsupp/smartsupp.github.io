@@ -1,5 +1,5 @@
 ---
-title: "Export chat to 3rd party system"
+title: "Export to 3rd party system"
 subtitle: "Send a copy of all chat conversations to your server."
 ---
 
@@ -7,7 +7,7 @@ You can easily export Smartsupp communication to a 3rd party system of your choi
 
 ## How it works
 
-Copy of all finished chat conversations, missed conversations and offline messages is sent in JSON format in real-time to a URL of your choice. You can then process all Smartsupp conversations on your server and import it to a 3rd party system of your choice (CRM, help desk etc.).
+Copy of all finished chat conversations, missed conversations and offline messages is sent in JSON format in real-time to a URL of your choice. You can then process all Smartsupp conversations on your server and export it to a 3rd party system of your choice (CRM, help desk, ...).
 
 ## Activate POST hook
 
