@@ -31,11 +31,20 @@
 }
 
 @media (max-width: 960px) {
+  .navbar .search {
+    display: block;
+  }
+  .docs-nav .search {
+    display: none;
+  }
   .docs-navbar {
     border-bottom: 1px solid $o_grey_300;
   }
   .docs-sidebar .docs-nav {
     top: 92px;
+  }
+  .docs-sidebar .docs-nav h5 {
+    margin: 30px 0 5px 7px;
   }
   .docs-sidebar .menu .menu-item>a {
     padding: .2rem .4rem;
@@ -80,10 +89,6 @@
 }
 
 @media (max-width: 840px) {
-  #search {
-    width: 300px;
-  }
-
   .faq ul {
     padding: 0 15px;
   }
@@ -106,37 +111,21 @@
   .docs-content .column {
     padding-right: 40px;
   }
-
-  #search {
-    width: 250px;
+  .intro .search {
+    width: 100%;
   }
-
   #btt {
     right: 32px;
   }
 }
 
 @media (max-width: 700px) {
-  #logo {
-    margin-right: 60px;
-  }
-
-  #logo a::after {
-    display: none;
-  }
-
-  #search {
-    width: 280px;
-  }
+// add CSS if needed
 }
 
 @media (max-width: 600px) {
   .off-canvas .off-canvas-toggle {
     left: 1.5rem;
-  }
-
-  #search {
-    width: 180px;
   }
 
   // TABLES 
@@ -187,11 +176,16 @@
 
 @media (max-width: 520px) {
   #logo {
-    margin-right: 60px;
+    margin-right: 175px;
   }
-  
+
   #logo a::after {
-    display: none;
+    display: block;
+    left: 50px;
+    content: "Smartsupp Docs";
+    width: 125px;
+    font-weight: 700;
+    color: $o_grey_600;
   }
 
   .page .nav-logo,
@@ -200,10 +194,6 @@
     background: url("../img/logo/smartsupp-small.svg");
     width: 40px;
     height: 29px;
-  }
-
-  #search {
-    width: 220px;
   }
   
   #btt {
@@ -225,9 +215,7 @@
 }
 
 @media (max-width: 480px) {
-  #search {
-    width: 180px;
-  }
+// add CSS if needed
 }
 
 // = MOBILE = 
@@ -235,10 +223,6 @@
 @media (max-width: 425px) {
   #nav-menu {
     display: none;
-  }
-
-  #search {
-    width: 300px;
   }
 
   .section-footer {
@@ -253,16 +237,10 @@
 }
 
 @media (max-width: 375px) {
-  #search {
-    width: 265px;
-  }
+// add CSS if needed
 }
 
 @media (max-width: 320px) {
-    #search {
-      width: 210px;
-    }
-  
   .section-footer span {
     display: none;
   }

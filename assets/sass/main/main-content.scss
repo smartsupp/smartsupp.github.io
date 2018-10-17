@@ -74,8 +74,7 @@ article h4 {
 }
 
 .home-github #logo a::after,
-.home-github #nav-menu,
-.home-github #search {
+.home-github #nav-menu {
   display: none;
 }
 
@@ -203,6 +202,31 @@ img.center {
  margin-bottom: 30px;
 }
 
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  margin-bottom: 0;
+}
+
+.intro .search {
+  width: 700px;
+  text-align: center;
+  margin: 30px auto 50px auto;
+}
+
+.intro .search .form-input {
+  background: $o_white;
+  padding: 22px;
+  font-size: 18px;
+}
+
+.intro .search .form-input:focus {
+  -webkit-box-shadow: 0 0 0 6px rgba(70, 147, 224, .2);
+  box-shadow: 0 0 0 6px rgba(70, 147, 224, .2);
+}
+
 .docs-index .card {
   border: dashed 1px $o_grey_300;
   background-color: $o_white;
@@ -230,10 +254,6 @@ img.center {
 
 .docs-index .card-title p {
   padding-bottom: 20px;
-}
-
-.intro {
-  text-align: center;
 }
 
 // Docs (categories)

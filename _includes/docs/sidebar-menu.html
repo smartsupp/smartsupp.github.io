@@ -7,7 +7,9 @@
 <div id="sidebar" class="docs-sidebar off-canvas-sidebar">
 <!-- SHOW: sidebar + overlay -->
   <div class="docs-nav">
-    
+
+    {% include search/field.html %}
+
     <h5>Contents</h5>
     <ul class="menu">
     {% if page.url contains '/docs/customization/' %}
