@@ -1,9 +1,8 @@
 ---
 title: "Chat box design"
-subtitle: "Advanced chat box customization."
+subtitle: "Adjust texts, colors and logo on single or multiple domains."
+description: "Create different chat box designs and use this API for different departments or sections on your website."
 ---
-
-You can adjust texts, colors and banner (logo) as you need. This is useful when you want to create different chat box designs accross several domains. This can also be used for different departments or sections on your website.
 
 To better understand examples below read [Theme](/docs/javascript-api/theme/) and [Multilanguage chat box](/docs/examples/multilanguage-chat-box/) before you continue.
 {: .callout .callout-info }

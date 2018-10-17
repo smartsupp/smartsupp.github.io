@@ -1,9 +1,8 @@
 ---
 title: "Export to 3rd party system"
 subtitle: "Send a copy of all chat conversations to your server."
+description: "You can easily export Smartsupp communication to a 3rd party system of your choice."
 ---
-
-You can easily export Smartsupp communication to a 3rd party system of your choice.
 
 ## How it works
 

@@ -1,9 +1,8 @@
 ---
 title: "Banner"
 subtitle: "Customize chat bubble."
+description: "You can set different designs to multiple domains across your site."
 ---
-
-You can set different designs to multiple domains across your site.
 
 Before you continue read about **Chat box design:** [Bubble types](/docs/examples/chat-box-design/#bubble-types).
 {: .callout .callout-info }

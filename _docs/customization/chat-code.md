@@ -1,11 +1,10 @@
 ---
 title: "Chat code"
 subtitle: "Change modify parts of chat box and its behavior."
+description: "Smartsupp chat asynchronous API modifies chat box features, behavior, design, languages, customer info and pre-chat."
 ---
 
-Smartsupp chat API allows you to modify your chat box features, behavior, design, choose multiple languages, display customer info, configure pre-chat form to your needs and more. API is asynchronous so you can call it anywhere in page.
-
-If you did not install [Smartsupp Chat Code](https://www.smartsupp.com/help/smartsupp-chat-code/){:target='\_blank'} read our tutorial first.
+If you did not install [Smartsupp Chat Code](https://www.smartsupp.com/help/smartsupp-chat-code/){:target='\_blank'} on your site yet read our tutorial first.
 {: .callout .callout-info }
 
 ## Configuration

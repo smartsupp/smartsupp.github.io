@@ -1,9 +1,8 @@
 ---
 title: "Events"
 subtitle: "Use to further customize your chat."
+description: "Events are important if you need to know about statistics and how is chat used."
 ---
-
-Events are important if you need to know about statistics and how is chat used.
 
 ## agent.join
 

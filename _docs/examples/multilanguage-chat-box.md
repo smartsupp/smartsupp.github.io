@@ -1,9 +1,8 @@
 ---
 title: "Multilanguage chat box"
-subtitle: "Choose language to fit your business."
+subtitle: "Choose a language to fit your business."
+description: "Set up different chat box localization for every language mutation of your website."
 ---
-
-Set up different chat box localization for every language mutation of your website.
 
 ## Chat box language
 

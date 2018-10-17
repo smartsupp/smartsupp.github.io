@@ -1,9 +1,8 @@
 ---
 title: "Customer info"
-subtitle: "Display additional information about your customers."
+subtitle: "Display additional info about your customers."
+description: "Your chat agents can see different info (name, email, spending, ...) when chatting with your customer and thus provide better support."
 ---
-
-Do you have eCommerce website or web application? Show info about customers (in Smartsupp dashboard) who are signed in on your site or app (name, email, spending and more). Your chat agents can see all this info while chatting with your customer.
 
 You need a connection to _your site or app user database_ to pull data from in order for API to work.
 {: .callout .callout-warning }

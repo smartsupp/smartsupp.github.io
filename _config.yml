@@ -55,7 +55,7 @@ defaults:
       path: "_docs"
       type: "docs" # created in collections
     values:
-      layout: "default"
+      layout: "article"
       lang: "en"
       custom_title: null # add custom title variable in docs article if needed
 

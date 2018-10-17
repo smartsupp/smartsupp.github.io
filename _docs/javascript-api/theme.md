@@ -1,9 +1,8 @@
 ---
 title: "Theme"
 subtitle: "Create your own design and set colors."
+description: "You can set your own dimensions to chat box in different states and adjust colors to fit your branding."
 ---
-
-You can set your own dimensions to chat box in different states and adjust colors to fit your branding.
 
 ## theme:options
 

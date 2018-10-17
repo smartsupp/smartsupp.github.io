@@ -1,9 +1,8 @@
 ---
 title: "Optional email transcript"
 subtitle: "Send copy of chat conversation."
+description: "When visitor ends conversation he can send transcript to email."
 ---
-
-When visitor ends conversation he can send transcript to email.
 
 ## Transcript enabled
 

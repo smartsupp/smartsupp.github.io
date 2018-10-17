@@ -1,9 +1,8 @@
 ---
 title: "HMTL API"
 subtitle: "No complicated coding needed."
+description: "Simple API based on HTML attributes without the need for extra coding knowledge."
 ---
-
-Simple API based on HTML attributes without the need for extra coding knowledge.
 
 ## Open chat
 

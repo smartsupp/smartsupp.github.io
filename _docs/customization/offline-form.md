@@ -1,9 +1,8 @@
 ---
 title: "Offline form"
 subtitle: "Customize offline form fields."
+description: "Offline form is useful outside regular office or business hours."
 ---
-
-Offline form is useful outside regular office or business hours.
 
 ## Default inputs
 

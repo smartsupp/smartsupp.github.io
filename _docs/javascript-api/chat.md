@@ -1,9 +1,8 @@
 ---
 title: "Chat"
 subtitle: "Adjust chat behaviour."
+description: "Change how chat box behaves, define messages to be send or set your language."
 ---
-
-Change how chat box behaves, define messages to be send or set your language.
 
 ## chat:translate
 

@@ -1,9 +1,8 @@
 ---
 title: "Visitor"
 subtitle: "Set basic visitor info."
+description: "This API comes in handy when you need to modify your visitor info."
 ---
-
-This API comes in handy when you need to modify your visitor info.
 
 ## name
 

@@ -20,7 +20,7 @@ customization:
   subtitle: Allow visitors to rate your support.
   url: /docs/customization/rating-window/
 - title: Chat box type
-  subtitle: Choose what type of chat box you want.
+  subtitle: Change the look of your chat box.
   url: /docs/customization/chat-box-type/
 - title: Google Analytics
   subtitle: Integrate and send data to your account.
@@ -37,7 +37,7 @@ chat:
   subtitle: Adjust chat behaviour.
   url: /docs/javascript-api/chat/
 - title: Theme
-  subtitle: Set chat box colors and design.
+  subtitle: Create your own design and set colors.
   url: /docs/javascript-api/theme/
 - title: Banner
   subtitle: Customize chat bubble.
@@ -54,13 +54,13 @@ docs_list_title: Examples
 examples:
 
 - title: Multilanguage chat box
-  subtitle: Choose language to fit your business.
+  subtitle: Choose a language to fit your business.
   url: /docs/examples/multilanguage-chat-box/
 - title: Customer info
-  subtitle: Display additional information about your customers.
+  subtitle: Display additional info about your customers.
   url: /docs/examples/customer-info/
 - title: Chat box design
-  subtitle: Advanced chat box customization.
+  subtitle: Adjust texts, colors and logo on single or multiple domains.
   url: /docs/examples/chat-box-design/
 - title: Export to 3rd party system
   subtitle: Send a copy of all chat conversations to your server.

@@ -1,9 +1,8 @@
 ---
 title: "Video recordings"
 subtitle: "You can see what visitors do on your website."
+description: "With video recordings you will see what visitors and customers do and thus help them better."
 ---
-
-With video recordings you will see what visitors and customers do and thus help them better.
 
 **Protection of sensitive customer data** If visitors enter sensitive data (e.g. credit card numbers, visible passwords) on your website, you should exclude this data from the recording by masking forms and inputs.
 {: .callout .callout-warning }

@@ -1,9 +1,8 @@
 ---
 title: "Pre-chat form"
 subtitle: "Make conversations easier for your support staff."
+description: "When chat is online visitor can write a message. Pre-chat form will show right after visitor sends first message."
 ---
-
-When chat is online visitor can write a message. Pre-chat form will show right after visitor sends first message.
 
 ## Default inputs
 

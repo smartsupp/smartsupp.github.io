@@ -1,9 +1,8 @@
 ---
 title: "Rating window"
 subtitle: "Allow visitors to rate your support."
+description: "After visitor ends conversation a rating is displayed. You can add a text box for visitor to write a comment."
 ---
-
-After visitor ends conversation a rating is displayed. You can add a text box for visitor to write a comment.
 
 ## Simple rating
 
