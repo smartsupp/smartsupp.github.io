@@ -40,8 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (docsImgs.length > 0) {
     _filter.call(docsImgs, function(img) {
-      var width = img.offsetWidth;
-      img.setAttribute('style', 'width: 100%; max-width: ' + width + 'px;');
+      img.onload = function() {
+        var width = img.offsetWidth;
+        img.setAttribute('style', 'width: 100%; max-width: ' + width + 'px;');
+      }
     })
   }
 });
