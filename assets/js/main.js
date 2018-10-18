@@ -31,3 +31,17 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// RESPONSIVE IMAGES
+
+document.addEventListener('DOMContentLoaded', function() {
+  var docsImgs = document.querySelectorAll('.docs img');
+  var _filter = Array.prototype.filter;
+
+  if (docsImgs.length > 0) {
+    _filter.call(docsImgs, function(img) {
+      var width = img.offsetWidth;
+      img.setAttribute('style', 'width: 100%; max-width: ' + width + 'px;');
+    })
+  }
+});
