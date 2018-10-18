@@ -12,7 +12,7 @@
 
     <h5>Contents</h5>
     <ul class="menu">
-    {% if page.url contains '/docs/customization/' %}
+    {% if page.url contains site.ca_url_customization %}
       {% for item in site.data.articles.customization %}
       <li class="menu-item {% if item.url == page.url %}active{% endif %}">
         <a href="{{ item.url }}">{{ item.title }}</a>
@@ -20,7 +20,7 @@
       {% endfor %}
     {% endif %}
     
-    {% if page.url contains '/docs/javascript-api/' %}
+    {% if page.url contains site.ca_url_javascript_api %}
       {% for item in site.data.articles.chat %}
         <li class="menu-item {% if item.url == page.url %}active{% endif %}">
           <a href="{{ item.url }}">{{ item.title }}</a>
@@ -28,7 +28,7 @@
       {% endfor %}
     {% endif %}
 
-    {% if page.url contains '/docs/examples/' %}
+    {% if page.url contains site.ca_url_examples %}
       {% for item in site.data.articles.examples %}
       <li class="menu-item {% if item.url == page.url %}active{% endif %}">
         <a href="{{ item.url }}">{{ item.title }}</a>
