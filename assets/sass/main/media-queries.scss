@@ -95,11 +95,23 @@
 
   .faq .first {
     padding-top: 15px;
+    border-bottom: none;
+  }
+  
+  .faq .second {
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  .faq .third {
+    padding-bottom: 15px;
+    border-top: none;
   }
 
-  .faq .last {
-    padding-bottom: 15px;
-  }
+.faq:hover ul {
+  border-color: $o_grey_600;
+}
+
 }
 
 // = TABLET = 
