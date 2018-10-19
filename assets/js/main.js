@@ -33,17 +33,23 @@ function topFunction() {
 }
 
 // RESPONSIVE IMAGES
+function setImgStyle(img) {
+  var width = img.offsetWidth;
+  img.setAttribute('style', 'width: 100%; max-width: ' + width + 'px;');
+}
 
 document.addEventListener('DOMContentLoaded', function() {
   var docsImgs = document.querySelectorAll('.docs img');
   var _filter = Array.prototype.filter;
 
   if (docsImgs.length > 0) {
-    _filter.call(docsImgs, function(img) {
+    _filter.call(docsImgs, function(img) {      
+      setImgStyle(img);
+
       img.onload = function() {
-        var width = img.offsetWidth;
-        img.setAttribute('style', 'width: 100%; max-width: ' + width + 'px;');
+        setImgStyle(img);
       }
+      
     })
   }
 });
