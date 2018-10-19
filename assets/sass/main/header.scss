@@ -24,8 +24,7 @@ header {
   -ms-flex-align: stretch;
   align-items: stretch;
   height: 72px;
-  -webkit-box-shadow: 0 1px 4px 0 rgba(117, 117, 117, 0.5);
-  box-shadow: 0 1px 4px 0 rgba(117, 117, 117, 0.5);
+  border-bottom: 1px solid $o_grey_300;
 }
 
 #logo {

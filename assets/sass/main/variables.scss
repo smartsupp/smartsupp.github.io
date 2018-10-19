@@ -16,15 +16,15 @@ sans-serif; // Basic web fallback
 // = COLORS = 
 
 // COMPANY
-$c_primary: #4693e0; // rgb(70, 147, 224)
-$c_secondary: #2ec09a; // rgb(46, 192, 154)
-$c_aqua: #3bddfb; // rgb(59, 221, 251)
-$c_sea: #1571ce; // rgb(21, 113, 206)
+$c_primary_lighter: #cbe1fa; // rgb(203, 225, 250)
+$c_primary_light: #b4d3f8; // rgb(180, 211, 248)
+$c_primary: #408fec; // rgb(64, 143, 236)
+$c_primary_dark: #1468cb; // rgb(20, 104, 203)
+$c_primary_darker: #0d4586; // rgb(13, 69, 134)
 
 // OTHER (CUSTOM)
 $o_white: #ffffff; // rgb(255, 255, 255)
 $o_white_2: #fffeff; // rgb(255, 254, 255)
-$o_greenish: #27a684; // rgb(39, 166, 132)
 
 // OTHER (MATERIAL DESIGN)
 $o_grey_50: #fafafa; // rgb(250, 250, 250)

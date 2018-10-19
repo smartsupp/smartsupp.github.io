@@ -12,18 +12,23 @@
 }
 
 .btn.btn-primary {
-  background: $c_secondary;
-  border: solid 1px $c_secondary;
+  background: $c_primary;
+  border: solid 1px $c_primary;
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-  background: $o_greenish;
-  border-color: $o_greenish;
+  background: $c_primary_dark;
+  border-color: $c_primary_dark;
 }
 
 .btn.btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.1rem rgba(39, 166, 132, .2);
-  box-shadow: 0 0 0 0.1rem rgba(39, 166, 132, .2);
+  -webkit-box-shadow: 0 0 0 0.1rem rgba(64, 143, 236, .2);
+  box-shadow: 0 0 0 0.1rem rgba(64, 143, 236, .2);
+}
+.btn.btn-white {
+  background: $o_white;
+  border: solid 1px $o_white;
+  color: $c_primary;
 }
