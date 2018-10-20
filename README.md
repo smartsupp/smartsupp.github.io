@@ -36,10 +36,6 @@ docker-compose up
 2. Update content or fix what you think is a bug.
 3. Create pull request.
 
-## Theme
-
-Using Jekyll based theme [Smart Docs](https://github.com/smartsupp/smart-docs/) which is under MIT license.
-
 ## License
 
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
