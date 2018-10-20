@@ -6,9 +6,7 @@
 <script src="/assets/js/min/plugins-min.js"></script>
 <script src="/assets/js/min/main-min.js"></script>
 
-{% unless url contains 'https' %}
-<p>Google Analytics and Smartlook scripts are not visible on localhost.</p>
-{% else %}
+{% if page.url contains site.github_username %}
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
@@ -27,4 +25,6 @@ c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c)
 })(document);
 smartlook('init', '{{ site.smartlook_recordings_heatmaps }}');
 </script>
-{% endunless %}
+{% else %}
+<p>Google Analytics and Smartlook scripts are not visible on localhost.</p>
+{% endif %}
