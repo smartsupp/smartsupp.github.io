@@ -77,7 +77,8 @@ plugins:
 
 ## Site variables
 title: "Smartsupp API"
-google_analytics: "UA-XXXXX-Y"
+google_analytics: "UA-40155471-3"
+smartlook_recordings_heatmaps: "d49100746188e1c96b748403c518e72e897d8748"
 github_username: smartsupp
 git_repo: smartsupp.github.io
 
