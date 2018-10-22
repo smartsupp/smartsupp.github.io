@@ -1,5 +1,5 @@
 ---
-title: "Visitor"
+title: "Visitor info"
 subtitle: "Set basic visitor info."
 description: "This API comes in handy when you need to modify your visitor info."
 ---

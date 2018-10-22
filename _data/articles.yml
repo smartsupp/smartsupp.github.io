@@ -30,9 +30,9 @@ customization:
 docs_list_title: JavaScript API
 chat:
 
-- title: Visitor
+- title: Visitor info
   subtitle: Set basic visitor info.
-  url: /docs/javascript-api/visitor/
+  url: /docs/javascript-api/visitor-info/
 - title: Chat
   subtitle: Adjust chat behaviour.
   url: /docs/javascript-api/chat/
