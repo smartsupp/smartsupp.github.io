@@ -14,7 +14,48 @@ In this case we setup English using code `en` in our script.
 </script>
 ```
 
-Supported languages: `ar`, `az`, `bg`, `cs`, `ca`, `da`, `de`, `el`, `en`, `es`, `fa`, `fi`, `fr`, `he`, `hi`, `hr`, `hu`, `is`, `it`, `ja`, `ka`, `lt`, `lv`, `nl`, `no`, `pl`, `br`, `pt`, `ro`, `ru`, `sk`, `sl`, `sr`, `sv`, `th`, `tr`, `uk`, `cn`, `tw`, `mk`
+Supported language codes:
+
+* `ar` = Arabic (U.A.E.)
+* `az` = Azeri (Latin) (Azerbaijan)
+* `bg` = Bulgarian (Bulgaria)
+* `br` = Portuguese (Brazil)
+* `ca` = Catalan (Spain)
+* `cn` = Chinese Simplified (China)
+* `cs` = Czech (Czech Republic)
+* `da` = Danish (Denmark)
+* `de` = German (Germany)
+* `el` = Greek (Greece)
+* `en` = English (United States)
+* `es` = Spanish (Spain)
+* `fa` = Persian = Farsi (Iran)
+* `fi` = Finnish (Finland)
+* `fr` = French (France)
+* `he` = Hebrew (Israel)
+* `hi` = Hindi (India)
+* `hr` = Croatian (Croatia)
+* `hu` = Hungarian (Hungary)
+* `is` = Icelandic (Iceland)
+* `it` = Italian (Italy)
+* `ja` = Japanese (Japan)
+* `ka` = Georgian (Georgia)
+* `lt` = Lithuanian (Lithuania)
+* `lv` = Latvian (Latvia)
+* `mk` = Macedonian (FYROM)
+* `nl` = Dutch (Netherlands)
+* `no` = Norwegian (Norway)
+* `pl` = Polish (Poland)
+* `pt` = Portuguese (Portugal)
+* `ro` = Romanian (Romania)
+* `ru` = Russian (Russia)
+* `sk` = Slovak (Slovakia)
+* `sl` = Slovenian (Slovenia)
+* `sr` = Serbian (Latin) (Bosnia and Herzegovina)
+* `sv` = Swedish (Sweden)
+* `th` = Thai (Thailand)
+* `tr` = Turkish (Turkey)
+* `tw` = Chinese Traditional (Taiwan)
+* `uk` = Ukrainian (Ukraine)
 
 Missing your language? Contact [support@smartsupp.com](mailto:support@smartsupp.com).
 {: .callout .callout-info }
