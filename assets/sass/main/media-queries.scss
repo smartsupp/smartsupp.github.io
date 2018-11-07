@@ -9,7 +9,7 @@
   *
   */
 
-// = LAPTOP (LARGE) = 
+// = LAPTOP (LARGE) =
 
 @media (max-width: 1280px) {
   #toc-article {
@@ -24,7 +24,7 @@
   }
 }
 
-// = LAPTOP = 
+// = LAPTOP =
 
 @media (max-width: 1024px) {
 // add CSS if needed
@@ -97,12 +97,12 @@
     padding-top: 15px;
     border-bottom: none;
   }
-  
+
   .faq .second {
     border-top: none;
     border-bottom: none;
   }
-  
+
   .faq .third {
     padding-bottom: 15px;
     border-top: none;
@@ -114,7 +114,7 @@
 
 }
 
-// = TABLET = 
+// = TABLET =
 
 @media (max-width: 768px) {
   .column {
@@ -140,7 +140,7 @@
     left: 1.5rem;
   }
 
-  // TABLES 
+  // TABLES
   thead {
       display: none;
     }
@@ -161,7 +161,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  
+
   tbody tr:hover {
     background-color: $o_white;
   }
@@ -203,11 +203,11 @@
   .page .nav-logo,
   .home-docs .nav-logo,
   .docs .nav-logo {
-    background: url("../img/logo/smartsupp-small.svg");
+    background: url("../img/logo/smartsupp-small.svg") no-repeat;
     width: 40px;
     height: 29px;
   }
-  
+
   #btt {
     left: 40px;
     right: 32px;
@@ -220,7 +220,7 @@
   #btt button {
     width: 100%;
   }
-  
+
   .docs .section-footer {
     margin-bottom: 60px;
   }
@@ -230,7 +230,7 @@
 // add CSS if needed
 }
 
-// = MOBILE = 
+// = MOBILE =
 
 @media (max-width: 425px) {
   #nav-menu {
