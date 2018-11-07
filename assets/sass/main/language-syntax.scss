@@ -115,12 +115,13 @@ code {
 
 pre,
 code,
+code .token,
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: monospace, monospace;
 }
 
-// CLIPBOARD 
+// CLIPBOARD
 .copy-button {
   cursor: pointer;
   border: 0;
