@@ -6,4 +6,23 @@ function scrollFunction(){100<document.body.scrollTop||100<document.documentElem
 // Add function to link in markup
 function topFunction(){document.body.scrollTop=0,document.documentElement.scrollTop=0}
 // RESPONSIVE IMAGES
-function setImgStyle(t){var e=t.offsetWidth;t.setAttribute("style","width: 100%; max-width: "+e+"px;")}if(document.body.classList.contains("docs"))for(var headings=document.querySelectorAll("h1,h2,h3,h4"),i=0;i<headings.length;i++){var el=headings[i];el.insertAdjacentHTML("beforeend",'<a href="#'+el.id+'">#</a>')}window.onscroll=function(){scrollFunction()},document.addEventListener("DOMContentLoaded",function(){var t=document.querySelectorAll(".docs img"),e=Array.prototype.filter;0<t.length&&e.call(t,function(t){setImgStyle(t),t.onload=function(){setImgStyle(t)}})});
+/*function setImgStyle(img) {
+  var width = img.offsetWidth;
+  img.setAttribute('style', 'width: 100%; max-width: ' + width + 'px;');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var docsImgs = document.querySelectorAll('.docs img');
+  var _filter = Array.prototype.filter;
+
+  if (docsImgs.length > 0) {
+    _filter.call(docsImgs, function(img) {
+      setImgStyle(img);
+
+      img.onload = function() {
+        setImgStyle(img);
+      }
+
+    })
+  }
+});*/if(document.body.classList.contains("docs"))for(var headings=document.querySelectorAll("h1,h2,h3,h4"),i=0;i<headings.length;i++){var el=headings[i];el.insertAdjacentHTML("beforeend",'<a href="#'+el.id+'">#</a>')}window.onscroll=function(){scrollFunction()};
