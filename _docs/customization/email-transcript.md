@@ -1,5 +1,5 @@
 ---
-title: "Optional email transcript"
+title: "Email transcript"
 subtitle: "Send copy of chat conversation."
 description: "When visitor ends conversation he can send transcript to email."
 ---
