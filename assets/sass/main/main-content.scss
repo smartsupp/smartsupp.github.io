@@ -61,10 +61,6 @@ article h4 {
 
 // PAGES
 // Body classes
-.page {
-  padding-top: 135px;
-}
-
 .home-github {
   margin-top: 72px;
 }
@@ -82,8 +78,26 @@ article h4 {
   background: $o_grey_50;
 }
 
-.home-docs,
-.docs {
+.intro-banner {
+  background: $c_primary;
+  padding: 135px 0 40px 0;
+}
+
+.intro-banner h1,
+.intro-banner p {
+  color: $o_white;
+}
+
+.intro-banner .card p {
+  color: #408fec;
+}
+
+.intro-banner p.card-subtitle {
+  color: #757575;
+}
+
+.docs,
+.page {
   padding-top: 135px;
 }
 
@@ -229,9 +243,9 @@ img.center {
 }
 
 .docs-index .card {
-  border: dashed 1px $o_grey_300;
+  border: dashed 1px $o_white;
   background-color: $o_white;
-  border-radius: 2px;
+  border-radius: $radius_3;
   margin: 0 0 10px 0;
   min-height: 185px;
   -webkit-transition: border .5s ease-out;
@@ -239,7 +253,7 @@ img.center {
 }
 
 .docs-index .card:hover {
-  border-color: $o_grey_600;
+  border-color: $o_grey_300;
 }
 
 .docs-index .h2 {
@@ -287,11 +301,12 @@ img.center {
 // Docs (FAQ)
 
 .faq {
-  margin: 10px 0 30px 0;
+  margin: 50px 0 30px 0;
 }
 
 .faq h3 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .faq ul {
@@ -332,7 +347,7 @@ img.center {
   color: $o_grey_600;
 }
 
-// ANCHORS 
+// ANCHORS
 .docs h1 a,
 .docs h2 a,
 .docs h3 a,
@@ -366,7 +381,7 @@ img.center {
   margin: -162px 0 0;
 }
 
-// TABLES 
+// TABLES
 table {
   background-color: $o_white;
   border-collapse: collapse;
@@ -406,7 +421,7 @@ tbody tr:hover {
   background-color: $o_grey_50;
 }
 
-// ALERTS 
+// ALERTS
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -458,7 +473,7 @@ tbody tr:hover {
   color: $o_blue_900;
 }
 
-// CALLOUTS 
+// CALLOUTS
 .callout {
   padding: 1.25rem;
   margin-top: 1.25rem;
