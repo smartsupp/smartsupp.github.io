@@ -163,7 +163,7 @@ article h4 {
 
 .card {
   background-color: $o_white;
-  border-radius: 2px;
+  border-radius: $radius_8;
   margin: 0 0 5px 0;
 }
 
@@ -234,6 +234,7 @@ img.center {
 .intro .search .form-input {
   padding: 22px;
   font-size: 18px;
+  border-radius: $radius_4;
 }
 
 .intro .search .form-input:focus {
@@ -243,7 +244,7 @@ img.center {
 
 .docs-index .card {
   background-color: $o_white;
-  border-radius: $radius_3;
+  border-radius: $radius_8;
   margin: 0 0 20px 0;
   min-height: 185px;
   -webkit-transition: border $transition_05 ease-out;
@@ -279,7 +280,7 @@ img.center {
 
 .category .card {
   background-color: $o_grey_50;
-  border-radius: $radius_3;
+  border-radius: $radius_4;
   margin: 0 0 10px 0;
   min-height: 85px;
   -webkit-transition: background-color $transition_05 ease-out;
@@ -316,7 +317,7 @@ img.center {
   border: 1px dashed $o_grey_300;
   -webkit-transition: border-color $transition_05 ease-out;
   transition: border-color $transition_05 ease-out;
-  border-radius: $radius_3;
+  border-radius: $radius_8;
 }
 
 .faq ul:hover {
@@ -426,7 +427,7 @@ tbody tr:hover {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
-  border-radius: $radius_3;
+  border-radius: $radius_4;
 }
 
 .alert-success {
@@ -480,7 +481,7 @@ tbody tr:hover {
   margin-bottom: 1.25rem;
   border: 1px solid $o_grey_300;
   border-left-width: 0.25rem;
-  border-radius: $radius_3;
+  border-radius: $radius_4;
 }
 
 .callout-success {
