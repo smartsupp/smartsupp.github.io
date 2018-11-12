@@ -6,7 +6,12 @@
 <body {% if page.layout == 'category' %}class="{{ page.layout }} {{ page.title | slugify }}{% if page.class != null %} {{ page.class }}{% endif %}"{% endif %}>
 
   {% include header/site-nav.html %}
-  {% include docs/breadcrumb.html %}
+
+  <div class="docs-container off-canvas off-canvas-sidebar-show">
+
+  {% include docs/sidebar-menu.html %}
+
+  <div id="content" class="docs-content off-canvas-content">
 
   <div class="container grid-lg">
 
@@ -27,6 +32,12 @@
 
   </div>
   <!-- container -->
+
+  </div>
+  <!-- docs-content -->
+
+  </div>
+  <!-- docs-container -->
 
   {% include footer/scripts.html %}
 

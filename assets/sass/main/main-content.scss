@@ -56,7 +56,7 @@ article h4 {
 }
 
 .docs-content .column {
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 // PAGES
@@ -73,10 +73,6 @@ article h4 {
 .home-github #nav-menu {
   display: none;
 }
-
-//.home-docs {
-//  background: $o_grey_50;
-//}
 
 .intro-banner {
   background: $c_primary;
@@ -96,13 +92,17 @@ article h4 {
   color: #757575;
 }
 
-.docs,
-.page {
-  padding-top: 135px;
+.docs {
+  padding-top: 100px;
 }
 
+.page,
 .category {
-  padding-top: 170px;
+  padding-top: 120px;
+}
+
+.category .docs-content>.container {
+  max-width: 960px;
 }
 
 // GitHub homepage
@@ -144,7 +144,8 @@ article h4 {
   margin-bottom: 30px;
 }
 
-.home-docs .section-cards a:hover {
+.home-docs .section-cards a:hover,
+.category .section-cards a:hover {
   text-decoration: none;
 }
 
@@ -223,23 +224,6 @@ img.center {
 
 .intro p {
   margin-bottom: 0;
-}
-
-.intro .search {
-  width: 700px;
-  text-align: center;
-  margin: 30px auto 50px auto;
-}
-
-.intro .search .form-input {
-  padding: 22px;
-  font-size: 18px;
-  border-radius: $radius_4;
-}
-
-.intro .search .form-input:focus {
-  -webkit-box-shadow: 0 0 0 6px rgba(70, 147, 224, .2);
-  box-shadow: 0 0 0 6px rgba(70, 147, 224, .2);
 }
 
 .docs-index .card {
@@ -333,7 +317,7 @@ img.center {
 
 .faq li a:hover {
   text-decoration: none;
-  background: $o_white_2;
+  background: $o_grey_50;
 }
 
 .faq li a::before {

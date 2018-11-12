@@ -13,20 +13,22 @@
 .docs-navbar {
   z-index: 3;
   position: fixed;
-  top: 113px;
+  top: 71px;
   background: $o_white;
   height: 60px;
 }
 
-.docs-navbar .btn {
-  top: 10px;
+.off-canvas .off-canvas-toggle {
+  top: 13px;
+  left: auto;
+  right: 15px;
 }
 
 // SIDEBAR MENU
 .docs-sidebar .docs-nav {
   background: $o_white;
   position: fixed;
-  top: 113px;
+  top: 72px;
   bottom: 0;
   padding: 0 0 0 20px;
   width: 254px;
@@ -35,6 +37,21 @@
 
 .docs-sidebar .docs-nav h5 {
   margin: 13px 0 5px 7px;
+}
+
+.category .categories,
+.category .menu-categories {
+  display: block;
+}
+
+.category .pages,
+.category .menu-pages {
+  display: none;
+}
+
+.categories,
+.menu-categories {
+  display: none;
 }
 
 #sidebar .menu {
@@ -79,7 +96,8 @@
   background: $o_grey_100;
 }
 
-.menu li.active a {
+.menu li.active a,
+.menu .menu-item>a.active {
   color: $c_primary;
   background: $o_grey_100;
 }

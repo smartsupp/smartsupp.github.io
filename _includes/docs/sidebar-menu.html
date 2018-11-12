@@ -1,7 +1,10 @@
 <div class="docs-navbar">
-  <a class="btn btn-link btn-action off-canvas-toggle" href="#sidebar">
-    <i class="icon icon-menu"></i>
-  </a>
+  {% include search/field.html %}
+
+  <!--TODO: align to right side -->
+    <a class="btn btn-link btn-action off-canvas-toggle" href="#sidebar">
+      <i class="icon icon-menu"></i>
+    </a>
 </div>
 
 <div id="sidebar" class="docs-sidebar off-canvas-sidebar">
@@ -10,8 +13,16 @@
 
     {% include search/field.html %}
 
-    <h5>Contents</h5>
-    <ul class="menu">
+    <h5 class="categories">Categories</h5>
+
+    <ul class="menu menu-categories">
+      <li class="menu-item"><a href="{{ site.ca_url_customization }}" {% if page.url contains site.ca_url_customization %}class="active" {% endif %}>{{ site.ca_customization }}</a></li>
+      <li class="menu-item"><a href="{{ site.ca_url_javascript_api }}" {% if page.url contains site.ca_url_javascript_api %}class="active" {% endif %}>{{ site.ca_javascript_api }}</a></li>
+      <li class="menu-item"><a href="{{ site.ca_url_examples }}" {% if page.url contains site.ca_url_examples %}class="active" {% endif %}>{{ site.ca_examples }}</a></li>
+    </ul>
+
+    <h5 class="pages">Pages</h5>
+    <ul class="menu menu-pages">
     {% if page.url contains site.ca_url_customization %}
       {% for item in site.data.articles.customization %}
       <li class="menu-item {% if item.url == page.url %}active{% endif %}">
@@ -19,7 +30,7 @@
       </li>
       {% endfor %}
     {% endif %}
-    
+
     {% if page.url contains site.ca_url_javascript_api %}
       {% for item in site.data.articles.chat %}
         <li class="menu-item {% if item.url == page.url %}active{% endif %}">
@@ -38,12 +49,14 @@
     </ul>
     <!-- menu -->
 
+    {% if page.layout != 'category' %}
     <div class="edit-on-github">
       <a href="https://www.github.com/{{ site.github_username }}/{{ site.git_repo }}/blob/master/{{ page.path }}" target="_blank">
         {% include component/svg/github-logo.html %} Edit this page
       </a>
     </div>
     <!-- edit-on-github -->
+    {% endif %}
 
   </div>
   <!-- docs-nav -->

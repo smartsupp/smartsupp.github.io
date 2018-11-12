@@ -16,7 +16,7 @@
     display: block;
   }
   .docs-content .column {
-    padding-right: 40px;
+    padding-right: 60px;
   }
 
   #btt {
@@ -31,14 +31,37 @@
 }
 
 @media (max-width: 960px) {
-  .navbar .search {
+  .navbar .nav {
+    display: none;
+  }
+  .category .docs-content.off-canvas-content {
+    padding: 60px 0 0 25px;
+  }
+  .categories,
+  .menu-categories {
+    display: block;
+  }
+  .docs-nav .nav .nav-item {
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .docs-nav .nav .nav-item a {
+    color: red;
+    padding: 0;
+    margin: 0;
+  }
+  .docs-navbar {
+    border-bottom: 1px solid $o_grey_300;
+  }
+  .docs-navbar .search {
+    position: relative;
+    top: 12px;
+    margin: 0 70px 0 25px;
     display: block;
   }
   .docs-nav .search {
     display: none;
-  }
-  .docs-navbar {
-    border-bottom: 1px solid $o_grey_300;
   }
   .docs-sidebar .docs-nav {
     top: 92px;
@@ -50,7 +73,10 @@
     padding: .2rem .4rem;
   }
   .docs-content.off-canvas-content {
-    padding: 0 0 0 40px;
+    padding: 0 0 0 25px;
+  }
+  .docs-content .column {
+    padding-right: 40px;
   }
   .docs-content .s-subtitle,
   .docs-content .s-title {
@@ -80,7 +106,7 @@
     margin: 3px 0 35px 0;
   }
   .docs-sidebar .docs-nav {
-    top: 170px;
+    top: 130px;
     margin: 0;
   }
   article {
@@ -96,16 +122,19 @@
   .faq .first {
     padding-top: 15px;
     border-bottom: none;
+    border-radius: $radius_8 $radius_8 0 0;
   }
 
   .faq .second {
     border-top: none;
     border-bottom: none;
+    border-radius: 0;
   }
 
   .faq .third {
     padding-bottom: 15px;
     border-top: none;
+    border-radius: 0 0 $radius_8 $radius_8;
   }
 
 .faq:hover ul {
@@ -121,7 +150,10 @@
     padding: 0 20px;
   }
   .docs-content .column {
-    padding-right: 40px;
+    padding-right: 30px;
+  }
+  .category .section-footer .column {
+    padding-right: 5px;
   }
   .intro .search {
     width: 100%;
@@ -136,10 +168,6 @@
 }
 
 @media (max-width: 600px) {
-  .off-canvas .off-canvas-toggle {
-    left: 1.5rem;
-  }
-
   // TABLES
   thead {
       display: none;
@@ -191,23 +219,6 @@
     margin-right: 175px;
   }
 
-  #logo a::after {
-    display: block;
-    left: 50px;
-    content: "Smartsupp Docs";
-    width: 125px;
-    font-weight: 700;
-    color: $o_grey_600;
-  }
-
-  .page .nav-logo,
-  .home-docs .nav-logo,
-  .docs .nav-logo {
-    background: url("../img/logo/smartsupp-small.svg") no-repeat;
-    width: 40px;
-    height: 29px;
-  }
-
   #btt {
     left: 40px;
     right: 32px;
@@ -243,9 +254,7 @@
 }
 
 @media (max-width: 403px) {
-  .docs .section-footer span {
-    color: $o_white_2;
-  }
+// add CSS if needed
 }
 
 @media (max-width: 375px) {

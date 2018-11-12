@@ -1,9 +1,8 @@
 // variables.scss
 
-// === VARIABLES ===
-
 // = FONTS =
 
+// BASE
 $font_stack: "Lato", // default
 -apple-system, // Apple
 BlinkMacSystemFont, // Chrome
@@ -26,7 +25,6 @@ $c_primary_darker: #0d4586; // rgb(13,69,134)
 $o_white: #ffffff; // rgb(255,255,255)
 $o_white_2: #fffeff; // rgb(255,254,255)
 $o_blue_secondary: #0f73ed; // rgb(15,115,237)
-
 
 // OTHER (MATERIAL DESIGN)
 $o_grey_50: #fafafa; // rgb(250,250,250)
@@ -53,6 +51,7 @@ $o_purple_500: #673ab7; // rgb(103,58,183)
 
 // = ELEMENTS =
 
+// MISC
 $radius_4: 4px;
 $radius_8: 8px;
 $transition_03: .3s;

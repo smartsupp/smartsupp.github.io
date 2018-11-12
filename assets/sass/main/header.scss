@@ -44,6 +44,8 @@ header {
   text-align: center;
 }
 
+// NAV
+
 .nav-logo {
   text-indent: -9999px;
   background: url("../img/logo/smartsupp.svg") no-repeat;
@@ -68,6 +70,44 @@ header ul li {
   font-weight: 700;
 }
 
+.nav {
+  z-index: 4;
+  display: inline;
+  position: absolute;
+  left: 313px;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.nav .nav-item {
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.nav .nav-item a {
+  text-decoration: none;
+  padding: 26px 10px;
+  color: $c_primary_light;
+}
+
+.nav .nav-item a:hover {
+  background: none;
+  border: none;
+  color: $c_primary;
+  border-bottom: 2px solid $c_primary;
+}
+
+.nav .nav-item a.active {
+  color: $c_primary;
+  border-bottom: 2px solid $c_primary;
+}
+
+.error404 .nav,
+.search-results .nav {
+  display: none;
+}
+
 header ul li.navbar-item a {
   background: $o_grey_50;
   border: 1px dotted $o_grey_300;
@@ -87,12 +127,15 @@ header ul li.navbar-item-active a {
   border: 1px dotted $c_primary;
 }
 
+.home-github .navbar .nav,
+.home-docs .navbar .nav {
+  display: none;
+}
+
 // SEARCH
 
-.navbar .search {
+.docs-navbar .search {
   display: none;
-  width: 100%;
-  margin-right: 25px;
 }
 
 .docs-nav .search {
@@ -118,6 +161,24 @@ header ul li.navbar-item-active a {
 .form-input:focus {
   -webkit-box-shadow: 0 0 0 3px rgba(70, 147, 224, .2);
           box-shadow: 0 0 0 3px rgba(70, 147, 224, .2);
+}
+
+// Docs index page
+.intro .search {
+  width: 700px;
+  text-align: center;
+  margin: 30px auto 50px auto;
+}
+
+.intro .search .form-input {
+  padding: 22px;
+  font-size: 18px;
+  border-radius: $radius_4;
+}
+
+.intro .search .form-input:focus {
+  -webkit-box-shadow: 0 0 0 6px rgba(70, 147, 224, .2);
+  box-shadow: 0 0 0 6px rgba(70, 147, 224, .2);
 }
 
 // SEARCH RESULTS
