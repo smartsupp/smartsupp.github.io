@@ -81,4 +81,4 @@ Update texts for **Bubble type:** `Arrow`.
 
 ### Image
 
-Image cannot be updated at this moment using API. Banner is *visible* in **Online** status only and will be hidden when you are Offline. Go to **Dashboard > Settings > Chat box > [Text](https://www.smartsupp.com/app/settings/chatbox/text) >  Bubble type:** `Image` (My picture) and upload your banner.
+**Bubble type:** `Image` (My picture) cannot be updated using API.

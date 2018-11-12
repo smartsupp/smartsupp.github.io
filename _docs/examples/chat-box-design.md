@@ -9,7 +9,10 @@ To better understand examples below read [Theme](/docs/javascript-api/theme/) an
 
 ## Bubble types
 
-In Dashboard **Settings > Chat box > [Text](https://www.smartsupp.com/app/settings/chatbox/text/){:target='\_blank'}** you can set **Bubble type**.  Visible when in `Online` status.
+In Dashboard **Settings > Chat box > [Text](https://www.smartsupp.com/app/settings/chatbox/text/){:target='\_blank'}** you can set **Bubble type**.
+
+This feature only works and is visible when chat status is **ONLINE**. Does not work on _Offline_.
+{: .callout .callout-warning }
 
 We provide 3 types:
 
@@ -37,7 +40,7 @@ Dashboard settings is **Bubble type:** `Bubble`. You can set your own text.
 
 ### Arrow
 
-Dashboard settings is **Bubble type:** `Arrow`. You can set your own text. 
+Dashboard settings is **Bubble type:** `Arrow`. You can set your own text.
 
 ![chat type arrow](/assets/img/docs/examples/chat-box-design/chat-type-arrow.png)
 
