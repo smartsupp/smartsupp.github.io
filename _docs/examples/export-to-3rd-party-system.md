@@ -66,7 +66,7 @@ $json = json_decode($data);
       "chatId":{ "label":"Chat ID", "value":208 },
       "chatPackage":{ "label":"Chat Package", "value":"pro" },
       "userId":{ "label":"User ID", "value":"1234" }
-    },
+    }
   },
   "paths":[{
     "url": "http://developers.smartsupp.com/smartsupp/hook-post",
