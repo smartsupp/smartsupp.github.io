@@ -54,7 +54,7 @@ $json = json_decode($data);
     "name": "Dusan Kmet",
     "email": "dusan@domain.com",
     "note": "VIP customer",
-    "groupKey": null,
+    "group": null,
     "ipAddress": "89.235.0.55",
     "city": "Czech Republic",
     "countryCode": "CZ",
