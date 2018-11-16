@@ -80,48 +80,42 @@ $json = json_decode($data);
     "from": "mxTiqn9adr2h39kmzAJ0FeaTGFJhmjio0R41491503012015",
     "content": "Hello",
     "sentAt": 1427470439703,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "system",
     "name": "John Doe",
     "from": 3,
     "content": "agent.join",
     "sentAt": 1427470446219,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "agent",
     "name": "",
     "from": null,
     "content": "This is triggered message",
     "sentAt": 1427470449706,
-    "triggeredBy": "Test Trigger",
-    "email": null
+    "triggeredBy": "Test Trigger"
   }, {
     "type": "agent",
     "name": "John Doe",
     "from": 3,
     "content": "Hi, how can i help you ?",
     "sentAt": 1427470453772,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "visitor",
     "name": "Dusan Kmet",
     "from": "mxTiqn9adr2h39kmzAJ0FeaTGFJhmjio0R41491503012015",
     "content": "tanks.",
     "sentAt": 1427470473124,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "system",
     "name": "Dusan Kmet",
     "from": null,
     "content": "close.visitorClose",
     "sentAt": 1427470476687,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }]
 }
 ```
