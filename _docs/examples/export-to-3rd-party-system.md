@@ -54,7 +54,7 @@ $json = json_decode($data);
     "name": "Dusan Kmet",
     "email": "dusan@domain.com",
     "note": "VIP customer",
-    "groupKey": null,
+    "group": null,
     "ipAddress": "89.235.0.55",
     "city": "Czech Republic",
     "countryCode": "CZ",
@@ -66,7 +66,7 @@ $json = json_decode($data);
       "chatId":{ "label":"Chat ID", "value":208 },
       "chatPackage":{ "label":"Chat Package", "value":"pro" },
       "userId":{ "label":"User ID", "value":"1234" }
-    },
+    }
   },
   "paths":[{
     "url": "http://developers.smartsupp.com/smartsupp/hook-post",
@@ -77,51 +77,45 @@ $json = json_decode($data);
   }],
   "messages":[{
     "type": "visitor",
-    "from": "mxTiqn9adr2h39kmzAJ0FeaTGFJhmjio0R41491503012015",
+    "from": "visitor:mxTiqn9adr2h39kmzAJ0FeaTGFJhmjio0R41491503012015",
     "content": "Hello",
     "sentAt": 1427470439703,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "system",
     "name": "John Doe",
-    "from": 3,
+    "from": "agent:3",
     "content": "agent.join",
     "sentAt": 1427470446219,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "agent",
     "name": "",
-    "from": null,
+    "from": "system",
     "content": "This is triggered message",
     "sentAt": 1427470449706,
-    "triggeredBy": "Test Trigger",
-    "email": null
+    "triggeredBy": "Test Trigger"
   }, {
     "type": "agent",
     "name": "John Doe",
-    "from": 3,
+    "from": "agent:3",
     "content": "Hi, how can i help you ?",
     "sentAt": 1427470453772,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "visitor",
     "name": "Dusan Kmet",
-    "from": "mxTiqn9adr2h39kmzAJ0FeaTGFJhmjio0R41491503012015",
+    "from": "visitor:mxTiqn9adr2h39kmzAJ0FeaTGFJhmjio0R41491503012015",
     "content": "tanks.",
     "sentAt": 1427470473124,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }, {
     "type": "system",
     "name": "Dusan Kmet",
-    "from": null,
+    "from": "system",
     "content": "close.visitorClose",
     "sentAt": 1427470476687,
-    "triggeredBy": null,
-    "email": null
+    "triggeredBy": null
   }]
 }
 ```

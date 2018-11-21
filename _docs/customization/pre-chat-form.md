@@ -6,7 +6,7 @@ description: "When chat is online visitor can write a message. Pre-chat form wil
 
 ## Default inputs
 
-If you are using pre-chat form, you can customize the form fields. Default inputs are `name`, `email`. If you want to disable any of them them set property `loginNameControl` or `loginEmailControl` to `false`.
+If you are using pre-chat form, you can customize the form fields. Default inputs are `name`, `email`. If you want to disable any of them, set property `loginNameControl` or `loginEmailControl` to `false`.
 
 Hide default input: `name`
 
