@@ -81,7 +81,10 @@ Have a look at [All customizable texts](#all-customizable-texts) at the end of t
 
 ## Modify multiple languages
 
-You can modify more languages in same file if you have multilanguage website.
+You can modify more languages in the same file if you have multilanguage website. All you need to do is to expand code below using `conditions` and check your site URL for language. Based on that language you can choose translations you need. So in example below you could loog for `/en/` or `/de/` in your URL.
+
+* `http://example.com/en/`
+* `http://example.com/de/`
 
 ```js
 <script>
