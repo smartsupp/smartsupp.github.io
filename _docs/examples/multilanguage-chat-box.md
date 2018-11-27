@@ -62,7 +62,7 @@ Missing your language? Contact [support@smartsupp.com](mailto:support@smartsupp.
 
 ## Custom texts
 
-If you want to modify existing texts you can write your own texts in any language. All you need to do is to define the language at the end of the script. In this example we change default text Online => **We are online**.
+If you want to modify existing texts you can write your own texts in any language. All you need to do is to define language at the end of the script. In this example we change default text Online => **We are online**.
 
 ![we are online](/assets/img/docs/examples/multilanguage-chat-box/we-are-online.png)
 
