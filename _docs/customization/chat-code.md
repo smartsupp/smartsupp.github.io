@@ -75,14 +75,28 @@ _smartsupp.smallDeviceMinWidth = 641; // screen width in pixels when mobile chat
 
 ## Chat box position
 
-By default chat box is displayed in the screen bottom `right` corner. You can change its position.
+By default chat box is displayed in the screen bottom `right` corner. Along X axis. You can change its position.
 
 ```js
 _smartsupp.alignX = "left";
+
 ```
 
-You can also offset chat box if you need using `offsetX` and number sets distance in pixels on the X axis from default position.
+You can offset chat box from default position using `offsetX`. Distance `100` is in pixels.
 
 ```js
 _smartsupp.offsetX = 100;
+```
+
+You can also display chat box along Y axis (on the side of your monitor).
+
+```js
+_smartsupp.alignY = "side";
+
+```
+
+Using `offsetY` moves the chat box along the Y axis.
+
+```js
+_smartsupp.offsetY = 100; 
 ```
