@@ -70,9 +70,9 @@ _smartsupp.loginControls = [
     // use group IDs from Smartsupp dashboard
     value: "PJxWeH8LZNi", // set default group
     items: {
-      PJxWeH8LZNi: "Support",
-      tuZOw6k9Oto: "Marketing",
-      9OtIZKLaVep: "Sales"
+      "PJxWeH8LZNi": "Support",
+      "tuZOw6k9Oto": "Marketing",
+      "9OtIZKLaVep": "Sales"
     }
   }
 ];
