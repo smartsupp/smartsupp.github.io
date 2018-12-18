@@ -89,25 +89,29 @@ If you have multilanguage website you can modify more languages in the same `.js
 
 ```js
 <script>
-  if(window.location.href === "http://example.com/de/") {
-    smartsupp('translate', {
-      widget: {
-        online: 'Wir sind hier.'
-      }
-    }, 'de'); // set DE language
-  } else if(window.location.href === "http://example.com/pl/") {
-    smartsupp('translate', {
-      widget: {
-        online: 'Wir sind hier.'
-      }
-    }, 'pl'); // set PL language
+  if(window.location.href.indexOf ("http://example.com/de/") > -1){ //choose URL
+    smartsupp('language', 'de');  //set DE language
+  smartsupp('translate', {
+    widget: {
+    online: 'Custom GERMAN text'
+}
+}, 'de'); // custom translations for DE language
+}
+else if(window.location.href.indexOf  ("http://example.com/pl/") > -1){ //choose URL
+    smartsupp('language', 'pl'); // set PL language
+  smartsupp('translate', {
+    widget: {
+    online: 'Custom POLISH text'
+}
+}, 'pl'); // custom translations for PL language
   } else {
-    smartsupp('translate', {
-      widget: {
-        online: 'We are here.'
-      }
-    }, 'en'); // set EN langauge
-  }
+    smartsupp('language', 'en'); // set EN language
+  smartsupp('translate', {
+    widget: {
+    online: 'Custom ENGLISH text'
+}
+}, 'en'); // custom translation for EN langauge
+}
 </script>
 ```
 
