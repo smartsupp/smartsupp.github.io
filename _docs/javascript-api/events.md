@@ -135,13 +135,18 @@ Fires when online status of Smartsupp account is changed and when chat (page) is
 
 ```js
 <script>
-  // Change banner by status
+  // Change color by status
   smartsupp('on', 'status', function(status) {
     if(status == 'online') {
-      smartsupp('banner:set', 'image', { src: 'PATH/banners/banner_online.png' });
-    }
-    else {
-      smartsupp('banner:set', 'image', { src: 'PATH/banners/banner_offline.png' });
+      smartsupp('theme:colors', {
+        widget: '#2ecc71',
+        primary: '#2ecc71'
+      });
+    } else {
+      smartsupp('theme:colors', {
+        widget: '#c0392b',
+        primary: '#c0392b'
+      });
     }
   });
 </script>
