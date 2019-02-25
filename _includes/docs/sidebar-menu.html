@@ -1,7 +1,6 @@
 <div class="docs-navbar">
   {% include search/field.html %}
 
-  <!--TODO: align to right side -->
     <a class="btn btn-link btn-action off-canvas-toggle" href="#sidebar">
       <i class="icon icon-menu"></i>
     </a>
@@ -17,8 +16,8 @@
 
     <ul class="menu menu-categories">
       <li class="menu-item"><a href="{{ site.ca_url_customization }}" {% if page.url contains site.ca_url_customization %}class="active" {% endif %}>{{ site.ca_customization }}</a></li>
-      <li class="menu-item"><a href="{{ site.ca_url_javascript_api }}" {% if page.url contains site.ca_url_javascript_api %}class="active" {% endif %}>{{ site.ca_javascript_api }}</a></li>
       <li class="menu-item"><a href="{{ site.ca_url_examples }}" {% if page.url contains site.ca_url_examples %}class="active" {% endif %}>{{ site.ca_examples }}</a></li>
+      <li class="menu-item"><a href="{{ site.ca_url_javascript_api }}" {% if page.url contains site.ca_url_javascript_api %}class="active" {% endif %}>{{ site.ca_javascript_api }}</a></li>
     </ul>
 
     <h5 class="pages">Pages</h5>
@@ -31,19 +30,19 @@
       {% endfor %}
     {% endif %}
 
-    {% if page.url contains site.ca_url_javascript_api %}
-      {% for item in site.data.articles.chat %}
-        <li class="menu-item {% if item.url == page.url %}active{% endif %}">
-          <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-      {% endfor %}
-    {% endif %}
-
     {% if page.url contains site.ca_url_examples %}
       {% for item in site.data.articles.examples %}
       <li class="menu-item {% if item.url == page.url %}active{% endif %}">
         <a href="{{ item.url }}">{{ item.title }}</a>
       </li>
+      {% endfor %}
+    {% endif %}
+
+    {% if page.url contains site.ca_url_javascript_api %}
+      {% for item in site.data.articles.chat %}
+        <li class="menu-item {% if item.url == page.url %}active{% endif %}">
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
       {% endfor %}
     {% endif %}
     </ul>

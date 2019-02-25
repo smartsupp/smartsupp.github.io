@@ -1,21 +1,21 @@
 # Sidebar menu
 
 ## CUSTOMIZATION
-docs_list_title: Customization
+list_title_customization: Customization
 customization:
 
 - title: Chat code
   subtitle: Change modify parts of chat box and its behavior.
   url: /docs/customization/chat-code/
+- title: Chat box type
+  subtitle: Change the look of your chat box.
+  url: /docs/customization/chat-box-type/
 - title: Pre-chat form
   subtitle: Make conversations easier for your support staff.
   url: /docs/customization/pre-chat-form/
 - title: Offline form
   subtitle: Customize offline form fields.
   url: /docs/customization/offline-form/
-- title: Chat box type
-  subtitle: Change the look of your chat box.
-  url: /docs/customization/chat-box-type/
 - title: Google Analytics
   subtitle: Integrate and send data to your account.
   url: /docs/customization/google-analytics/
@@ -27,15 +27,12 @@ customization:
   url: /docs/customization/rating-window/
 
 ## JAVASCRIPT API
-docs_list_title: JavaScript API
+list_title_javascript: JavaScript API
 chat:
 
 - title: Visitor info
   subtitle: Set basic visitor info.
   url: /docs/javascript-api/visitor-info/
-- title: Video recordings
-  subtitle: You can see what visitors do on your website.
-  url: /docs/javascript-api/video-recordings/
 - title: Chat
   subtitle: Adjust chat behaviour.
   url: /docs/javascript-api/chat/
@@ -48,23 +45,26 @@ chat:
 - title: Events
   subtitle: Use to further customize your chat.
   url: /docs/javascript-api/events/
+- title: Video recordings
+  subtitle: You can see what visitors do on your website.
+  url: /docs/javascript-api/video-recordings/
 
 ## EXAMPLES
-docs_list_title: Examples
+list_title_examples: Examples
 examples:
 
-- title: Multilanguage chat box
-  subtitle: Choose a language to fit your business.
-  url: /docs/examples/multilanguage-chat-box/
 - title: Chat box design
   subtitle: Adjust texts, colors and logo on single or multiple domains.
   url: /docs/examples/chat-box-design/
-- title: Customer info
-  subtitle: Display additional info about your customers.
-  url: /docs/examples/customer-info/
+- title: Multilanguage chat box
+  subtitle: Choose a language to fit your business.
+  url: /docs/examples/multilanguage-chat-box/
 - title: HTML API
   subtitle: No complicated coding needed.
   url: /docs/examples/html-api/
+- title: Customer info
+  subtitle: Display additional info about your customers.
+  url: /docs/examples/customer-info/
 - title: Export to 3rd party system
   subtitle: Send a copy of all chat conversations to your server.
   url: /docs/examples/export-to-3rd-party-system/
