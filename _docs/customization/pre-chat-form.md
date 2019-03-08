@@ -94,3 +94,11 @@ _smartsupp.loginControls = [
   }
 ];
 ```
+
+## Show or hide pre-chat form
+
+You can show or hide the pre-chat form on certain pages by setting the property `requireLogin` in your code.
+
+```js
+_smartsupp.requireLogin = false;
+```
