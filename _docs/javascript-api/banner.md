@@ -7,7 +7,6 @@ description: "You can set different designs to multiple domains across your site
 Before you continue read about **Chat box design:** [Bubble types](/docs/examples/chat-box-design/#bubble-types).
 {: .callout .callout-info }
 
-
 ## banner:set
 
 Set new chat bubble type:
@@ -81,4 +80,4 @@ Update texts for **Bubble type:** `Arrow`.
 
 ### Image
 
-**Bubble type:** `Image` (My picture) cannot be updated using API.
+**Bubble type:** `Image` (My picture) cannot be updated using API. Texts for *Title* and *Description* will not be displayed because we use image for banner instead. Learn more in **Chat box design > [Image](/docs/examples/chat-box-design/#image)**
