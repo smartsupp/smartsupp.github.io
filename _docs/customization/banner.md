@@ -1,5 +1,5 @@
 ---
-title: "Banner"
+title: "Chat Box Bubble"
 subtitle: "Customize chat bubble."
 description: "You can set different designs to multiple domains across your site."
 ---

@@ -101,7 +101,7 @@ pa_github: "Smartsupp GitHub"
 pa_docs: "Docs"
 
 ## Categories
-ca_customization: "Customization"
+ca_customization: "Chat Box Customization"
 ca_javascript_api: "JavaScript API"
 ca_examples: "Examples"
 

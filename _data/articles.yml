@@ -25,23 +25,26 @@ customization:
 - title: Rating window
   subtitle: Allow visitors to rate your support.
   url: /docs/customization/rating-window/
+- title: Chat Box Triggers
+  subtitle: Adjust chat behaviour.
+  url: /docs/customization/chat-box-triggers/
+- title: Chat Box Theme And Size
+  subtitle: Create your own design and set colors.
+  url: /docs/customization/chat-box-theme/
+- title: Chat Box Bubble
+  subtitle: Customize chat bubble.
+  url: /docs/customization/chat-box-bubble/
 
 ## JAVASCRIPT API
 list_title_javascript: JavaScript API
 chat:
 
-- title: Visitor info
-  subtitle: Set basic visitor info.
-  url: /docs/javascript-api/visitor-info/
-- title: Chat
-  subtitle: Adjust chat behaviour.
-  url: /docs/javascript-api/chat/
-- title: Theme
-  subtitle: Create your own design and set colors.
-  url: /docs/javascript-api/theme/
-- title: Banner
-  subtitle: Customize chat bubble.
-  url: /docs/javascript-api/banner/
+- title: Visitor groups
+  subtitle: Advanced chat routing for large support teams.
+  url: /docs/javascript-api/visitor-groups/
+- title: Visitor status
+  subtitle: Mark visitor as active or idle.
+  url: /docs/javascript-api/visitor-status/
 - title: Events
   subtitle: Use to further customize your chat.
   url: /docs/javascript-api/events/
@@ -62,9 +65,9 @@ examples:
 - title: HTML API
   subtitle: No complicated coding needed.
   url: /docs/examples/html-api/
-- title: Customer info
-  subtitle: Display additional info about your customers.
-  url: /docs/examples/customer-info/
+- title: Detailed visitor info
+  subtitle: See additional info about your customers while chatting with them.
+  url: /docs/examples/detailed-visitor-info/
 - title: Export to 3rd party system
   subtitle: Send a copy of all chat conversations to your server.
   url: /docs/examples/export-to-3rd-party-system/

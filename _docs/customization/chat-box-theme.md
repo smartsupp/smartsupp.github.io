@@ -1,5 +1,5 @@
 ---
-title: "Theme"
+title: "Chat Box Theme And Size"
 subtitle: "Create your own design and set colors."
 description: "You can set your own dimensions to chat box in different states and adjust colors to fit your branding."
 ---
@@ -89,7 +89,7 @@ Colors are generated automatically to match Smartsupp default theme. Change them
 **Color syntax:** Format must be full hex pairs `#ff0000` and not `#f00` shorthand.
 {: .callout .callout-warning }
 
-{% include component/tables/docs/javascript-api/{{ page.title | slugify }}/colors-variables-names.html %}
+{% include component/tables/docs/javascript-api/theme/colors-variables-names.html %}
 
 ### theme:color
 
