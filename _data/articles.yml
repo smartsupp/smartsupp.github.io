@@ -31,9 +31,9 @@ customization:
 - title: Chat Box Theme And Size
   subtitle: Create your own design and set colors.
   url: /docs/customization/chat-box-theme/
-- title: Chat Box Bubble
-  subtitle: Customize chat bubble.
-  url: /docs/customization/chat-box-bubble/
+# - title: Chat Box Bubble
+#   subtitle: Customize chat bubble.
+#   url: /docs/customization/chat-box-bubble/
 
 ## JAVASCRIPT API
 list_title_javascript: JavaScript API
