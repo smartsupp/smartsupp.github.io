@@ -5,6 +5,7 @@ _site
 /vendor
 
 # codekit3
+config.codekit3
 .config.codekit3
 .idea
 _cache

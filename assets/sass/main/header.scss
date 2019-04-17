@@ -28,33 +28,28 @@ header {
 }
 
 #logo {
+  // width: 152px;
+  // height: 28px;
   position: relative;
-  left: 25px;
+  left: 43px;
+  top: 16px;
   margin-right: 100px;
 }
 
-#logo a::after {
-  content: "| Docs";
+#docs-home {
   color: $o_grey_300;
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 150px;
-  width: 60px;
-  text-align: center;
+  font-weight: 700;
+  position: relative;
+  left: 200px;
+  top: -16px;
+
+  &:hover {
+    text-decoration: none;
+    color: $c_primary;
+  }
 }
 
 // NAV
-
-.nav-logo {
-  text-indent: -9999px;
-  background: url("../img/logo/smartsupp.svg") no-repeat;
-  display: block;
-  width: 152px;
-  height: 29px;
-  margin: 0;
-  padding: 0;
-}
 
 #nav-menu {
   margin: 0;
@@ -160,7 +155,7 @@ header ul li.navbar-item-active a {
 
 .form-input:focus {
   -webkit-box-shadow: 0 0 0 3px rgba(70, 147, 224, .2);
-          box-shadow: 0 0 0 3px rgba(70, 147, 224, .2);
+  box-shadow: 0 0 0 3px rgba(70, 147, 224, .2);
 }
 
 // Docs index page
@@ -188,11 +183,11 @@ body.search-results ul {
 }
 
 #search-results-list a[href*="index"],
-#search-results-list a[href*="index"] ~ p {
+#search-results-list a[href*="index"]~p {
   display: none;
 }
 
-#search-results-list  {
+#search-results-list {
   margin: 30px 0;
 }
 
