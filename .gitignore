@@ -19,3 +19,4 @@ node_modules
 # custom
 .vscode
 .htaccess
+.DS_Store

@@ -79,19 +79,6 @@
   margin-top: 40px;
 }
 
-// MARKDOWN FIXES
-
-hr {
-  margin: 30px 0;
-}
-
-.typography .token.regex,
-.typography .token.important,
-.typography .token.variable
-{
-  color: $o_blue_grey_900;
-}
-
 // RANDOM
 ::-moz-selection {
   color: $o_white;

@@ -67,8 +67,7 @@ ul li {
   border-radius: $radius_4;
 }
 
-.docs img,
-.typography img {
+.docs #content img {
   border: 1px solid $o_grey_300;
   border-radius: $radius_4;
   padding: 4px;
@@ -77,7 +76,6 @@ ul li {
   transition: $transition_03;
 }
 
-.docs a img:hover,
-.typography a img:hover {
+.docs #content a img:hover {
   border: 1px solid $o_grey_500;
 }
