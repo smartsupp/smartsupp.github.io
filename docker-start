@@ -6,4 +6,4 @@ apk update
 apk add build-base
 bundle
 
-bundle exec jekyll serve --host 0.0.0.0
+bundle exec jekyll serve --safe --host 0.0.0.0

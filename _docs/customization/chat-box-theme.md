@@ -2,6 +2,7 @@
 title: "Chat Box Theme And Size"
 subtitle: "Create your own design and set colors."
 description: "You can set your own dimensions to chat box in different states and adjust colors to fit your branding."
+redirect_from: /docs/javascript-api/theme/
 ---
 
 ## theme:options

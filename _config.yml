@@ -1,4 +1,4 @@
-# >>> IF YOU CHANGE CONFIG RESTART SERVER: "⌃C + bundle exec jekyll serve" <<<
+# >>> IF YOU CHANGE CONFIG = RESTART SERVER FOR CHANGES TO APPLY <<<
 
 # 1. Build
 # 2. Collections
@@ -19,6 +19,7 @@ liquid:
 ## Final _site
 exclude:
   - README.md
+  - node_modules
   - Gemfile.lock # jekyll
   - Gemfile
   - /vendor
@@ -28,7 +29,6 @@ exclude:
   - cache
   - log
   - logs
-  - node_modules
   - /storage/framework/sessions
 
 # COLLECTIONS ==================================================
@@ -69,9 +69,14 @@ kramdown:
 
 # PLUGINS ==================================================
 
-## Github --safe
+## Github allowed plugins (run in --safe mode)
 plugins:
   - jemoji
+  - jekyll-redirect-from
+
+whitelist:
+  - jemoji
+  - jekyll-redirect-from
 
 # VARIABLES ==================================================
 
@@ -81,9 +86,6 @@ google_analytics_id: "UA-40155471-3"
 smartlook_id: "d49100746188e1c96b748403c518e72e897d8748"
 github_username: smartsupp
 git_repo: smartsupp.github.io
-
-## Custom variables
-# (add if needed)
 
 ## Product
 pr_author: "Smartsupp"

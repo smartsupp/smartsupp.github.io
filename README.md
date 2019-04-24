@@ -8,27 +8,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Jekyll on localhost
 
-Original but slower.
+Read original [Docs](https://jekyllrb.com/docs/) article.
 
-[https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
-
-### Jekyll on Docker (faster)
+### Jekyll via Docker
 
 Recommended and much faster.
 
-```sh
-docker-compose up
-```
+- start `docker-compose up`
+- stop `docker-compose down`
 
 ## Built With
 
-* [Jekyll](https://jekyllrb.com/)
-* [GitHub Pages](https://pages.github.com/)
+- [Jekyll](https://jekyllrb.com/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## Deployment
 
-1. **Localhost:** Learn how to [serve the site](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/#serve-the-site) on your machine.
-2. **GitHub:** Jekyll site is built automatically when `master` branch is updated.
+Jekyll site is built automatically when `master` branch on **GitHub** is updated.
 
 ## Contributing
 

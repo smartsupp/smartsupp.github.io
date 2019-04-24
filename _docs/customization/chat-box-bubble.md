@@ -2,6 +2,7 @@
 title: "Chat Box Bubble"
 subtitle: "Customize chat bubble."
 description: "You can set different designs to multiple domains across your site."
+redirect_from: /docs/javascript-api/banner/
 ---
 
 Before you continue read about **Chat box design:** [Bubble types](/docs/examples/chat-box-design/#bubble-types).

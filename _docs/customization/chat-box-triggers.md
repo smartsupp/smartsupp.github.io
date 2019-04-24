@@ -2,6 +2,7 @@
 title: "Chat Box Triggers"
 subtitle: "Adjust chat behaviour."
 description: "Change how chat box behaves, define messages to be send or set your language."
+redirect_from: /docs/javascript-api/chat/
 ---
 
 ## chat:avatar

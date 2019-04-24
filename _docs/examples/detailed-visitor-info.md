@@ -2,6 +2,9 @@
 title: "Detailed visitor info"
 subtitle: "See additional info about your customers while chatting with them"
 description: "See detailed info about your customers while chatting (name, email or your individual data). Detailed visitor info is automatically shown in Smartsupp if you use our integrations (plugins) for Prestashop, Wordpress or other platforms. In other case you can use following API to link your customer data."
+redirect_from: 
+  - /docs/examples/customer-info/
+  - /docs/javascript-api/visitor-info/
 ---
 
 ## Visitor’s name and email address
