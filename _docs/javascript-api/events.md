@@ -4,7 +4,7 @@ subtitle: "Use to further customize your chat."
 description: "Events are important if you need to know about statistics and how is chat used."
 ---
 
-## agent.join
+## Agent: Join
 
 Fires when agent joins a chat or when page is loaded and agent is already in chat. Can be used to modify agent properties like name or description based on your conditions (e.g: language, name).
 
@@ -37,7 +37,7 @@ Fires when agent joins a chat or when page is loaded and agent is already in cha
 </script>
 ```
 
-## agent.leave
+## Agent: Leave
 
 Fires when agent leaves the chat.
 

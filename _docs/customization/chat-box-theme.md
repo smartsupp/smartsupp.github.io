@@ -5,7 +5,7 @@ description: "You can set your own dimensions to chat box in different states an
 redirect_from: /docs/javascript-api/theme/
 ---
 
-## theme:options
+## Theme options
 
 You can adjust **width** and **height** of chat box.
 
@@ -92,7 +92,7 @@ Colors are generated automatically to match Smartsupp default theme. Change them
 
 {% include component/tables/docs/javascript-api/theme/colors-variables-names.html %}
 
-### theme:color
+### Single color
 
 You can set a specific color to your chat box.
 
@@ -102,7 +102,7 @@ You can set a specific color to your chat box.
 </script>
 ```
 
-### theme:colors
+### Multiple colors
 
 You can also set colors to multiple elements of the chat box.
 

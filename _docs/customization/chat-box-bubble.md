@@ -8,7 +8,7 @@ redirect_from: /docs/javascript-api/banner/
 Before you continue read about **Chat box design:** [Bubble types](/docs/examples/chat-box-design/#bubble-types).
 {: .callout .callout-info }
 
-## banner:set
+## Set banner
 
 Set new chat bubble type:
 
@@ -48,7 +48,7 @@ Set **Bubble type:** `Image` (My picture).
 </script>
 ```
 
-## banner:update
+## Update banner
 
 You can update texts based on events that fit your needs.
 

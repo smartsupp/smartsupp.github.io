@@ -5,7 +5,7 @@ description: "Change how chat box behaves, define messages to be send or set you
 redirect_from: /docs/javascript-api/chat/
 ---
 
-## chat:avatar
+## Avatar
 
 Set logo inside chat box, which is displayed by default when no agent is connected.
 
@@ -15,7 +15,7 @@ Set logo inside chat box, which is displayed by default when no agent is connect
 </script>
 ```
 
-## chat:message
+## Message
 
 Set pre-filled message in chat box (text is not sent).
 
@@ -25,7 +25,7 @@ Set pre-filled message in chat box (text is not sent).
 </script>
 ```
 
-## chat:send
+## Send
 
 Send custom text in conversation in chat box. For example linked to button action.
 
@@ -35,7 +35,7 @@ Send custom text in conversation in chat box. For example linked to button actio
 </script>
 ```
 
-## chat:open
+## Open
 
 Open chat box.
 
@@ -45,7 +45,7 @@ Open chat box.
 </script>
 ```
 
-## chat:close
+## Close
 
 Close chat box.
 

@@ -45,7 +45,7 @@ When form has an attribute `data-recording-ignore="mask"` all characters typed i
 </form>
 ```
 
-## recording:disable
+## Disable recordings
 
 You can also entirely recordings on any given page separately.
 
