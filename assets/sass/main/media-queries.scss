@@ -127,20 +127,26 @@
 
   .faq .second {
     border-top: none;
-    border-bottom: none;
-    border-radius: 0;
+    border-radius: 0 0 $radius_8 $radius_8;
+    padding-bottom: 15px;
+    // border-bottom: none;
+    // border-radius: 0;
   }
 
   .faq .third {
-    padding-bottom: 15px;
+    // padding-bottom: 15px;
     border-top: none;
+    border-bottom: none;
     border-radius: 0 0 $radius_8 $radius_8;
   }
 
-.faq:hover ul {
-  border-color: $o_grey_600;
-}
+  .faq:hover ul {
+    border-color: $o_grey_600;
+  }
 
+  .docs-index p.custom-padding {
+    padding: 0 0 20px 0;
+  }
 }
 
 // = TABLET =
