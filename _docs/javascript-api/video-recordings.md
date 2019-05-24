@@ -45,12 +45,21 @@ When form has an attribute `data-recording-ignore="mask"` all characters typed i
 </form>
 ```
 
-## Disable recordings
+## Disable recordings on some pages
 
 You can also entirely recordings on any given page separately.
 
 ```js
 <script>
 	smartsupp('recording:disable', true);
+</script>
+```
+
+## Disable recordings for entire website
+
+
+```js
+<script>
+	smartsupp('recording:off', true);
 </script>
 ```
