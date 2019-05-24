@@ -45,9 +45,9 @@ When form has an attribute `data-recording-ignore="mask"` all characters typed i
 </form>
 ```
 
-## Disable recordings on some pages
+## Disable recordings on specific pages
 
-You can also entirely recordings on any given page separately.
+You can disable recordings separately on any single page.
 
 ```js
 <script>
@@ -56,6 +56,8 @@ You can also entirely recordings on any given page separately.
 ```
 
 ## Disable recordings for entire website
+
+Disable recordings completely.
 
 
 ```js
