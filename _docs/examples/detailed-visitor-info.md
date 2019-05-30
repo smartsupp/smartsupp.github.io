@@ -19,9 +19,9 @@ Show visitor’s `name` and `email` in Smartsupp. It’s displayed in visitor in
 </script>
 ```
 
-## Detailed visitor info
+## Custom visitor info
 
-Show custom visitor details in Smartsupp based on your needs. This info is shown in **Customer info** box in the visitor info panel while chatting. You can link any data you want, e.g. your internal customer ID, customer’s spending or customer’s last order ID.
+Show custom visitor info in Smartsupp based on your needs. This info is shown in **Customer info** box in the visitor info panel while chatting. You can link any data you want, e.g. your internal customer ID, customer’s spending or customer’s last order ID.
 
 ```js
 <script>
