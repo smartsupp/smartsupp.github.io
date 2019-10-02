@@ -1,5 +1,5 @@
 ---
-title: "HMTL API"
+title: "HTML API"
 subtitle: "No complicated coding needed."
 description: "Simple API based on HTML attributes without the need for extra coding knowledge."
 ---
