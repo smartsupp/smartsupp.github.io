@@ -151,7 +151,7 @@ In Dashboard **Settings > Chat box > [Options](https://www.smartsupp.com/app/set
 
 ## All customizable texts
 
-Below are all texts we currently available for customization of your chat box.
+Below are all texts currently available for customization of your chat box.
 
 You can customize:
 
