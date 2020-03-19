@@ -121,7 +121,7 @@ Fires after chat is rendered.
 
 ## sent
 
-Fires when user sents a message.
+Fires when user sends a message.
 
 ```js
 <script>
