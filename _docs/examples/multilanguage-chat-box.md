@@ -57,9 +57,6 @@ Supported language codes:
 * `tw` = Chinese Traditional (Taiwan)
 * `uk` = Ukrainian (Ukraine)
 
-Missing your language? Contact [support@smartsupp.com](mailto:support@smartsupp.com).
-{: .callout .callout-info }
-
 ## Custom texts
 
 If you want to modify existing texts you can write your own texts in any language. All you need to do is to define the language at the end of the script. In this example we change default text Online => **We are online**.
