@@ -36,7 +36,7 @@ Then use: <http://0.0.0.0:4002/>
 3. Create `feature` branch from `develop` => `git checkout -b feature/name_you_choose`.
 4. Update content.
 5. Commit changes and push feature branch to GitHub.
-6. Create pull request.
+6. Create PR and select `develop` as branch you want to merge PR into.
 
 ## License
 
