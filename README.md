@@ -1,8 +1,8 @@
 # Developer Docs
 
-API [Docs](https://smartsupp.github.io/docs/) for [Smartsupp.com](https://www.smartsupp.com/) chat box. 
+[Docs](https://smartsupp.github.io/docs/) for [Smartsupp.com](https://www.smartsupp.com/) chat box. 
 
-## Run docs locally
+## Run Docs locally
 
 We use [Jekyll](https://jekyllrb.com/). Run it with default command or via Docker.
 
@@ -21,7 +21,7 @@ docker-compose down
 
 ## Deployment
 
-Docs deploy on [GitHub Pages](https://pages.github.com/) automatically when `master` branch is updated.
+[Docs](https://smartsupp.github.io/docs/) deploy on *GitHub Pages* automatically each time `master` branch is updated.
 
 ## Contributing
 
