@@ -13,27 +13,27 @@ customization:
 - title: Pre-chat form
   subtitle: Make conversations easier for your support staff.
   url: /docs/customization/pre-chat-form/
-- title: Offline form
-  subtitle: Customize offline form fields.
-  url: /docs/customization/offline-form/
 - title: Google Analytics
   subtitle: Integrate and send data to your account.
   url: /docs/customization/google-analytics/
-- title: Email transcript
-  subtitle: Send copy of chat conversation.
-  url: /docs/customization/email-transcript/
-- title: Rating window
-  subtitle: Allow visitors to rate your support.
-  url: /docs/customization/rating-window/
-- title: Chat Box Triggers
-  subtitle: Adjust chat behaviour.
-  url: /docs/customization/chat-box-triggers/
 - title: Chat Box Theme And Size
   subtitle: Create your own design and set colors.
   url: /docs/customization/chat-box-theme/
 - title: Chat Box Bubble
   subtitle: Customize chat bubble.
   url: /docs/customization/chat-box-bubble/
+- title: Chat Box Triggers
+  subtitle: Adjust chat behaviour.
+  url: /docs/customization/chat-box-triggers/
+- title: Offline form
+  subtitle: Customize offline form fields.
+  url: /docs/customization/offline-form/
+- title: Email transcript
+  subtitle: Send copy of chat conversation.
+  url: /docs/customization/email-transcript/
+- title: Rating window
+  subtitle: Allow visitors to rate your support.
+  url: /docs/customization/rating-window/
 
 ## JAVASCRIPT API
 list_title_javascript: JavaScript API
@@ -42,12 +42,12 @@ chat:
 - title: Visitor groups
   subtitle: Advanced chat routing for large support teams.
   url: /docs/javascript-api/visitor-groups/
-- title: Visitor status
-  subtitle: Mark visitor as active or idle.
-  url: /docs/javascript-api/visitor-status/
 - title: Events
   subtitle: Use to further customize your chat.
   url: /docs/javascript-api/events/
+- title: Visitor status
+  subtitle: Mark visitor as active or idle.
+  url: /docs/javascript-api/visitor-status/
 - title: Video recordings
   subtitle: You can see what visitors do on your website.
   url: /docs/javascript-api/video-recordings/
@@ -59,15 +59,15 @@ examples:
 - title: Chat box design
   subtitle: Adjust texts, colors and logo on single or multiple domains.
   url: /docs/examples/chat-box-design/
-- title: Multilanguage chat box
-  subtitle: Choose a language to fit your business.
-  url: /docs/examples/multilanguage-chat-box/
 - title: HTML API
   subtitle: No complicated coding needed.
   url: /docs/examples/html-api/
 - title: Detailed visitor info
   subtitle: See additional info about your customers while chatting with them.
   url: /docs/examples/detailed-visitor-info/
+- title: Multilanguage chat box
+  subtitle: Choose a language to fit your business.
+  url: /docs/examples/multilanguage-chat-box/
 - title: Export to 3rd party system
   subtitle: Send a copy of all chat conversations to your server.
   url: /docs/examples/export-to-3rd-party-system/
