@@ -1,35 +1,32 @@
 # Developer Docs
 
-Read our [Docs](https://smartsupp.github.io/docs/) for [Smartsupp.com](https://www.smartsupp.com/) or have a look at landing page for [smartsupp.github.io](https://smartsupp.github.io/).
+API [Docs](https://smartsupp.github.io/docs/) for [Smartsupp.com](https://www.smartsupp.com/) chat box. 
 
-## Getting Started
+## Run docs locally
 
-These instructions will get you a copy of the project up and running on your local machine.
+We use [Jekyll](https://jekyllrb.com/). Run it with default command or via Docker.
 
-### Jekyll on localhost
+### Jekyll
 
-Read original [Docs](https://jekyllrb.com/docs/) article.
+```
+bundle exec jekyll serve
+```
 
-### Jekyll via Docker
+### Docker
 
-Recommended and much faster.
-
-- start `docker-compose up`
-- stop `docker-compose down`
-
-## Built With
-
-- [Jekyll](https://jekyllrb.com/)
-- [GitHub Pages](https://pages.github.com/)
+```
+docker-compose up
+docker-compose down
+```
 
 ## Deployment
 
-Jekyll site is built automatically when `master` branch on **GitHub** is updated.
+Docs deploy on [GitHub Pages](https://pages.github.com/) automatically when `master` branch is updated.
 
 ## Contributing
 
 1. Fork this repo.
-2. Update content or fix what you think is a bug.
+2. Update content as needed.
 3. Create pull request.
 
 ## License
@@ -38,4 +35,4 @@ See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
 ## Copyright
 
-Copyright (c) 2018 [smartsupp.com](https://www.smartsupp.com/)
+Copyright (c) 2020 [smartsupp.com](https://www.smartsupp.com/)
