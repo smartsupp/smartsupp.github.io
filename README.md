@@ -4,20 +4,24 @@
 
 ## Run Docs locally
 
-We use [Jekyll](https://jekyllrb.com/). Run it with default command or via Docker.
+You can run Docs with [Jekyll](https://jekyllrb.com/) server or via Docker. Commands below are from [Makefile](Makefile).
 
 ### Jekyll
 
 ```
-bundle exec jekyll serve
+make jekyll
 ```
+
+Then use: <http://127.0.0.1:4002>
 
 ### Docker
 
 ```
-docker-compose up
-docker-compose down
+make up
+make down
 ```
+
+Then use: <http://0.0.0.0:4002/>
 
 ## Deployment
 
