@@ -4,7 +4,9 @@
 
 ## Run Docs locally
 
-You can run Docs with [Jekyll](https://jekyllrb.com/) server or via Docker. Commands below are from [Makefile](Makefile).
+1. Clone repo.
+2. Select [develop](https://github.com/smartsupp/smartsupp.github.io/tree/develop) branch.
+3. You can run Docs with [Jekyll](https://jekyllrb.com/) server or via Docker. 
 
 ### Jekyll
 
@@ -25,13 +27,16 @@ Then use: <http://0.0.0.0:4002/>
 
 ## Deployment
 
-[Docs](https://smartsupp.github.io/docs/) deploy on *GitHub Pages* automatically each time `master` branch is updated.
+[Docs](https://smartsupp.github.io/docs/) deploy on *GitHub Pages* automatically each time [master](https://github.com/smartsupp/smartsupp.github.io/tree/master) branch is updated.
 
 ## Contributing
 
-1. Fork this repo.
-2. Update content as needed.
-3. Create pull request.
+1. Clone repo if you did not do it yet.
+2. Select [develop](https://github.com/smartsupp/smartsupp.github.io/tree/develop) branch.
+3. Create `feature` branch from `develop` => `git checkout -b feature/name_you_choose`.
+4. Update content.
+5. Commit changes and push feature branch to GitHub.
+6. Create pull request.
 
 ## License
 
