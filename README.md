@@ -16,18 +16,21 @@
 
 Localhost: <http://0.0.0.0:4002/docs/>
 
-## Deployment
-
-Docs deploy on *GitHub Pages* automatically each time `master` branch is updated.
-
 ## Contributing
 
 1. Clone repo if you did not do it yet.
 2. Select `feature/omni` branch.
 3. Create new branch => `git checkout -b feature/name-you-choose`.
 4. Update content.
-5. Commit changes and push feature branch to GitHub.
-6. Create pull request and select `feature/omni` as branch you want to merge into.
+5. Commit changes with message and push feature branch.
+6. Go to [branches](https://github.com/smartsupp/smartsupp.github.io/branches) on GitHub.
+7. Create pull request and select `feature/omni` as branch you want to merge into.
+
+![branch-omni-pr-merge](branch-omni-pr-merge.png)
+
+## Deployment
+
+Docs deploy on *GitHub Pages* automatically each time `master` branch is updated.
 
 ## License
 
