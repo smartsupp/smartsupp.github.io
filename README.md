@@ -5,7 +5,8 @@
 ## Run Docs
 
 1. Clone repo.
-2. Select and pull [feature/omni](https://github.com/smartsupp/smartsupp.github.io/tree/feature/omni) branch.
+2. Pull [feature/omni](https://github.com/smartsupp/smartsupp.github.io/tree/feature/omni) branch from remote.
+3. Select `feature/omni` branch.
 3. Run Docs via Docker. 
 
 ### Docker
