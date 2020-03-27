@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## Visitor’s name and email address
-Show visitor’s `name` and `email` in Smartsupp. It’s displayed in visitor info panel while chatting, also in visitor list, history etc.
+Show visitor’s `name` and `email` in Smartsupp. It’s displayed in visitor info panel while chatting, also in visitor list, history.
 
 ![customer info](/assets/img/docs/examples/customer-info/customer-name-and-email.png)
 
