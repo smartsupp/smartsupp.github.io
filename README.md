@@ -15,18 +15,21 @@
 
 Localhost: <http://0.0.0.0:4002/docs/>
 
-## Deployment
-
-Docs deploy on *GitHub Pages* automatically each time `master` branch is updated.
-
 ## Contributing
 
 1. Clone repo if you did not do it yet.
 2. Select `feature/omni` branch.
 3. Create new branch => `git checkout -b feature/name-you-choose`.
-4. Update content.
-5. Commit changes and push feature branch to GitHub.
-6. Create pull request and select `feature/omni` as branch you want to merge into.
+4. Update content in your branch.
+5. Stage, commit and push changes to GitHub.
+6. Create pull request from **your branch**.
+7. Select `feature/omni` as branch you want to merge into.
+
+![branch-omni-pr-merge](branch-omni-pr-merge.png)
+
+## Deployment
+
+Docs deploy to production on *GitHub Pages* automatically each time `master` branch is updated.
 
 ## License
 
