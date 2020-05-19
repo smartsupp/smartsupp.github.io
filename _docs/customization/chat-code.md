@@ -53,16 +53,9 @@ _smartsupp.privacyNoticeEnabled = false; // privacy notice visibility in chat wi
 _smartsupp.privacyNoticeUrl = "https://"; // URL of your privacy page
 ```
 
-## Custom settings
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
 
-Use any of these API settings if you want to disable text area and send button, auto messages, sounds for visitors or hide chat bubble.
-
-```js
-_smartsupp.writable = false; // text area and send button
-_smartsupp.triggerable = false; // auto-messages
-_smartsupp.soundMuted = true; // sounds for visitors
-_smartsupp.hideBanner = true; // chat bubble
-```
 
 ## Mobile chat box
 
@@ -99,4 +92,15 @@ Using `offsetY` moves the chat box along the Y axis.
 
 ```js
 _smartsupp.offsetY = 100; 
+```
+
+## Custom settings
+
+Use any of these API settings if you want to disable text area and send button, auto messages, sounds for visitors or hide chat bubble.
+
+```js
+_smartsupp.writable = false; // text area and send button
+_smartsupp.triggerable = false; // auto-messages
+_smartsupp.soundMuted = true; // sounds for visitors
+_smartsupp.hideBanner = true; // chat bubble
 ```
