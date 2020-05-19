@@ -7,7 +7,7 @@ redirect_from: /docs/javascript-api/theme/
 
 ##  Color
 
-You can set a specific color to your chat box.1
+You can set a specific color to your chat box.
 
 ```js
 <script>
