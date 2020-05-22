@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## Visitor’s name and email address
-Show visitor’s `name` and `email` in Smartsupp. It’s displayed in visitor info panel while chatting, also in visitor list, history.
+Show visitor’s `name`, `email` and `phone` in Smartsupp. It’s displayed in visitor info panel while chatting, also in visitor list, history.
 
 ![customer info](/assets/img/docs/examples/customer-info/customer-name-and-email.png)
 
@@ -16,6 +16,7 @@ Show visitor’s `name` and `email` in Smartsupp. It’s displayed in visitor in
 <script>
   smartsupp('name', 'John Doe');
   smartsupp('email', 'john.doe@example.com');
+  smartsupp('phone', '+425123456');
 </script>
 ```
 

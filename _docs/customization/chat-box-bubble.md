@@ -5,6 +5,9 @@ description: "You can set different designs to multiple domains across your site
 redirect_from: /docs/javascript-api/banner/
 ---
 
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
 Before you continue read about **Chat box design:** [Bubble types](/docs/examples/chat-box-design/#bubble-types).
 {: .callout .callout-info }
 

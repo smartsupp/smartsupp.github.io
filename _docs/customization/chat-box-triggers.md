@@ -5,36 +5,6 @@ description: "Change how chat box behaves, define messages to be send or set you
 redirect_from: /docs/javascript-api/chat/
 ---
 
-## Avatar
-
-Set logo inside chat box, which is displayed by default when no agent is connected.
-
-```js
-<script>
-	smartsupp('chat:avatar', 'URL_TO_IMAGE');
-</script>
-```
-
-## Message
-
-Set pre-filled message in chat box (text is not sent).
-
-```js
-<script>
-	smartsupp('chat:message', 'Hello, can you help me with...');
-</script>
-```
-
-## Send
-
-Send custom text in conversation in chat box. For example linked to button action.
-
-```js
-<script>
-	smartsupp('chat:send', 'Hello, can you help me with...');
-</script>
-```
-
 ## Open
 
 Open chat box.
@@ -52,5 +22,38 @@ Close chat box.
 ```js
 <script>
 	smartsupp('chat:close');
+</script>
+```
+
+## Message
+
+Set pre-filled message in chat box (text is not sent).
+
+```js
+<script>
+	smartsupp('chat:message', 'Hello, can you help me with...');
+</script>
+```
+
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
+## Avatar
+
+Set logo inside chat box, which is displayed by default when no agent is connected.
+
+```js
+<script>
+	smartsupp('chat:avatar', 'URL_TO_IMAGE');
+</script>
+```
+
+## Send
+
+Send custom text in conversation in chat box. For example linked to button action.
+
+```js
+<script>
+	smartsupp('chat:send', 'Hello, can you help me with...');
 </script>
 ```

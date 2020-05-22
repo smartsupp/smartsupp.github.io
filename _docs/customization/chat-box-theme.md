@@ -5,6 +5,19 @@ description: "You can set your own dimensions to chat box in different states an
 redirect_from: /docs/javascript-api/theme/
 ---
 
+## Single color
+
+You can set a specific color to your chat box.
+
+```js
+<script>
+  smartsupp('theme:color', '#ff0000');
+</script>
+```
+
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
 ## Theme options
 
 You can adjust **width** and **height** of chat box.
@@ -91,16 +104,6 @@ Colors are generated automatically to match Smartsupp default theme. Change them
 {: .callout .callout-warning }
 
 {% include component/tables/docs/javascript-api/theme/colors-variables-names.html %}
-
-### Single color
-
-You can set a specific color to your chat box.
-
-```js
-<script>
-  smartsupp('theme:color', '#ff0000');
-</script>
-```
 
 ### Multiple colors
 

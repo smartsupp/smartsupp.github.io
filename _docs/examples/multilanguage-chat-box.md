@@ -57,6 +57,9 @@ Supported language codes:
 * `tw` = Chinese Traditional (Taiwan)
 * `uk` = Ukrainian (Ukraine)
 
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
 ## Custom texts
 
 If you want to modify existing texts you can write your own texts in any language. All you need to do is to define the language at the end of the script. In this example we change default text Online => **We are online**.

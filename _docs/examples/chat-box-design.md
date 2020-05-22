@@ -4,6 +4,9 @@ subtitle: "Adjust texts, colors and logo on single or multiple domains."
 description: "Create different chat box designs and use this API for different departments or sections on your website."
 ---
 
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
 ## Bubble types
 
 In Dashboard **Settings > Chat box > [Text](https://www.smartsupp.com/app/settings/chatbox/text/){:target='\_blank'}** you can set **Bubble type**.

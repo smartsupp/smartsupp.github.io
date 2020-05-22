@@ -4,6 +4,9 @@ subtitle: "Change the look of your chat box."
 description: "Choose default type of your chat box. We supports 2 options."
 ---
 
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
 Need more options and flexibility? Read our [Theme](/docs/javascript-api/theme/#themeoptions) section.
 {: .callout .callout-info }
 
