@@ -26,19 +26,13 @@ Show custom visitor info in Smartsupp based on your needs. This info is shown in
 
 ```js
 <script>
+  
   smartsupp('variables', {
-    userId: {
-      label: 'User ID ',
-      value: 123
-    },
-    role: {
-      label: 'Customer status',
-      value: 'VIP'
-    },
-    orderedPrice: {
-      label: 'Customer spending',
-      value: '100 EUR'
-    }
-  });
+   User_ID: "1234",
+   Customer_status: "VIP",
+   Customer_spending: "100 EUR",
+
+})
+  
 </script>
 ```
