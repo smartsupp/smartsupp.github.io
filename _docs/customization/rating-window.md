@@ -6,13 +6,16 @@ description: "After visitor ends conversation a rating is displayed. You can add
 
 ## Simple rating
 
-You can display feedback icons.
+You can display feedback icons with comment after the conversation is resolved.
 
 ```js
 _smartsupp.ratingEnabled = true;
 ```
 
-![rating simple](/assets/img/docs/customization/rating-window/rating-simple.gif)
+![rating with comment](/assets/img/docs/customization/rating-window/rating-new.png)
+
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
 
 ## Rating with a comment
 

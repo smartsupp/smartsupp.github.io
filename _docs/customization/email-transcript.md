@@ -4,6 +4,9 @@ subtitle: "Send copy of chat conversation."
 description: "When visitor ends conversation he can send transcript to email."
 ---
 
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
 ## Transcript enabled
 
 This option is displayed by default. It shows a button which sends transcript to email.
