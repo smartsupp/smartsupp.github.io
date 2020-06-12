@@ -4,32 +4,16 @@
 
 ## Run Docs
 
-1. Clone repo.
-2. Select and pull [feature/omni](https://github.com/smartsupp/smartsupp.github.io/tree/feature/omni) branch.
-3. Run Docs via Docker. 
-
-### Docker
+Clone `master` branch and run Docs in Docker:
 
 - start: `make up`
 - stop: `make down`
 
 Localhost: <http://0.0.0.0:4002/docs/>
 
-## Contributing
-
-1. Clone repo if you did not do it yet.
-2. Select `feature/omni` branch.
-3. Create new branch => `git checkout -b feature/name-you-choose`.
-4. Update content in your branch.
-5. Stage, commit and push changes to GitHub.
-6. Create pull request from **your branch**.
-7. Select `feature/omni` as branch you want to merge into.
-
-![branch-omni-pr-merge](branch-omni-pr-merge.png)
-
 ## Deployment
 
-Docs deploy to production on *GitHub Pages* automatically each time `master` branch is updated.
+Docs deploy to production on [GitHub Pages](https://docs.smartsupp.com/) automatically each time `master` branch is updated.
 
 ## License
 
