@@ -4,6 +4,9 @@ subtitle: "No complicated coding needed."
 description: "Simple API based on HTML attributes without the need for extra coding knowledge."
 ---
 
+## ⛔ Legacy API: Do not use 👇
+{: .alert .alert-danger }
+
 ## Open chat
 
 Chat box opens after visitor clicks on any element of your choice: *link*, *image*, *button*, *menu item*, etc.
