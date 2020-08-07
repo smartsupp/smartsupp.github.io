@@ -57,6 +57,33 @@ Supported language codes:
 * `tw` = Chinese Traditional (Taiwan)
 * `uk` = Ukrainian (Ukraine)
 
+## Modify multiple languages
+
+If you have multilanguage website you can modify more languages in the same `.js` file. Expand code below using `conditions` and check your site URL for language code. Based on language you can choose translations you need. In this example you would look for `/de/` or `/cs/` or `/en/`in your URL.
+
+* `http://example.com/de/`
+* `http://example.com/cs/`
+* `http://example.com/en/`
+
+```js
+<script>
+if (window.location.href.indexOf("http://example.com/de/") > -1)  //choose URL
+{
+  smartsupp('language', 'de'); //set DE language
+} 
+
+else if (window.location.href.indexOf("http://example.com/cs/") > -1) //choose URL
+{
+  smartsupp('language', 'cs'); // set CS language  
+}   
+
+else
+{
+  smartsupp('language', 'en'); // set EN language
+} 
+</script>
+```
+
 ## ⛔ Legacy API: Do not use 👇
 {: .alert .alert-danger }
 
@@ -78,42 +105,6 @@ If you want to modify existing texts you can write your own texts in any languag
 
 Have a look at [All customizable texts](#all-customizable-texts) at the end of this page.
 {: .callout .callout-warning }
-
-## Modify multiple languages
-
-If you have multilanguage website you can modify more languages in the same `.js` file. Expand code below using `conditions` and check your site URL for language code. Based on language you can choose translations you need. In this example you would look for `/de/` or `/pl/` or `/en/`in your URL.
-
-* `http://example.com/de/`
-* `http://example.com/pl/`
-* `http://example.com/en/`
-
-```js
-<script>
-  if(window.location.href.indexOf ("http://example.com/de/") > -1){ //choose URL
-    smartsupp('language', 'de');  //set DE language
-  smartsupp('translate', {
-    widget: {
-    online: 'Custom GERMAN text'
-}
-}, 'de'); // custom translations for DE language
-}
-else if(window.location.href.indexOf  ("http://example.com/pl/") > -1){ //choose URL
-    smartsupp('language', 'pl'); // set PL language
-  smartsupp('translate', {
-    widget: {
-    online: 'Custom POLISH text'
-}
-}, 'pl'); // custom translations for PL language
-  } else {
-    smartsupp('language', 'en'); // set EN language
-  smartsupp('translate', {
-    widget: {
-    online: 'Custom ENGLISH text'
-}
-}, 'en'); // custom translation for EN langauge
-}
-</script>
-```
 
 ## Create new texts
 
