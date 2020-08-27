@@ -57,13 +57,16 @@
   cursor: pointer;
   border: none;
   outline: none;
-  font-size: 14px;
+  font-size: 10px;
   color: $o_white;
   background-color: $o_grey_500;
   border-radius: $radius_4;
-  padding: 5px 10px;
+  padding: 2px 8px;
   -webkit-transition: $transition_03;
   transition: $transition_03;
+  position: relative;
+  top: 22px;
+  right: 0;
 }
 
 #btt button:hover {
