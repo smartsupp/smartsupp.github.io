@@ -15,6 +15,13 @@ Open chat box.
 </script>
 ```
 
+Or use inside html:
+
+```html
+<img onclick="smartsupp('chat:open');">
+<a href="#" onclick="smartsupp('chat:open'); return false;">Chat with us</a>
+```
+
 ## Close
 
 Close chat box.
