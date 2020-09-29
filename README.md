@@ -1,6 +1,6 @@
 # Developer Docs
 
-[Docs](https://smartsupp.github.io/docs/) for **Smartsupp** chat box. 
+Developer [Docs](https://smartsupp.github.io/docs/) for **Smartsupp** chat box. 
 
 ## Run Docs
 
