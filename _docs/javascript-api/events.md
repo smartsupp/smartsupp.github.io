@@ -4,6 +4,29 @@ subtitle: "Use to further customize your chat."
 description: "Events are important if you need to know about statistics and how is chat used."
 ---
 
+## Message: Sent
+
+Fires when a message is sent.
+
+```js
+<script>
+smartsupp('on', 'message_sent', function(message) {
+  console.log('sent message:', message); 
+});
+</script>
+```
+## Message: Received
+
+Fires when a message is received.
+
+```js
+<script>
+smartsupp('on', 'message_received', function(message) {
+  console.log('received message:', message); 
+});
+</script>
+```
+
 ## ⛔ Legacy API: Do not use 👇
 {: .alert .alert-danger }
 
