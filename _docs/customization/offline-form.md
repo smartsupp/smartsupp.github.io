@@ -4,7 +4,8 @@ subtitle: "Customize offline form fields."
 description: "Offline form is useful outside regular office or business hours."
 ---
 
-## ⛔ Legacy API: Do not use 👇
+## ⛔ Legacy API ⛔ 
+👇👇👇 We no longer support any code below this section❗
 {: .alert .alert-danger }
 
 ## Default inputs

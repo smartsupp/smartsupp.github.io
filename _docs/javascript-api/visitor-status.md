@@ -4,7 +4,8 @@ subtitle: "Mark visitor as active or idle"
 description: "This is helpful in non-refresh application when you want setup activity manually."
 ---
 
-## ⛔ Legacy API: Do not use 👇
+## ⛔ Legacy API ⛔ 
+👇👇👇 We no longer support any code below this section❗
 {: .alert .alert-danger }
 
 ## active

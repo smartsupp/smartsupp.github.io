@@ -14,7 +14,8 @@ _smartsupp.ratingEnabled = true;
 
 ![rating with comment](/assets/img/docs/customization/rating-window/rating-new.png)
 
-## ⛔ Legacy API: Do not use 👇
+## ⛔ Legacy API ⛔ 
+👇👇👇 We no longer support any code below this section❗
 {: .alert .alert-danger }
 
 ## Rating with a comment

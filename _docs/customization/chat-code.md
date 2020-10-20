@@ -73,7 +73,8 @@ Using `offsetY` moves the chat box along the Y axis.
 _smartsupp.offsetY = 100; 
 ```
 
-## ⛔ Legacy API: Do not use 👇
+## ⛔ Legacy API ⛔ 
+👇👇👇 We no longer support any code below this section❗
 {: .alert .alert-danger }
 
 ## Custom settings

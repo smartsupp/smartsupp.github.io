@@ -15,7 +15,8 @@ You can set a specific color to your chat box.
 </script>
 ```
 
-## ⛔ Legacy API: Do not use 👇
+## ⛔ Legacy API ⛔ 
+👇👇👇 We no longer support any code below this section❗
 {: .alert .alert-danger }
 
 ## Theme options

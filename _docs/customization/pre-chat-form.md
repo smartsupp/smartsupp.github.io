@@ -4,7 +4,8 @@ subtitle: "Make conversations easier for your support staff."
 description: "When chat is online visitor can write a message. Pre-chat form will show right after visitor sends first message."
 ---
 
-## ⛔ Legacy API: Do not use 👇
+## ⛔ Legacy API ⛔ 
+👇👇👇 We no longer support any code below this section❗
 {: .alert .alert-danger }
 
 ## Default inputs

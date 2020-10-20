@@ -4,7 +4,8 @@ subtitle: "No complicated coding needed."
 description: "Simple API based on HTML attributes without the need for extra coding knowledge."
 ---
 
-## ⛔ Legacy API: Do not use 👇
+## ⛔ Legacy API ⛔ 
+👇👇👇 We no longer support any code below this section❗
 {: .alert .alert-danger }
 
 ## Open chat
