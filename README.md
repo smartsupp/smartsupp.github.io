@@ -6,6 +6,7 @@ Developer [Docs](https://smartsupp.github.io/docs/) for **Smartsupp** chat box.
 
 Clone `master` branch and run Docs in Docker:
 
+- update Jekyll: `bundle update --bundler`
 - start: `make up`
 - stop: `make down`
 
