@@ -2,7 +2,7 @@
     "test": "test",
     "lorem": "lorem",
     "zombie": "zombie",
-    "ford": "",
-    "country": "",
-    "name": "",
+    "ford": "Ford card",
+    "country": "Czech Republic",
+    "name": "Name"
 }
