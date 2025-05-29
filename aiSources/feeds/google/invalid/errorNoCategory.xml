@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
+	<title>Název zdroje dat</title>
+	<link href="http://www.example.com" rel="alternate" type="text/html" />
+	<author>
+		<name>Google</name>
+	</author>
+<entry>
+	<g:id>55/100</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo BUBBLE PINK Objem: 100 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladká žvýkačková vůně s obsahem jasmínu, broskve a vanilky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladká žvýkačková vůně s obsahem jasmínu, broskve a vanilky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/bubble-pink/?variantId=46</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/43-2_parfem-na-prani-giovani-bubble-pink-100-ml.png?66fe78b4</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>219 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>55/250</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo BUBBLE PINK Objem: 250 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladká žvýkačková vůně s obsahem jasmínu, broskve a vanilky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladká žvýkačková vůně s obsahem jasmínu, broskve a vanilky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/bubble-pink/?variantId=49</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/43-1_parfem-na-prani-giovani-bubble-pink-250-ml.png?66fe78b4</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>429 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>55/500</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo BUBBLE PINK Objem: 500 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladká žvýkačková vůně s obsahem jasmínu, broskve a vanilky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladká žvýkačková vůně s obsahem jasmínu, broskve a vanilky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/bubble-pink/?variantId=52</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/43_parfem-na-prani-giovani-bubble-pink.png?66fe78b4</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>629 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>61/100</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo EXCLUSIVE GOLD Objem: 100 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Limitovaná edice!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladce-svěží kombinace vanilky a mandarinky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Limitovaná edice!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladce-svěží kombinace vanilky a mandarinky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/exclusive-gold/?variantId=55</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/46-2_parfem-na-prani-giovani-exclusive-gold-100-ml.png?66fe792d</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>319 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>61/250</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo EXCLUSIVE GOLD Objem: 250 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Limitovaná edice!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladce-svěží kombinace vanilky a mandarinky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Limitovaná edice!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladce-svěží kombinace vanilky a mandarinky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/exclusive-gold/?variantId=58</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/46_exkluzivni-parfem-na-prani-giovani-exclusive-gold-250-ml.png?66fe792d</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>499 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>61/500</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo EXCLUSIVE GOLD Objem: 500 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Limitovaná edice!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladce-svěží kombinace vanilky a mandarinky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Limitovaná edice!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Sladce-svěží kombinace vanilky a mandarinky.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/exclusive-gold/?variantId=61</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/46-1_luxusni-parfem-do-pracky-giovani-exclusive-gold.png?66fe792d</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>729 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>58/100</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo GREY DOLCE Objem: 100 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Svěží vůně inspirovaná Dolce Gabbanou - Light Blue.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Svěží vůně inspirovaná Dolce Gabbanou - Light Blue.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/grey-dolce/?variantId=64</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/49_parfum-na-prani-giovani-grey-dolce-100-ml.png?66fe7a73</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>219 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>58/250</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo GREY DOLCE Objem: 250 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Svěží vůně inspirovaná Dolce Gabbanou - Light Blue.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Svěží vůně inspirovaná Dolce Gabbanou - Light Blue.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/grey-dolce/?variantId=67</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/49-1_parfum-na-prani-giovani-grey-dolce-250-ml.png?66fe7a73</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>429 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>58/500</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo GREY DOLCE Objem: 500 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Svěží vůně inspirovaná Dolce Gabbanou - Light Blue.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Svěží vůně inspirovaná Dolce Gabbanou - Light Blue.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/grey-dolce/?variantId=70</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/49-2_parfum-na-prani-giovani-grey-dolce-500-ml.png?66fe7a73</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>629 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+<entry>
+	<g:id>43/100</g:id>
+	<title>Giovani Koncentrovaný parfém na prádlo LUXURY BLACK Objem: 100 ml</title>
+	<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Kořeněná s obsahem zelených tónů borovice a koření.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+	<summary>&lt;p&gt;&lt;span style=&quot;font-size: 14pt; color: #000000;&quot;&gt;&lt;strong&gt;Kořeněná s obsahem zelených tónů borovice a koření.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+	<g:product_type></g:product_type>
+	<link>https://www.giovani.cz/luxury-black/?variantId=73</link>
+	<g:image_link>https://cdn.myshoptet.com/usr/www.giovani.cz/user/shop/orig/52-2_parfem-na-prani-giovani-luxury-black-100-ml.png?66fe7b34</g:image_link>
+	<g:condition>new</g:condition>
+	<g:availability>in stock</g:availability>
+	<g:price>219 CZK</g:price>
+	<g:brand>Giovani</g:brand>
+	<g:gtin></g:gtin>
+</entry>
+</feed>
