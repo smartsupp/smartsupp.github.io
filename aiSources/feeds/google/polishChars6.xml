@@ -9,7 +9,6 @@
 <g:identifier_exists>true</g:identifier_exists>
 <g:title>Klec</g:title>
 <g:Availability>in_stock</g:Availability>
-<g:availability_date/>
 <g:inventory>73</g:inventory>
 <g:brand>Yakimasport</g:brand>
 <g:link>
@@ -51,7 +50,6 @@ Domácí mazlíčci > Klece
 <g:identifier_exists>true</g:identifier_exists>
 <g:title>Bouda</g:title>
 <g:Availability>in_stock</g:Availability>
-<g:availability_date/>
 <g:inventory>75</g:inventory>
 <g:brand>Yakimasport</g:brand>
 <g:link>
@@ -89,11 +87,10 @@ Venkovní mazlíčci > Boudy
 </entry>
 <entry>
 <g:id>26</g:id>
-<g:gtin/>
+<g:gtin>59037967135373</g:gtin>
 <g:identifier_exists>false</g:identifier_exists>
 <g:title>Akvárko</g:title>
 <g:Availability>in_stock</g:Availability>
-<g:availability_date/>
 <g:inventory>70</g:inventory>
 <g:brand>Yakimasport</g:brand>
 <g:link>
@@ -135,7 +132,6 @@ Domácí mazlíčci > Akvária
 <g:identifier_exists>true</g:identifier_exists>
 <g:title>Škrabadlo</g:title>
 <g:Availability>in_stock</g:Availability>
-<g:availability_date/>
 <g:inventory>73</g:inventory>
 <g:brand>Yakimasport</g:brand>
 <g:link>
@@ -173,11 +169,10 @@ Domácí mazlíčci > Škrabadla
 </entry>
 <entry>
 <g:id>28</g:id>
-<g:gtin/>
+<g:gtin>590379671143473</g:gtin>
 <g:identifier_exists>false</g:identifier_exists>
 <g:title>Pelech</g:title>
 <g:Availability>in_stock</g:Availability>
-<g:availability_date/>
 <g:inventory>13</g:inventory>
 <g:brand>Yakimasport</g:brand>
 <g:link>
@@ -215,11 +210,10 @@ Domácí mazlíčci > Pelechy
 </entry>
 <entry>
 <g:id>29</g:id>
-<g:gtin/>
+<g:gtin>59412103796713473</g:gtin>
 <g:identifier_exists>false</g:identifier_exists>
 <g:title>Krmítko</g:title>
 <g:Availability>in_stock</g:Availability>
-<g:availability_date/>
 <g:inventory>10</g:inventory>
 <g:brand>Yakimasport</g:brand>
 <g:link>
@@ -257,11 +251,10 @@ Venkovní mazlíčci > krmítka
 </entry>
 <entry>
 <g:id>30</g:id>
-<g:gtin/>
+<g:gtin>59037967134745663</g:gtin>
 <g:identifier_exists>false</g:identifier_exists>
 <g:title>Terárium</g:title>
 <g:Availability>in_stock</g:Availability>
-<g:availability_date/>
 <g:inventory>65</g:inventory>
 <g:brand>Yakimasport</g:brand>
 <g:link>
