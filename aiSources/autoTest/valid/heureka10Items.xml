@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SHOP>
+ <SHOPITEM>
+  <ITEM_ID>154840</ITEM_ID>
+  <PRODUCTNAME>Proč sníme Rahul Jandial</PRODUCTNAME>
+  <PRODUCT>Proč sníme</PRODUCT>
+  <DESCRIPTION>
+    Ponořte se s námi do fascinujícího světa současné neurovědy, která odhaluje, proč si lidé po stovky tisíc let zachovali schopnost snít (spoiler: záviselo na tom naše přežití jako druhu!) a jak ji můžeme využít ke zkvalitnění našich bdělých životů dnes.
+  </DESCRIPTION>
+  <URL>https://www.melvil.cz/kniha-proc-snime/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/08/procsnime-1.webp</IMGURL>
+  <PRICE>399</PRICE>
+  <PRICE_VAT>399</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>158032</ITEM_ID>
+  <PRODUCTNAME>Váš kapesní terapeut</PRODUCTNAME>
+  <PRODUCT>Váš kapesní terapeut</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-vas-kapesni-terapeut-a/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/11/kapesniterapeut_audio_cover_v3.webp</IMGURL>
+  <PRICE>399</PRICE>
+  <PRICE_VAT>399</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>158008</ITEM_ID>
+  <PRODUCTNAME>Krvavý úterek</PRODUCTNAME>
+  <PRODUCT>Krvavý úterek</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-krvavy-uterek-2/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/07/Krvavy-uterek_2D.webp</IMGURL>
+  <PRICE>299</PRICE>
+  <PRICE_VAT>299</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>157732</ITEM_ID>
+  <PRODUCTNAME>Není to konec světa</PRODUCTNAME>
+  <PRODUCT>Není to konec světa</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-neni-to-konec-sveta-e/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/08/Neni-to-konec-sveta-promo-2D.webp</IMGURL>
+  <PRICE>271</PRICE><PRICE_VAT>271</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>157542</ITEM_ID>
+  <PRODUCTNAME>Let your English September</PRODUCTNAME>
+  <PRODUCT>Let your English September</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-let-your-english-september-ae/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2023/05/Let_Your_English_2D.webp</IMGURL>
+  <PRICE>537.6</PRICE>
+  <PRICE_VAT>537.6</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>157130</ITEM_ID>
+  <PRODUCTNAME>Ultrazpracovaní lidé</PRODUCTNAME>
+  <PRODUCT>Ultrazpracovaní lidé</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-ultrazpracovani-lide-pae/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/04/ultrazpracovani-lide.webp</IMGURL>
+  <PRICE>772.2</PRICE>
+  <PRICE_VAT>772.2</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>156818</ITEM_ID>
+  <PRODUCTNAME>Wager</PRODUCTNAME>
+  <PRODUCT>Wager</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-wager-e/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/10/Wager_prebal_2D.webp</IMGURL>
+  <PRICE>340</PRICE>
+  <PRICE_VAT>340</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>155108</ITEM_ID>
+  <PRODUCTNAME>Sladkobol</PRODUCTNAME>
+  <PRODUCT>Sladkobol</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-sladkobol-pae/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/05/Sladkobol_obalka_2D.webp</IMGURL>
+  <PRICE>646.8</PRICE>
+  <PRICE_VAT>646.8</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>153162</ITEM_ID>
+  <PRODUCTNAME>Autismus bez masky</PRODUCTNAME>
+  <PRODUCT>Autismus bez masky</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-autismus-bez-masky-ea/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2023/12/Autismus-bez-masky_obalka_2D.webp</IMGURL>
+  <PRICE>502.6</PRICE>
+  <PRICE_VAT>502.6</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>152898</ITEM_ID>
+  <PRODUCTNAME>Skrytý potenciál</PRODUCTNAME>
+  <PRODUCT>Skrytý potenciál</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-skryty-potencial-pae/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/02/skryty_potencial-2D.webp</IMGURL>
+  <PRICE>700.2</PRICE>
+  <PRICE_VAT>700.2</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+</SHOP>
