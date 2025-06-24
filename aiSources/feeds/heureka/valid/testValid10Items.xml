@@ -241,18 +241,6 @@
   <DELIVERY_DATE>0</DELIVERY_DATE>
  </SHOPITEM>
  <SHOPITEM>
-  <ITEM_ID>155108</ITEM_ID>
-  <PRODUCTNAME>Sladkobol</PRODUCTNAME>
-  <PRODUCT>Sladkobol</PRODUCT>
-  <URL>https://www.melvil.cz/kniha-sladkobol-pae/</URL>
-  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/05/Sladkobol_obalka_2D.webp</IMGURL>
-  <PRICE>646.8</PRICE>
-  <PRICE_VAT>646.8</PRICE_VAT>
-  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
-  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
-  <DELIVERY_DATE>0</DELIVERY_DATE>
- </SHOPITEM>
- <SHOPITEM>
   <ITEM_ID>153162</ITEM_ID>
   <PRODUCTNAME>Autismus bez masky</PRODUCTNAME>
   <PRODUCT>Autismus bez masky</PRODUCT>
@@ -266,12 +254,12 @@
  </SHOPITEM>
  <SHOPITEM>
   <ITEM_ID>152898</ITEM_ID>
-  <PRODUCTNAME>Skrytý potenciál</PRODUCTNAME>
-  <PRODUCT>Skrytý potenciál</PRODUCT>
-  <URL>https://www.melvil.cz/kniha-skryty-potencial-pae/</URL>
-  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/02/skryty_potencial-2D.webp</IMGURL>
-  <PRICE>700.2</PRICE>
-  <PRICE_VAT>700.2</PRICE_VAT>
+  <PRODUCTNAME>Skrytý poklad</PRODUCTNAME>
+  <PRODUCT>Skrytý poklad</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-skryty-poklad/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/02/skryty_poklad-2D.webp</IMGURL>
+  <PRICE>800.2</PRICE>
+  <PRICE_VAT>800.2</PRICE_VAT>
   <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
   <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
   <DELIVERY_DATE>0</DELIVERY_DATE>
