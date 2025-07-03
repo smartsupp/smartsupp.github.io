@@ -170,25 +170,13 @@
   <DELIVERY_DATE>0</DELIVERY_DATE>
  </SHOPITEM>
  <SHOPITEM>
-  <ITEM_ID>158032</ITEM_ID>
-  <PRODUCTNAME>Váš kapesní terapeut</PRODUCTNAME>
-  <PRODUCT>Váš kapesní terapeut</PRODUCT>
-  <URL>https://www.melvil.cz/kniha-vas-kapesni-terapeut-a/</URL>
-  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/11/kapesniterapeut_audio_cover_v3.webp</IMGURL>
-  <PRICE>399</PRICE>
-  <PRICE_VAT>399</PRICE_VAT>
-  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
-  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
-  <DELIVERY_DATE>0</DELIVERY_DATE>
- </SHOPITEM>
- <SHOPITEM>
   <ITEM_ID>158008</ITEM_ID>
-  <PRODUCTNAME>Krvavý úterek</PRODUCTNAME>
-  <PRODUCT>Krvavý úterek</PRODUCT>
-  <URL>https://www.melvil.cz/kniha-krvavy-uterek-2/</URL>
-  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/07/Krvavy-uterek_2D.webp</IMGURL>
-  <PRICE>299</PRICE>
-  <PRICE_VAT>299</PRICE_VAT>
+  <PRODUCTNAME>Krvavý pondělek</PRODUCTNAME>
+  <PRODUCT>Krvavý pondělek</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-krvavy-pondelek-2/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/07/Krvavy-pondelek.webp</IMGURL>
+  <PRICE>355</PRICE>
+  <PRICE_VAT>355</PRICE_VAT>
   <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
   <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
   <DELIVERY_DATE>0</DELIVERY_DATE>
@@ -272,6 +260,18 @@
   <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/02/skryty_potencial-2D.webp</IMGURL>
   <PRICE>700.2</PRICE>
   <PRICE_VAT>700.2</PRICE_VAT>
+  <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
+  <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+ </SHOPITEM>
+<SHOPITEM>
+  <ITEM_ID>15800558</ITEM_ID>
+  <PRODUCTNAME>Brado</PRODUCTNAME>
+  <PRODUCT>Brado</PRODUCT>
+  <URL>https://www.melvil.cz/kniha-brado-2/</URL>
+  <IMGURL>https://www.melvil.cz/wp-content/uploads/2024/07/Brado.webp</IMGURL>
+  <PRICE>405</PRICE>
+  <PRICE_VAT>405</PRICE_VAT>
   <MANUFACTURER>Jan Melvil Publishing</MANUFACTURER>
   <CATEGORYTEXT>Heureka.cz | Filmy, knihy, hry | Knihy</CATEGORYTEXT>
   <DELIVERY_DATE>0</DELIVERY_DATE>
